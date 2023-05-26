@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -106,7 +109,7 @@
 <head>PREFACE.</head>
  <p>The following pages contain an attempt to delineate country scenery and country manners, as they exist in <placeName ref="#ThreeMileCross">a small village in the south of <placeName ref="#England">England</placeName></placeName>. <persName ref="#MRM">The writer</persName> may at least claim the merit of a hearty love of her subject, and of that local and personal familiarity, which only a long residence in one neighbourhood could have enabled her to attain. Her descriptions have always been written on the spot and at the moment, and in nearly every instance with the closest and most resolute fidelity to the place and the people. If she be accused of having given a brighter aspect to her villagers than is usually met with in books, she cannot help it, and would not if she could. She has painted, as they appeared to her, their little frailties and their many virtues, under an intense and thankful conviction, that in every condition of life goodness and happiness may be found by those who seek
  <pb n="vi"/>them, and never more surely than in the fresh air, the shade, and the sunshine of nature.</p>
- <p>A few sketches of character<!--scw: need to verify which ones these are before posting for a note-->, in a somewhat higher rank, have been introduced; it is right also to add, that the greater part both of them and of the strictly rural papers have already appeared in a <bibl sortKey="per_19thc"><rs type="title" ref="#Ladys_Mag">periodical publication</rs></bibl><!--scw: need to also annotate which sketches had already appeared. Checking on our archives.-->.</p><pb n="vii"/>
+ <p>A few sketches of character<!--scw: need to verify which ones these are before posting for a note-->, in a somewhat higher rank, have been introduced; it is right also to add, that the greater part both of them and of the strictly rural papers have already appeared in a <rs type="title" ref="#Ladys_Mag">periodical publication</rs><!--scw: need to also annotate which sketches had already appeared. Checking on our archives.-->.</p><pb n="vii"/>
  
 </div>
   
