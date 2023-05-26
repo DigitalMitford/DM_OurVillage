@@ -121,28 +121,28 @@
                </person>
                <person xml:id="Talk_Lady_Barbara_OV" sex="f">
                   <persName ref="#Talk_Lady_Barbara_OV">
-                     <surname>not given</surname>
+                     
                      <forename>Barbara</forename>
                   </persName>
                   <note resp="#scw">Cousin of the title character of the sketch, <title level="a" ref="#Talking_Lady_OV"/>. She is mentioned in passing.</note>
                </person>
                <person xml:id="Talk_Lady_civil_lad_OV" sex="m">
                   <persName ref="#Talk_Lady_civil_lad_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
                </person>
                <person xml:id="Talk_Lady_civil_lad_mama_OV" sex="f">
                   <persName ref="#Talk_Lady_civil_lad_mama_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
                </person>
                <person xml:id="Talk_Lady_grumpy_gent_OV" sex="m">
                   <persName ref="#Talk_Lady_grumpy_gent_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
@@ -163,7 +163,7 @@
                </person>
                <person xml:id="Talk_Lady_LadyGreen_housemaid_OV" sex="f">
                   <persName ref="#Talk_Lady_LadyGreen_housemaid_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="service" subtype="maid"/>
@@ -177,14 +177,14 @@
                </person>
                <person xml:id="Talk_Lady_widow_OV" sex="f">
                   <persName ref="#Talk_Lady_widow_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">A woman who is mentioned as having unsuccessfully set up house with the title character of <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title>.</note>
                </person>
                <person xml:id="Talk_Lady_nephew_OV" sex="m">
                   <persName ref="#Talk_Lady_nephew_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">The last nephew of the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> whose death leads her to move in with <persName ref="#Talk_Lady_widow_OV">the widow</persName>, and subsequently, to take the trip that brings her to visit the <orgName ref="#OVNarratorsFamily">the narrator's family</orgName>.</note>
@@ -431,7 +431,7 @@
                <!--scw 6/19/20: ID already in A Country Cricket Match and note updated in that sketch to reflect his mention here.-->
                <person xml:id="Walks_HSummer_fatGent_OV" sex="m">
                   <persName ref="#Walks_HSummer_fatGent_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
@@ -439,20 +439,20 @@
                <person xml:id="Walks_HSummer_helper_OV" sex="u">
                   <persName ref="#Walks_HSummer_helper_OV">helper
                   <forename>not given</forename>
-                     <surname>not given</surname>
+                     
                   </persName>
                   <note resp="#scw">A character who assists the <persName ref="#OVNarrator">narrator</persName> water her flowers during a drought in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. Name and gender not given, but it is suggested they work in the stable.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoy_OV" sex="m">
                   <persName ref="#Walks_HSummer_hotBoy_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoyMom_OV" sex="f">
                   <persName ref="#Walks_HSummer_hotBoyMom_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
@@ -468,7 +468,7 @@
                </person>
                <person xml:id="Walks_HSummer_coachman_OV" sex="m">
                   <persName ref="#Walks_HSummer_coachman_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="driver"/>
@@ -476,21 +476,21 @@
                </person>
                <person xml:id="Walks_HSummer_littleHussar_OV" sex="m">
                   <persName ref="#Walks_HSummer_littleHussar_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character of an 8-year old cricket player who appears in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. The <persName ref="#OVNarrator">narrator</persName> does not know his name, and so she denotes him by his dress, which resembles that of a hussar.</note>
                </person>
                <person xml:id="Walks_HSummer_paleGirl_OV" sex="f">
                   <persName ref="#Walks_HSummer_paleGirl_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                      <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
                   </persName>
                </person>
                <person xml:id="Schoolmaster_OV" sex="m"><!--scw: see similar character in The Visit; consider combining into single character xml:id, as could designate the same person-->
                   <persName ref="#Schoolmaster_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="schoolHead"/>
@@ -563,7 +563,7 @@
             <listPerson sortKey="archPersons">
                <person xml:id="Jochebed" sex="f">
                   <persName ref="#Jochebed">
-                     <surname>not given</surname>
+                     
                      <forename>Jochebed</forename>
                   </persName>
                   <note resp="#scw">The mother of <persName ref="#Moses_OT">Moses</persName>, Aaron, and Miriam.</note>
@@ -736,7 +736,7 @@
                <person xml:id="TomC_Tray_OV" sex="u">
                   <persName ref="#TomC_Tray_OV">
                      <forename>Tray</forename>
-                     <surname>not given</surname>
+                     
                   </persName>
                   <note resp="#scw">Character mentioned in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>.</note>
                   <!--scw: need to review this entry-->
@@ -748,7 +748,7 @@
                <person xml:id="TomC_head_keeper_OV" sex="m">
                   <persName ref="#TomC_head_keeper_OV">Head gamekeeper
                         <forename>not given</forename>
-                     <surname>not given</surname>
+                     
                   </persName>
                   <occupation type="service" subtype="gamekeeper"/>
                   <note resp="#scw">Character who appears in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>. He acts as something of an ally and friend to <persName ref="#Cordery_Tom_OV">Tom</persName> by turning a blind eye to his poaching.</note>
@@ -770,7 +770,7 @@
                <person xml:id="TomC_hisHonor_OV" sex="m">
                   <persName ref="#TomC_hisHonor_OV">his Honor
                         <forename>not given</forename>
-                     <surname>not given</surname>
+                     
                   </persName>
                   <note resp="#scw">Character mentioned in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>. It is difficult to discern anything about this character other than that he is a member of the nobility. In the story, he appears as someone about whom <persName ref="#Cordery_Tom_OV">Tom</persName> tells hunting tales to distract and tempt his clients into unattractive hunting grounds.<!--scw: The story about this man resembles something MRM writes about that I read somewhere in a letter. Not in L'Estrange. Perhaps to Mary Webb, Feb 11, 1820, about her father coursing on Mortimer Common. Or about an old hare she and her father were hunting and had killed, but don't recall the letter. Will check--></note>
                </person>
@@ -1019,28 +1019,28 @@
                </person>
                <person xml:id="BramMay_loiterer_OV" sex="m">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who provides the narrator and her companion with the key to the church when they arrive in Bramley.</note>
                </person>
                <person xml:id="BramMay_rustic_OV" sex="m">
                   <persName ref="#BramMay_rustic_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who guides the narrator and her companion on a tour of the Bramley church.</note>
                </person>
                <person xml:id="Bram_parish_clerk_OV" sex="m">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, this character attends the Maying rather than attending to visitors of the church.</note>
                </person>
                <person xml:id="BramMay_vender_OV" sex="m">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the characters whom the <persName ref="#OVNarrator">narrator</persName> encounters in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
@@ -1052,13 +1052,13 @@
                <person xml:id="Lady_BRManor_OV" sex="f">
                   <persName ref="#Lady_BRManor_OV">Lady of B.R. Manor
                         <forename>not given</forename>
-                     <surname>not given</surname>
+                     
                   </persName>
                   <note resp="#scw">The lady is mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, and is likely a reference to <persName ref="#Brocas_H">Harriot Brocas</persName>, wife of <persName ref="#Brocas_Bernard">Bernard Brocas</persName>, who was known to spend little time at their newly renovated estate, <placeName ref="#Beaurepaire">Beaurepaire House</placeName>, after her husband's death, prefering to stay at <placeName ref="#Wokefield_Park">Wokefield Park</placeName>. </note>
                </person>
                <person xml:id="M_butcher_OV" sex="m">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="butcher"/>
@@ -1067,7 +1067,7 @@
                </person>
                <person xml:id="M_butchers_boy_OV" sex="m">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title>. He gives the narrator and her companion directions to the Maying, and later accompanies them on part of their journey.</note>
@@ -1089,7 +1089,7 @@
                </person>
                <person xml:id="Sil_farmwoman_OV" sex="f">
                   <persName>
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw"> Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title> who reveals that the narrator and her companion have reached <placeName ref="#Silchester">Silchester</placeName>. She gives the narrator and her companion directions to the Maying as they make their way to the festival.</note>
@@ -1278,7 +1278,7 @@
                   </person>
                   <person xml:id="CousMary_girl_OV" sex="f">
                      <persName>little girl
-                            <surname>not given</surname>
+                            
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">Character appearing in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, whom the title character helps climb the hill.</note>
@@ -1309,7 +1309,7 @@
                         </surname>
                         <forename>Mary</forename>
                      </persName>
-                     <occupation type="service" subtype="governess"/>
+                     <occupation type="educator" subtype="governess"/>
                      <!--8/10/22 scw: this is firing an error but it is not an error-->
                      <note resp="#alw #scw">Title character from the <title level="a" ref="#OV">Our Village</title> sketch <title ref="#Cousin_Mary_OV">Cousin Mary</title>. She is raised without accomplishments and is beloved by all. Surname not given.</note>
                   </person>
@@ -1333,7 +1333,7 @@
                   </person>
                   <person xml:id="MaryC_sister_OV" sex="f">
                      <persName>
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">Sister of the title character of the <title level="a" ref="#OV">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary, with whom Mary lives before becoming a governess, and who is a notorious matchmaker</title>.</note>
@@ -1654,7 +1654,7 @@
          <div type="file">
             <head>OVOurVillage.xml</head>
             <div>
-               <listPerson type="hist"><!--ebb: 30 May 2014: added versions of these from the OVSI.xml file-->
+               <listPerson sortKey="histPersons"><!--ebb: 30 May 2014: added versions of these from the OVSI.xml file-->
                   <person xml:id="Queen_Caroline"/>
                   <person xml:id="Austen_Jane"/>
                   <person xml:id="White_Gilbert"/>
@@ -1663,7 +1663,16 @@
                   <!--scw: 16 August 2014: Not found in main SI-->
                   <person xml:id="Dryden"/>
                </listPerson>
-               <listPerson type="fict" subtype="int"><!--ebb: added as stubs to main site index.-->
+               <listPerson sortKey="fictPersons" type="fict" subtype="int"><!--2023-05-26 ebb scw lmw: CHECKED:These are added PROPERLY with _OV at the end. Double check that total list is entered by doing this in oXygen:
+               Go to File: Open URL 
+               Open URL to https://digitalmitford.org/si.xml 
+               
+               Search these values in the officially publish si.
+               If they are not there, look for them in the DM_SiteIndex repo in SI-Full-IP >> si-local.xml 
+               
+               -->
+                  
+                  <!--ebb: added as stubs to main site index.-->
                   <person xml:id="RetiredPublican"/>
                   <person xml:id="RetiredPublicansWife"/>
                   <person xml:id="Blacksmith"/>
@@ -2298,7 +2307,7 @@
                   </person>
                   <person xml:id="Lucy_OV_fict" sex="f"><!--scw 8/11/22: this ID already in SI-->
                      <persName ref="#Lucy_OV_fict">Lucy
-                            <surname>not given</surname>
+                            
                         <forename>Lucy</forename>
                         <!--scw: I think we'd established a way of indicating this, but I forget what it is. Will check back through notes.-->
                         <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. Lucy is a beloved servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. She appears or is mentioned in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. She is based on <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>, whose marriage to <persName ref="#Hill_Charles">Charles Hill</persName> in <date when="1820">1820</date> led to her move to <placeName ref="#Silchester">Silchester</placeName> to teach school.</note>
@@ -2421,7 +2430,7 @@
                </person>
                <person xml:id="Martha_Aunt_OV" sex="f">
                   <persName ref="#Martha_Aunt_OV">Aunt Martha
-                  <surname>not given</surname>
+                  
                      <forename>Martha</forename>
                   </persName>
                   <note resp="#scw">Title character of <title level="a" ref="#Aunt_Martha_OV">Aunt Martha</title>, who is described as a beloved unmarried member of a <persName ref="#AuntMartha_patriarch_OV">a gentleman</persName> and <orgName ref="#AuntMartha_nieces_OV">his daughters</orgName>' household. It has been speculated that she is a fictionalized portrait of <persName ref="#Webb_Mary_elder">Mary Webb</persName>.</note>
@@ -2537,7 +2546,7 @@
                   <person xml:id="Lucy"/>
                   <person xml:id="OVNarratorsFather"/>
                </listPerson>
-               <listPlace type="geog">
+               <listPlace sortKey="histPlaces">
                   <place xml:id="London_city"/>
                   <place xml:id="ThreeMileCross"/>
                   <!--scw: the town of B is mentioned several times here and elsewhere. Unidentified as yet.-->
@@ -2552,28 +2561,28 @@
                <!--scw: already described in Country Cricket Match-->
                <person xml:id="FHill_Frances_OV" sex="f">
                   <persName ref="#FHill_Frances_OV">Frances
-                  <surname>not given</surname>
+                  
                      <forename>Frances</forename>
                   </persName>
                   <note resp="#scw">This character appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>. She is the infant daughter of <persName ref="#FHill_friend_OV">the friend from F. Hill</persName> whom the narrator visits, and is the fictional counterpart of <persName ref="#Dickinson_Daughter">Frances Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friend_OV" sex="f">
                   <persName ref="#FHill_friend_OV">Farley Hill friend
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">This character, who appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, hosts <persName ref="#OVNarrator">the narrator</persName> at her home in F. Hill. She is based on <persName ref="#MRM">Mitford</persName>'s friend, <persName ref="#Dickinson_Mrs">Catherine Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friendHusband_OV" sex="m">
                   <persName ref="#FHill_friendHusband_OV">Farley Hill friend's husband
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">This character, who is mentioned in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, is based on <persName ref="#Dickinson_Charles">Charles Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friendFather_OV" sex="m">
                   <persName ref="#FHill_friendFather_OV">F. Hill friend's father
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character who appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title> accompanying <rs type="person" ref="#FHill_friend_OV #FHill_friendSister_OV">his daughters</rs> as they sing and play during a call on the <soCalled>great house</soCalled>.</note>
@@ -2585,7 +2594,7 @@
                </person>
                <person xml:id="FHill_friendSister_OV" sex="f">
                   <persName ref="#FHill_friendSister_OV">sister of the F. Hill friend
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, this character is referred to as the sister of the <persName ref="#FHill_friend_OV">F. Hill friend</persName> as she sings.</note>
@@ -2626,7 +2635,7 @@
                </person>
                <person xml:id="parishSchoolmaster_OV" sex="m">
                   <persName ref="#parishSchoolmaster_OV">parish schoolmaster
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="teacher"/>
@@ -2638,7 +2647,7 @@
                </person>
                <person xml:id="villageGlazier_OV" sex="m">
                   <persName ref="#villageGlazier_OV">village glazier
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="glazier"/>
@@ -2646,7 +2655,7 @@
                </person>
                <person xml:id="villageMiller_OV" sex="m">
                   <persName ref="#villageMiller_OV">village miller
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="miller"/>
@@ -3031,7 +3040,7 @@
                </person>
                <person xml:id="Mrs_R_1stWife_son_OV" sex="m">
                   <persName ref="#Mrs_R_1stWife_son_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">The son of <persName ref="#Mrs_R_1stWife_OV">the first wife of </persName>
@@ -3055,7 +3064,7 @@
                </person>
                <person xml:id="MrsMosse_coachman_OV" sex="m">
                   <persName ref="#MrsMosse_coachman_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="service" subtype="coachman"/>
@@ -3063,14 +3072,14 @@
                </person>
                <person xml:id="MrsMosse_electDuke_OV" sex="m">
                   <persName ref="#MrsMosse_electDuke_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. He offends <persName ref="#Russell_Richard_OV">Mitford's maternal grandfather</persName> by saluting <rs type="person" ref="#Russell_MaryDicker_OV">his wife</rs>.</note>
                </person>
                <person xml:id="Russell_Fanny_OV" sex="f"><!--scw 6/29/21: Check to see whether this person may be Mrs. Fanny from "Modern Antiques".--><!--scw 5/25/22: It's possible this Fanny is the same as in Modern Antiques, but I haven't confirmed from dates and the story is elusive-->
                   <persName ref="#Russell_Fanny_OV">Fanny
-                  <surname>not given</surname>
+                  
                      <forename>Frances</forename>
                      <forename type="nick">Fanny</forename>
                      <!--scw: change to addName-->
@@ -3079,7 +3088,7 @@
                </person>
                <person xml:id="MrsMosse_OxfordProf_OV" sex="m">
                   <persName ref="#MrsMosse_OxfordProf_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="teacher"/>
@@ -3087,21 +3096,21 @@
                </person>
                <person xml:id="MrsMosse_OxfordProfWife_OV" sex="f">
                   <persName ref="#MrsMosse_OxfordProfWife_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. She is among the many visitors to <persName ref="#Russell_MaryDicker_OV">Mitford's maternal grandmother</persName>'s home.</note>
                </person>
                <person xml:id="MrsMosse_pewOpener_OV" sex="m">
                   <persName ref="#MrsMosse_pewOpener_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. He is among the many visitors to <persName ref="#Russell_MaryDicker_OV">Mitford's maternal grandmother</persName>'s home.</note>
                </person>
                <person xml:id="MrsMosse_sexton_OV" sex="m">
                   <persName ref="#MrsMosse_sexton_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <occupation type="religious"/>
@@ -3109,7 +3118,7 @@
                </person>
                <person xml:id="MrsMosse_sextonsDaughter_OV" sex="f">
                   <persName ref="#MrsMosse_sextonsDaughter_OV">
-                     <surname>not given</surname>
+                     
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>, who imprudently marries the son of <persName ref="#Russell_Richard_OV">Dr. Russell</persName>'s first wife.</note>
@@ -3307,28 +3316,28 @@
                <listPerson sortKey="fictPersons">
                   <person xml:id="madcap_lord_OV" sex="m">
                      <persName ref="#madcap_lord_OV">
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">In the <title level="m" ref="#OV">Our Village</title> sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>, the <persName ref="#OVNarrator">narrator</persName> facetiously imagines how a long-ago lord was prevented from making an enclosure in <placeName ref="#Shinfield">Shinfield parish</placeName>.</note>
                   </person>
                   <person xml:id="Vio_farmhouse_landlord_OV" sex="m"><!--scw: I'm keeping an eye out for someone similar, in order to cross-ref-->
                      <persName ref="#Vio_farmhouse_landlord_OV">
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">In the <title level="m" ref="#OV">Our Village</title> sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>, this character is mentioned as a landlord whose carelessness has affected his tenants and the farmhouse they live in.</note>
                   </person>
                   <person xml:id="Vio_old_man_OV" sex="m">
                      <persName ref="#Vio_old_man_OV">
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">An old man whom the <persName ref="#OVNarrator">narrator</persName> sees digging in <placeName ref="#parish_workhouse_OV">workhouse</placeName> garden in the sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>.</note>
                   </person>
                   <person xml:id="Vio_ruined_tenant_OV" sex="u"><!--scw: Gender not stated, assume male. This character may or may not appear in other sketches. I'm keeping an eye out for someone similar, in order to cross-ref-->
                      <persName ref="#Vio_ruined_tenant_OV">
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <occupation type="trade" subtype="farmer"/>
@@ -3581,7 +3590,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                   </person>
                   <person xml:id="Vil_Beau_carpenter_OV" sex="m">
                      <persName>
-                        <surname>not given</surname>
+                        
                         <forename>not given</forename>
                      </persName>
                      <occupation type="trade" subtype="carpenter"/>
@@ -3793,7 +3802,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                <!--scw 7/7/20: this xml:id and note is already listed at the end of "The Talking Lady." Note in that sketch has been updated to account for her mention in this sketch.-->
                <person xml:id="Talk_Gent_soldier_OV" sex="m">
                   <persName ref="#Talk_Gent_soldier_OV">soldier
-                  <surname>not given</surname>
+                  
                      <forename>not given</forename>
                   </persName>
                   <occupation type="military"/>
