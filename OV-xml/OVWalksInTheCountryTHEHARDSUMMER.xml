@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+
+         <titleStmt>
+            <title level="m" ref="#OV">Our Village: Sketches of Rural Character and Scenery: Preface</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+
+
+            <editor ref="#scw">Samantha Webb</editor>
+            <editor ref="#ad">Alexandra Drayton</editor>
+
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal ref="#ebb">Elisa Beshero-Bondar</principal>
+
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#jmh">Jonathan M. Horanic</persName>
+               <persName ref="#scw">Samantha Webb</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>This is optional, used to describe this edition, and “should contain phrases
+               describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+               P5.</edition>
+            <respStmt>
+               <resp>We can include a respStmt here.</resp>
+               <persName>Who?</persName>
+            </respStmt>
+
+         </editionStmt>
+
+
+
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+            <note>You can have multiple notes here.</note>
+         </notesStmt>
+
+         <sourceDesc>
+            <!--2017-01-10 ebb: We need to change this sourceDesc to indicate we’re checking each text and altering it to represent the 1824 edition as published in NCCO. -->
+            <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+            <p>Our text is based on public domain, Google-digitized text<bibl>
+                  <title level="m" ref="#OV">Our Village: Sketches of Rural Character and Scenery</title><edition>Third
+                     Edition</edition> by <author>Mary Russell
+                     Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
+                     Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+               </bibl> This text appears to be identical in pagination and content to the first
+               edition published in 1824. </p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="sketch">
+            <pb n="199"/>
+            <head><title level="s" ref="#Walks_Country_OV">WALKS IN THE COUNTRY</title>.<lb/><title level="a" ref="#Walks_Hard_Summer_OV">THE HARD SUMMER</title>.
+               <!--ebb: If there’s a subtitle use an <lb/> element to separate -->
+            </head>
+            <p><date when="--08-15">August 15th</date>.—Cold, cloudy, windy, wet. Here we are, in the midst of the dog-days,
+               clustering merrily round the warm hearth, like so many crickets, instead of
+               chirruping in the green fields like that other merry insect the grasshopper;
+               shivering under the influence of the <emph rend="italics">Jupiter Pluvius</emph> of England,<note resp="#scw">An epithet connected with the god <persName ref="#Jupiter">Jupiter</persName>, indicating his power over the rain, and meaning <q>"bringer of rain."</q></note> the watery St.
+               Swithin;<note resp="#scw">Mitford is referring to the folklore surrounding St. Swithin's Day, which is <date when="--07-15">July 15</date>. If it rains on St. Swithin's Day, it will be rainy for another 40 days.</note> peering at that scarce personage the sun, when he happens to make his
+               appearance, as intently as astronomers look after a comet, or the common people stare
+               at a balloon; exclaiming against the cold weather, just as we used to exclaim against
+               the warm. <said>“What a change from last year!”</said> is the first sentence you hear, go where
+               you may. Every body remarks it, and every body complains of it; and yet in my mind it
+               has its advantages, or at least its compensations, as every thing in nature has, if
+               we would only take the trouble to seek for them.</p>
+            <pb n="200"/>
+            <p>Last year, in spite of the love which we are now pleased to profess towards that
+               ardent luminary, not one of the sun’s numerous admirers had courage to look him in
+               the face: there was no bearing the world till he had said <said>“Good-night”</said> to it. Then we
+               might stir; then we began to wake and to live. All day long we languished under his
+               influence in a strange dreaminess, too hot to work, too hot to read, too hot to
+               write, too hot even to talk; sitting hour after hour in a green arbour, embowered in
+               leafiness, letting thought and fancy float as they would. Those day-dreams were
+               pretty things in their way; there is no denying that. But then, if one half of the
+               world were to dream through a whole summer, like the <persName ref="#Sleeping_Beauty">Sleeping Beauty in the Wood</persName>,
+               what would become of the other?</p>
+            <p>The only office requiring the slightest exertion, which I performed in that warm
+               weather, was watering my flowers. Common sympathy called for that labour. The poor
+               things withered, and faded, and pined away; they almost, so to say, panted for
+               drought. Moreover, if I had not watered them myself, I suspect that no one else
+               would; for water last year was nearly as precious hereabout as wine. Our land-springs
+               were dried up; our wells were exhausted; our deep ponds were dwindling into mud; and
+               <rs type="animal" ref="#goose">geese</rs>, and <rs type="animal" ref="#duck_wild">ducks</rs>, and <rs type="animal" ref="#pig">pigs</rs>, and laundresses, used to look with a jealous and
+               suspicious eye on the few and<pb n="201"/> scanty half-buckets of that impure
+               element, which my <rs type="person" ref="#Walks_HSummer_helper_OV">trusty lacquey</rs> wa<rs type="person" ref="#Walks_HSummer_helper_OV">s fain to filch for my poor <rs type="plant" ref="#geranium">geraniums</rs> and
+               <rs type="plant" ref="#campanula">campanulas</rs> and <rs type="plant" ref="#tuberose">tuberoses</rs>. We were forced to smuggle them in through my faithful
+               adherent</rs>’s territories, the stable, to avoid lectures within doors; and at last even
+               that resource failed; my garden, my blooming garden, the joy of my eyes, was forced
+               to go waterless like its neighbours, and became shrivelled, scorched, and sunburnt,
+               like them. It really went to my heart to look at it.</p>
+            <p>On the other side of the house matters were still worse. What a dusty world it was
+               when about sunset we became cool enough to creep into it! Flowers in the court
+               looking fit for a <emph rend="italics">hortus siccus</emph>;<note resp="#scw">The <title ref="#OED">OED</title>
+                  defines a <emph rend="italics">hortus siccus</emph> as <quote>"an arranged
+                     collection of dried plants; a herbarium,"</quote> and presents <persName
+                     ref="#MRM">Mitford</persName>'s passage here as an example of the term's
+                  usage.</note> mummies of plants, dried as in an oven; <rs type="plant"
+                  ref="#hollyhock">hollyhocks</rs>, once pink, turned into Quakers; <rs
+                  type="plant" ref="#clove">cloves</rs><!--scw: hollyhock and clove are in the SI, but not being picked up here--> smelling of dust. Oh dusty world! <persName
+                  ref="#May-flower_OV">May</persName> herself looked of that complexion; so did
+                  <persName ref="#Lizzy_OV">Lizzy</persName>; so did all the houses, windows, <rs
+                  type="animal" ref="#chicken">chickens</rs>, children, trees, and <rs type="animal"
+                  ref="#pig">pigs</rs> in the village; so above all did the shoes. No foot could make
+               three plunges into that abyss of pulverised gravel, which had the impudence to call
+               itself a hard road, without being clothed with a coat a quarter of an inch thick. Woe
+               to white gowns! woe to black! Drab was your only wear.</p>
+            <p>Then, when we were out of the street, what a toil it was to mount the hill, climbing
+               with weary steps and<pb n="202"/> slow upon the brown turf by the way-side, slippery,
+               hot, and hard as a rock! And then if we happened to meet a carriage coming along the
+               middle of the road,—the bottomless middle,—what a sandy whirl-wind it was! What
+               choking! what suffocation! No state could be more pitiable, except indeed that of the
+               travellers who carried this misery about with them. I shall never forget the plight
+               in which we met the coach one evening in last August, full an hour after its time,
+               <rs type="animal" ref="#horse">steeds</rs> and <persName ref="#Walks_HSummer_coachman_OV">driver</persName>, carriage and passengers, all one dust. The <orgName type="person" ref="#Walks_HSummer_coachOutsides_OV">outsides</orgName> and the <rs type="animal" ref="#horse">horses</rs>
+               and the <persName ref="#Walks_HSummer_coachman_OV">coachman</persName>, seemed reduced to a torpid quietness, the resignation of despair.
+               They had left off trying to better their condition, and taken refuge in a wise and
+               patient hopelessness, bent to endure in silence the extremity of ill. The <orgName type="person" ref="#Walks_HSummer_coachInsides_OV">six
+                  insides</orgName>, on the contrary, were still fighting against their fate, vainly struggling
+               to ameliorate their hapless destiny. They were visibly grumbling at the weather,
+               scolding the dust, and heating themselves like a furnace, by striving against the
+               heat. How well I remember the <rs type="person" ref="#Walks_HSummer_fatGent_OV">fat gentleman</rs> without his coat, who was wiping his
+               forehead, heaving up his wig, and certainly uttering that English ejaculation, which,
+               to our national reproach, is the phrase of our language best known on the continent.
+               And that poor <rs type="person" ref="#Walks_HSummer_hotBoy_OV">boy</rs>, red-hot, all in a flame, whose <rs type="person" ref="#Walks_HSummer_hotBoyMom_OV">mamma</rs>, having divested her own
+               person of all superfluous apparel, was trying<pb n="203"/> to relieve his sufferings
+               by the removal of his neck-kerchief—an operation which he resisted with all his
+               might. How perfectly I remember him, as well as the <rs type="person" ref="#Walks_HSummer_paleGirl_OV">pale girl</rs> who sate opposite,
+               fanning herself with her bonnet into an absolute fever! They vanished after a while
+               in their own dust; but I have them all before my eyes at this moment, a
+               companion-picture to <persName ref="#Hogarth">Hogarth</persName>’s Afternoon, a standing lesson to the grumblers at cold
+               summers.<note resp="#scw">Noon is the second in a four-part series of paintings and engravings by William Hogarth entitled <title level="m" ref="#Four_Times_Day">The Four Times of the Day</title>. In this scene, set in Hog Lane in the St. Giles slum, a family of Huguenots, identifiable by their French dress, exits a church, while across the street, a man fondles a woman holding a pie, and a boy in front of her wails because his pie has fallen to the ground and is being eaten by another boy. Given <persName ref="#MRM">Mitford</persName>'s weather reference here, it is possible that she has confused the Noon painting with Morning, which shows the human figures warming themselves by a fire in a cold dawn.</note> </p>
+            <p>For my part, I really like this wet season. It keeps us within, to be sure, rather
+               more than is quite agreeable; but then we are at least awake and alive there, and the
+               world out of doors is so much the pleasanter when we can get abroad. Every thing does
+               well, except those fastidious bipeds, men and women; corn ripens, grass grows, fruit
+               is plentiful; there is no lack of birds to eat it, and there has not been such a
+               wasp-season these dozen years. My garden wants no watering, and is more beautiful
+               than ever, beating my old rival in that primitive art, the pretty <persName
+                  ref="#MasonsWife_OV">wife of the little mason</persName>, out and out. Measured
+               with mine, her flowers are nought. Look at those <rs type="plant" ref="#hollyhock"
+                  >hollyhocks</rs>, like pyramids of roses; those garlands of the convolvulus major
+               of all colours, hanging around that tall pole, like the wreathy hop-bine; those
+               magnificent dusky <rs type="plant" ref="#clove">cloves</rs>, breathing of the
+                  <placeName ref="#Spice_Islands">Spice Islands</placeName>; those flaunting double
+                  <rs type="plant" ref="#dahlia">dahlias</rs>; those splen-<pb n="204"/>did scarlet
+                  <rs type="plant" ref="#geranium">geraniums</rs>, and those fierce and warlike
+               flowers the <rs type="plant" ref="#tiger_lily">tiger-lilies</rs>. Oh how beautiful
+               they are! Besides, the weather clears sometimes—it has cleared this evening; and here
+               are we, after a merry walk up the hill, almost as quick as in the winter, bounding
+               lightly along the bright green turf of the pleasant common, enticed by the gay shouts
+               of a dozen clear young voices, to linger awhile, and see <orgName type="person"
+                  ref="#Walks_HSummer_cricketBoys_OV">the boys</orgName> play at cricket.</p>
+            <p>I plead guilty to a strong partiality towards that unpopular class of beings,
+               country-boys: I have a large acquaintance amongst them, and I can almost say, that I
+               know good of many and harm of none. In general they are an open, spirited,
+               good-humoured race, with a proneness to embrace the pleasures and eschew the evils of
+               their condition, a capacity for happiness, quite unmatched in man, or woman, or girl.
+               They are patient, too, and bear their fate as scapegoats (for all sins whatsoever are
+               laid as matters of course to their door, whether at home or abroad,) with amazing
+               resignation; and, considering the many lies of which they are the objects, they tell
+               wonderfully few in return. The worst that can be said of them is, that they seldom,
+               when grown to man’s estate, keep the promise of their boyhood; but that is a fault to
+               come—a fault that may not come, and ought not to be anticipated. It is astonishing
+               how sensible they are to<pb n="205"/> notice from their betters, or those whom they
+               think such. I do not speak of money, or gifts, or praise, or the more coarse and
+               common briberies—they are more delicate courtiers; a word, a nod, a smile, or the
+               mere calling of them by their names, is enough to insure their hearts and their
+               services. Half-a-dozen of them, poor urchins, have run away now to bring us chairs
+               from their several homes. <said who="#OVNarrator" direct="true" aloud="true">“Thank
+                  you, <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>!—you are always first—yes,
+                  that is just the place.—I shall see every thing there. Have you been in yet,
+                     <persName ref="#Kirby_Joe_OV">Joe</persName>?”</said>—<said who="#Kirby_Joe_OV"
+                  direct="true" aloud="true">”No, ma’am! I go in next.”</said>—<said
+                  who="#OVNarrator" direct="true" aloud="true">” Ah, I am glad of that—and now’s the
+                  time. Really that was a pretty ball of <persName ref="#Eusden_Jem_OV">Jem
+                     Eusden</persName>’s!—I was sure it would go to the wicket. Run, <persName
+                     ref="#Kirby_Joe_OV">Joe</persName>! They are waiting for you.”</said> There was
+               small need to bid <persName ref="#Kirby_Joe_OV">Joe Kirby</persName> make haste; I
+               think he is, next to a race-horse, or a greyhound, or a deer, the fastest creature
+               that runs—the most completely alert and active. <persName ref="#Kirby_Joe_OV"
+                  >Joe</persName> is mine especial friend, and leader of the <quote>“tender
+                  juveniles,”</quote><note resp="#scw">Mitford is using a phrase from Shakespeare's
+                     <title ref="#LovesLaboursLost_play">Love's Labours Lost</title>, shared between
+                  Armado and his page, Moth, in Act I, scene 3.</note> as <persName
+                  ref="#Brent_Joel_OV">Joel Brent</persName> is of the adults. In both instances
+               this post of honour was gained by merit, even more remarkably so in <persName
+                  ref="#Kirby_Joe_OV">Joe</persName>’s case than in <persName ref="#Brent_Joel_OV"
+                  >Joel</persName>’s; for <persName ref="#Kirby_Joe_OV">Joe</persName> is a less boy
+               than many of his companions, (some of whom are fifteeners and sixteeners, quite as
+               tall and nearly as old as <persName ref="#Coper_Tom_OV">Tom Coper</persName>) and a
+               poorer than all, as may be conjectured from the lamentable state of that patched
+               round frock, and the ragged condition of<pb n="206"/> those unpatched shoes, which
+               would encumber, if any thing could, the light feet that wear them. But why should I
+               lament the poverty that never troubles him? <persName ref="#Kirby_Joe_OV"
+                  >Joe</persName> is the merriest and happiest creature that ever lived twelve years
+               in this wicked world. Care cannot come near him. He hath a perpetual smile on his
+               round ruddy face, and a laugh in his hazel-eye, that drives the witch away. He works
+               at yonder farm on the top of the hill, where he is in such repute for intelligence
+               and good-humour, that he has the honour of performing all the errands of the house,
+               of helping the maid, and the mistress, and the master, in addition to his own stated
+               office of carter’s boy. There he works hard from five till seven, and then he comes
+               here to work still harder under the name of play— batting, bowling, and fielding, as
+               if for life, filling the place of four boys; being, at a pinch, a whole eleven. The
+               late <persName ref="#Knyvett_Chas">Mr. Knyvett</persName>, the king’s organist, who
+               used in his own person to sing twenty parts at once of the hallelujah chorus, so that
+               you would have thought he had a nest of nightingales in his throat, was but a type of
+                  <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>. There is a sort of ubiquity
+               about him; he thinks nothing of being in two places at once, and for pitching a ball
+                  <persName ref="#Grey_William_OV">William Grey</persName> himself is nothing to
+               him. It goes straight to the mark like a bullet. He is king of the cricketers from
+               eight to sixteen, both inclusive, and an excellent ruler he makes. Never-<pb n="207"
+               />theless, in the best-ordered states there will be grumblers, and we have an
+               opposition here in the shape of <persName ref="#Eusden_Jem_OV">Jem
+               Eusden</persName>.</p>
+            <p><persName ref="#Eusden_Jem_OV">Jem Eusden</persName> is a stunted lad of thirteen, or there-about, lean, small, and short, yet
+               strong and active. His face is of an extraordinary ugliness, colourless, withered,
+               haggard, with a look of extreme age, much increased by hair so light that it might
+               rather pass for white than flaxen. He is constantly arrayed in the blue cap and
+               old-fashioned coat, the costume of an endowed school to which he belongs; where he
+               sits still all day, and rushes into the field at night, fresh, untired, and ripe for
+               action, to scold, and brawl, and storm, and bluster. He hates <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>, whose
+               immoveable good-humour, broad smiles, and knowing nods, must certainly be very
+               provoking to so fierce and turbulent a spirit; and he has himself (being, except by
+               rare accident, no great player) the preposterous ambition of wishing to be manager of
+               the sports. In short, he is a demagogue in embryo, with every quality necessary to a
+               splendid success in that vocation,—a strong voice, a fluent utterance, an incessant
+               iteration, and a frontless impudence. He is a great <quote>“scholar,”</quote> too, to use the
+               country phrase; his <quote>“piece,”</quote> as <rs type="person" ref="#Schoolmaster_OV">our village-schoolmaster</rs><!--scw: a schoolmaster character is mentioned in The Visit. Consider folding this one in with that one, and providing a single xml:id for both--> terms a fine sheet of
+               flourishing writing, something between a valentine and a sampler, enclosed within a
+               border of little<pb n="208"/> coloured prints—his last, I remember, was encircled by
+               an engraved history of <persName ref="#Moses_OT">Moses</persName>, beginning at the finding in the bulrushes, with
+               Pharaoh’s daughter, dressed in a rose-coloured gown and blue feathers<note resp="#scw">The Book of Exodus describes how <rs type="person" ref="#Jochebed">Moses' mother</rs> sets her infant son afloat in a papyrus basket along the Nile River to conceal him from the Pharoah who had decreed that all Israelite boys should be killed. He is found among the bullrushes by the Pharoah's daughter.</note>—his piece is
+               not only the admiration of the school but of the parish, and is sent triumphantly
+               around from house to house at Christmas, to extort halfpence and sixpences from all
+               encouragers of learning—<emph rend="italic">Montem</emph> in miniature.<note resp="#scw">Montems were a local custom among <orgName ref="#EtonColl">Eton</orgName> students that involved demands for money for school expenses for the senior scholar. The ritual was performed every third Whit Tuesday when students would stand on a hill on the Bath Road, and request money from passersby.</note> The Mosaic history was so successful,
+               that the produce enabled <persName ref="#Eusden_Jem_OV">Jem</persName> to purchase a bat and ball, which, besides adding to his
+               natural arrogance (for <rs type="person" ref="#Eusden_Jem_OV">the little pedant</rs> actually began to mutter against being
+               eclipsed by <rs type="person" ref="#Kirby_Joe_OV">a dunce</rs>, and went so far as to challenge <persName ref="#Kirby_Joe_OV">Joe Kirby</persName> to a trial in
+               Practice, or the Rule of Three), gave him, when compared with the general poverty, a
+               most unnatural preponderance in the cricket state. He had the ways and means in his
+               hands—(for, alas! the hard winter had made sad havoc among the bats, and the best
+               ball was a bad one)—he had the ways and means, could withhold the supplies, and his
+               party was beginning to wax strong, when <persName ref="#Kirby_Joe_OV">Joe</persName> received a present of two bats and a ball
+               for the youngsters in general, and himself in particular—and <persName ref="#Eusden_Jem_OV">Jem</persName>’s adherents left him
+               on the spot—they ratted, to a man, that very evening. Notwithstanding this desertion,
+               their forsaken leader has in nothing relaxed from his pretensions, or his ill-humour.
+               He still quarrels and<pb n="209"/> brawls as if he had a faction to back him, and
+               thinks nothing of contending with both sides, the ins and the outs, secure of
+               out-talking the whole field. He has been squabbling these ten minutes, and is just
+               marching off now with his own bat (he has never deigned to use one of <persName ref="#Kirby_Joe_OV">Joe</persName>’s) in his
+               hand. What an <rs type="person" ref="#Eusden_Jem_OV">ill-conditioned hobgoblin</rs> it is! And yet there is something bold and
+               sturdy about him too. I should miss <persName ref="#Eusden_Jem_OV">Jem Eusden</persName>.</p>
+            <p>Ah, there is another deserter from the party! my friend the <rs type="person"
+                  ref="#Walks_HSummer_littleHussar_OV">little hussar</rs>—I do not know his name,
+               and call him after his cap and jacket. He is a very remarkable person, about the age
+               of eight years, the youngest piece of gravity and dignity I ever encountered; short,
+               and square, and upright, and slow, with a fine bronzed flat visage, resembling those
+               convertible signs the Broad-Face and the Saracen’s Head, which, happening to be
+               next-door neighbours in the <placeName ref="#B_city">town of B.</placeName>,<note
+                  resp="#scw">The Broad-Face was a hotel with a notably odd sign, and the Saracen's
+                  Head was a coaching inn, both of which were located in <placeName
+                     ref="#Reading_city">Reading</placeName>. However, they do not appear to have
+                  been located next door to one another.</note> I never know apart, resembling,
+               indeed, any face that is open-eyed and immoveable, the very sign of a boy! He stalks
+               about with his hands in his breeches pocket, like a piece of machinery; sits
+               leisurely down when he ought to field, and never gets farther in batting than to stop
+               the ball. His is the only voice never heard in the <emph rend="italics">mélée</emph>;
+               I doubt, indeed, if he have one, which may be partly the reason of a circumstance
+               that I record to his honour, his fidelity to <persName ref="#Eusden_Jem_OV">Jem
+                  Eusden</persName>, to whom he has adhered through every change of fortune with a
+                  tena-<pb n="210"/>city proceeding perhaps from an instinctive consciousness that
+               that <rs type="person" ref="#Eusden_Jem_OV">loquacious leader</rs> talks enough for
+               two. He is the only thing resembling a follower that our demagogue possesses, and is
+               cherished by him accordingly. <persName ref="#Eusden_Jem_OV">Jem</persName> quarrels
+               for him, scolds for him, pushes for him; and but for <persName ref="#Kirby_Joe_OV"
+                  >Joe Kirby</persName>’s invincible good humour, and a just discrimination of the
+               innocent from the guilty, the activity of <persName ref="#Eusden_Jem_OV"
+                  >Jem</persName>’s friendship would get the <rs type="person"
+                  ref="#Walks_HSummer_littleHussar_OV">poor hussar</rs> ten drubbings a day.</p>
+            <p>But it is growing late. The sun has set a long time. Only see what a gorgeous
+               colouring has spread itself over those parting masses of clouds in the west,—what a
+               train of rosy light! We shall have a fine sunshiny day to-morrow,—a blessing not to
+               be undervalued, in spite of my late vituperation of heat. Shall we go home now? And
+               shall we take the longest but prettiest road, that by the green lanes? This way, to
+               the left, round the corner of the common, past <persName ref="#Welles_Mrs_OV">Mrs. Welles</persName>’s cottage, and our path
+               lies straight before us. How snug and comfortable that cottage looks! Its little yard
+               all alive with the <rs type="animal" ref="#cow">cow</rs>, and the <rs type="animal" ref="#horse">mare</rs>, and the <rs type="animal" ref="#horse">colt</rs> almost as large as the mare, and
+               the young <rs type="animal" ref="#horse">foal</rs>, and the great <rs type="animal" ref="#dog">yard-dog</rs>, all so fat! Fenced in with hay-rick, and
+               wheat-rick, and bean-stack, and backed by the long garden, the spacious
+               drying-ground, the fine orchard, and that large field quartered into four different
+               crops. How comfortable this cottage looks, and how well the<pb n="211"/> owners earn
+               their comforts! They are the most prosperous pair in the parish—she a laundress with
+               twenty times more work than she can do, unrivalled in flounces and shirt-frills, and
+               such delicacies of the craft; <rs type="person" ref="#Welles_Master_OV">he</rs>, partly a farmer, partly a farmer’s man, tilling his
+               own ground, and then tilling other people’s;—affording a proof, even in this
+               declining age, when the circumstances of so many worthy members of the community seem
+               to have <quote>“an alacrity in sinking,”</quote><note resp="#scw">Mitford is quoting from Shakespeare's <title level="m" ref="#Merry_Wives_play">Merry Wives of Windsor</title>, Act 3, scene 5, line 1758. The phrase is spoken by <persName ref="#Falstaff_WS">Falstaff.</persName></note> that it is possible to amend them by sheer
+               industry. He, who was born in the workhouse, and bred up as a parish boy, has now, by
+               mere manual labour, risen to the rank of a land-owner, pays rates and taxes, grumbles
+               at the times, and is called <persName ref="#Welles_Master_OV">Master Welles</persName>,—the title next to Mister—that by which
+               <persName ref="#Shakespeare"><sic>Shakspeare</sic></persName> was called:—what would man have more? <rs type="person" ref="#Welles_Mrs_OV">His wife</rs>, besides being the best
+               laundress in the county, is a comely woman still. There she stands at the spring,
+               dipping up water for to-morrow,—the clear, deep, silent spring, which sleeps so
+               peacefully under its high flowery bank, red with the tall spiral stalks of the
+               <rs type="plant" ref="#foxglove">foxglove</rs> and their rich pendent bells, blue with the beautiful <rs type="plant" ref="#forget_me_not">forget-me-not</rs>, that
+               gem-like blossom, which looks like a living jewel of turquoise and topaz. It is
+               almost too late to see its beauty; and here is the pleasant shady lane, where the
+               high <rs type="plant" ref="#elm">elms</rs> will shut out the little twilight that remains. Ah, but we shall have the
+               fairies’ lamps to<pb n="212"/> guide us, the stars of the earth, the <rs type="animal" ref="#glow_worm">glow-worms</rs>! Here
+               they are, three almost together. Do you not see them? One seems tremulous, vibrating,
+               as if on the extremity of a leaf of grass; the others are deeper in the hedge, in
+               some green cell on which their light falls with an emerald lustre. I hope my friends
+               <orgName type="person" ref="#Walks_HSummer_country_boys_OV">the cricketers</orgName> will not come this way home. I would not have the pretty creatures
+               removed for more than I care to say, and in this matter I would hardly trust <persName ref="#Kirby_Joe_OV">Joe
+               Kirby</persName>—boys so love to stick them in their hats. But this lane is quite deserted. It
+               is only a road from field to field. No one comes here at this hour. They are quite
+               safe; and I shall walk here to-morrow and visit them again. And now, good night!
+               beautiful insects, lamps of the fairies, good-night!</p>
+         </div>
+      </body>
+      <back>
+         
+         <listPerson sortKey="fictPersons">
+            
+            <person xml:id="Coper_Tom_OV"></person><!--scw 6/19/20: noted already in Country Cricket Match file with xml.id. Note there updated in that sketch to include this sketch.-->
+            <person xml:id="Eusden_Jem_OV" sex="m"><!--scw: need to cross-ref this entry-->
+               <persName ref="#Eusden_Jem_OV">
+                  <surname>Eusden</surname>
+                  <forename>James</forename>
+                  <forename type="nick">Jem</forename>
+               </persName>
+               <occupation type="scholar"/>
+               <note resp="#scw">One of the country boys who plays a skillful game of cricket in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. He is said to be about 13-years old, and is a rival of <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>.</note>
+            </person>
+            
+            <person xml:id="Grey_William_OV" sex="m"></person><!--scw 6/19/20: ID already in A Country Cricket Match and note updated in that sketch to reflect his mention here.-->
+            
+            <person xml:id="Walks_HSummer_fatGent_OV" sex="m">
+               <persName ref="#Walks_HSummer_fatGent_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
+            </person>
+            
+            <person xml:id="Walks_HSummer_helper_OV" sex="u">
+               <persName ref="#Walks_HSummer_helper_OV">helper
+                  <forename>not given</forename>
+                  <surname>not given</surname>
+               </persName>
+               <note resp="#scw">A character who assists the <persName ref="#OVNarrator">narrator</persName> water her flowers during a drought in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. Name and gender not given, but it is suggested they work in the stable.</note>
+               
+            </person>
+            
+            <person xml:id="Walks_HSummer_hotBoy_OV" sex="m">
+               <persName ref="#Walks_HSummer_hotBoy_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
+               
+            </person>
+            <person xml:id="Walks_HSummer_hotBoyMom_OV" sex="f">
+               <persName ref="#Walks_HSummer_hotBoyMom_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
+            </person>
+            
+            <person xml:id="Kirby_Joe_OV" sex="m">
+               <persName ref="#Kirby_Joe_OV">
+                  <surname>Kirby</surname>
+                  <forename>Joseph</forename>
+                  <forename type="nick">Joe</forename>
+               </persName>
+               <occupation type="trade" subtype="farmAssist"/>
+               <note resp="#scw">A pleasant young cricket player who appears in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>, and a friend of the <persName ref="#OVNarrator">narrator</persName>. It is likely that this character was based on a real-life <persName ref="#Kirby_Joseph">Joseph Kirby</persName>.</note>
+            </person>
+            
+            <person xml:id="Walks_HSummer_coachman_OV" sex="m">
+               <persName ref="#Walks_HSummer_coachman_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <occupation type="trade" subtype="driver"/>
+               <note resp="#scw">The character of the coachman whom the <persName ref="#OVNarrator">narrator</persName> observes in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. He is not identified by name.</note>
+            </person>
+            
+            <person xml:id="Walks_HSummer_littleHussar_OV" sex="m">
+               <persName ref="#Walks_HSummer_littleHussar_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <note resp="#scw">Character of an 8-year old cricket player who appears in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. The <persName ref="#OVNarrator">narrator</persName> does not know his name, and so she denotes him by his dress, which resembles that of a hussar.</note>
+            </person>
+            
+            <person xml:id="Walks_HSummer_paleGirl_OV" sex="f">
+               <persName ref="#Walks_HSummer_paleGirl_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+                  <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
+               </persName>
+            </person>
+            
+            <person xml:id="Schoolmaster_OV" sex="m"><!--scw: see similar character in The Visit; consider combining into single character xml:id, as could designate the same person-->
+               <persName ref="#Schoolmaster_OV">
+                  <surname>not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <occupation type="educator" subtype="schoolmaster"/>
+               <note resp="#scw">Character of the <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> schoolmaster who is mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. Name not given.</note>
+            </person>
+            
+            <person xml:id="Sleeping_Beauty" sex="f">
+               <persName ref="#Sleeping_Beauty"></persName>
+               <note resp="#scw">Princess character made famous by <persName ref="#Perrault_Charles">Charles Perrault</persName> in his <title ref="#Stories_Tales_Times_Past">Stories or Tales of Times Past</title>, who falls asleep for one hundred years after a spindle prick, and awakens just at the moment that a prince approaches her. Perrault's version of the tale follows the princess and prince after their marriage, when the prince's ogre-mother attempts to kill the princess and her children.</note>
+            </person>
+            
+            
+            
+            <person xml:id="Welles_Master_OV" sex="m">
+               <persName ref="#Welles_Master_OV">
+                  <surname>Welles</surname>
+                  <forename>not given</forename>
+                  <roleName>Master</roleName>
+               </persName>
+               <occupation type="trade" subtype="farmer"/>
+               <occupation type="trade" subtype="farmAssist"/>
+               <note resp="#scw">Character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> as a prosperous, industrious local farmer. He is married to <persName ref="#Welles_Mrs_OV">Mrs. Welles</persName>. His forename is not given.</note>
+            </person>
+            
+            <person xml:id="Welles_Mrs_OV" sex="f">
+               <persName ref="#Welles_Mrs_OV">
+                  <surname type="married">Welles</surname>
+                  <surname type="paternal">not given</surname>
+                  <forename>not given</forename>
+               </persName>
+               <occupation type="trade" subtype="farmer"/>
+               <note resp="#scw">Character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. She is the wife of <persName ref="#Welles_Master_OV">Master Welles</persName>, and together, they run a prosperous farm in the area. Her forename is not given.</note>
+            </person>
+            
+         </listPerson>
+         
+         <listPerson sortKey="histPersons">
+            <person xml:id="Knyvett_Chas" sex="m">
+               <persName ref="#Knyvett_Chas">
+                  <surname>Knyvett</surname>
+                  <forename>Charles</forename>
+                  <roleName>Gentleman of the Chapel Royal</roleName>
+               </persName>
+               <birth when="1752-02-11">
+                  <placeName>Westminster</placeName>
+               </birth>
+               <death when="1822-01-11">
+                  <placeName>Pall Mall, London</placeName>
+               </death>
+               <!--scw: we need an occupation element for musician-->
+               <note resp="#scw">Charles Knyvett was a choral singer at Westminster Abbey and organist. He was named a Gentleman of the Chapel Royal in <date when="1786">1786</date>, in which capacity he served as organist, singer, and composer.</note>
+               <note><ref target="http://viaf.org/viaf/9786152744556127850004"/></note>
+               
+            </person>
+            
+            <person xml:id="Perrault_Charles" sex="m">
+               <persName ref="#Perrault_Charles">
+                  <surname>Perrault</surname>
+                  <forename>Charles</forename>
+               </persName>
+               <birth when="1628-01-12">
+                  <placeName>Paris</placeName>
+               </birth>
+               <death when="1703-05-17">
+                  <placeName>Paris</placeName>
+               </death>
+               <occupation type="government" subtype="clerk"/>
+               <occupation type="artist" subtype="landscape"/>
+               <occupation type="literary" subtype="essayist"/>
+               <occupation type="literary" subtype="poet"/>
+               <note resp="#scw">Best known as the popularizer of fairy tales in his book <title ref="#Stories_Tales_Times_Past">Tales and Stories of Times Past></title>, Perrault worked in various government secretarial roles, including as secretary to the Academy of Inscriptions and Belles Lettres. He was elected to the prestigious Academie francaise in <date when="1671">1671</date>. He advised on the design of the Aesop's Fables fountains in the labyrinth at the Palace of Versailles, and the Colonade section of the Louvre. He wrote treatises on painting and theater, and became an influential advocate for modern authors against those who held to strict classical standards of writing in the debate around the Moderns versus the Ancients. He began writing fairy tales after he was pushed out of his government position and subsequently lost his pension.</note>
+               <note><ref target="http://viaf.org/viaf/34461426"/></note>
+            </person>
+         </listPerson>
+         
+         
+         <listPerson sortKey="archPersons">
+            
+            <person xml:id="Jochebed" sex="f">
+               <persName ref="#Jochebed">
+                  <surname>not given</surname>
+                  <forename>Jochebed</forename>
+               </persName>
+               <note resp="#scw">The mother of <persName ref="#Moses_OT">Moses</persName>, Aaron, and Miriam.</note>
+            </person>
+            
+            <person xml:id="Jupiter" sex="m">
+               <persName ref="#Jupiter">Jupiter</persName>
+               <persName>
+                  <addName>Jove</addName>
+               </persName>
+               <persName>
+                  <addName>Zeus</addName>
+               </persName>
+               <note resp="#scw">King of the gods in ancient Roman and Greek religions, he controls the sky and the thunder. In Rome, he was known as Jove and Jupiter, while in Greece, he was called Zeus.</note>
+               
+            </person>
+            
+            <person xml:id="Moses_OT" sex="m">
+               <persName ref="#Moses_OT"></persName>
+               <note resp="#scw">The prophet of Judaic and Christian traditions who was chosen by God to lead the enslaved Israelites out of Egypt, and who delivered the Ten Commandments to the people, building a covenant between them and God. After forty years wandering in the desert, Moses led them to the promised land of Canaan, but was himself not allowed to enter.</note>
+            </person>
+            
+         </listPerson>
+         
+         <listOrg sortKey="fictOrgs">
+            <org xml:id="Walks_HSummer_cricketBoys_OV">
+               <orgName ref="#Walks_HSummer_cricketBoys_OV">cricket boys</orgName>
+               <note resp="#scw">The group of young local boys whose cricket match the <persName ref="#OVNarrator">narrator</persName> stops to watch in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. The players include <persName ref="#Eusden_Jem_OV">Jem Eusden</persName>, <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>, and the <persName ref="#Walks_HSummer_littleHussar_OV">little hussar</persName>.</note>
+            </org>
+            
+            <org xml:id="Walks_HSummer_coachOutsides_OV">
+               <orgName ref="#Walks_HSummer_coachOutsides_OV">coach outsides</orgName>
+               <note resp="#scw">The characters riding on the outside of the coach who are observed by the <persName ref="#OVNarrator">narrator</persName> during the heatwave in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
+            </org>
+            
+            <org xml:id="Walks_HSummer_coachInsides_OV">
+               <orgName ref="#Walks_HSummer_coachInsides_OV">coach insides</orgName>
+               <note resp="#scw">The characters riding on the inside of the coach who are observed by the <persName ref="#OVNarrator">narrator</persName> during the heatwave in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. They consist of <persName ref="#Walks_HSummer_fatGent_OV">the fat gentleman</persName>, <persName ref="#Walks_HSummer_hotBoy_OV">an overheated young boy</persName>,<persName ref="#Walks_HSummer_hotBoyMom_OV"> his mother</persName>, and <persName ref="#Walks_HSummer_paleGirl_OV">a pale girl</persName>.</note>
+            </org>
+            
+         </listOrg>
+         
+         <listPlace sortKey="fictPlaces">
+            <place xml:id="B_city_OV"></place><!--scw: I entered a note and xml:id for this in The Talking Gentleman backlist. I'm not sure if this one has an xml:id somewhere else in another OV file, but B is MRM's name for Reading throughout OV. We could tag as Reading or as its own separate thing.-->
+         </listPlace>
+         
+         <listPlace sortKey="histPlaces">
+            <place xml:id="Spice_Islands">
+               <placeName ref="#Spice_Islands">Spice Islands
+                  <addName>Maluku Islands</addName>
+                  <addName>the Moluccas</addName>
+               </placeName>
+               <region>Southeast Asia</region>
+               <country>Indonesia</country>
+               <location>
+                  <geo>-3.15, 129.383333</geo>
+               </location>
+               <note resp="#scw">An archipelago in the east of Indonesia that, from the seventeenth to the nineteenth centuries, was a center for the culture of cloves, mace, and nutmeg for colonizing European powers such as the Netherlands and Portugal. During <persName ref="#MRM">Mitford</persName>'s time, the region was under the control of the British.</note>
+               <note><ref target="http://viaf.org/viaf/262243501"/>
+               </note>
+            </place>
+         </listPlace>
+         
+         <listBibl sortKey="schol">
+            <bibl xml:id="Stories_Tales_Times_Past">
+            <title level="m" type="main" ref="#Stories_Tales_Times_Past">Stories or Tales of Times Past
+               <title level="m" type="sub">Tales of Mother Goose
+               </title>
+               <title level="m" type="main"><foreign xml:lang="fr">Histoire ou contes du temps passe</foreign></title>
+               <title level="m" type="sub"><foreign xml:lang="fr">les contes de ma mere l'oye</foreign></title>
+            </title>
+               <author ref="#Perrault_Charles">Charles Perrault</author>
+               <pubPlace>Paris</pubPlace>
+               <publisher>Claude Barbin</publisher>
+               <date when="1697">1697</date>
+               <note resp="#scw">Influential book of fairy tales that helped popularize such stories as <title>Cinderella; or the Little Glass Slipper</title>, <title>Little Red Riding Hood</title>, <title>The Sleeping Beauty in the Wood</title>, <title>The Master Cat; or Puss in Boots</title>and <title>Blue Beard</title>. Perrault likely based his tales on those found in earlier European collections and those of some of his contemporaries, and incorporated the style and values of French aristocratic society, ending each tale with a moral. The first English translation of the book was produced in <date when="1729">1729</date>, leading to the stories' widespread popularity in various forms and versions, including as lavishly illustrated children's books well into the nineteenth century.</note>
+            </bibl>
+            
+            <bibl xml:id="LovesLaboursLost_play">
+               <title ref="#LovesLaboursLost_play">Love's Labour's Lost</title>
+               <title type="alt">A Pleasant and Conceited Comedie Called Loves Labours Lost [sic]</title>
+               <author ref="#Shakespeare">William Shakespeare</author>
+               <pubPlace>London</pubPlace>
+               <publisher>Cutbert Burby</publisher>
+               <date when="1598">1598</date>
+               <note resp="#scw">In this early comedy, Ferdinand, the King of Navarre, and his three courtiers renounce love, but end up enamored with the Princess of France and her attendants. The play was published in the First Folio.</note>
+            </bibl>
+         </listBibl>
+         
+         <list sortKey="art">
+            <item>
+               <figure xml:id="Four_Times_Day" type="painting" rend="oil">
+               <bibl>
+                  <title level="m" ref="#Four_Times_Day">The Four Times of the Day</title>
+                  <author ref="#Hogarth">William Hogarth</author>
+                  <date from="1736" to="1738">1736-1738</date>
+               </bibl>
+                  <note resp="#scw">A four-part series of paintings by Hogarth set in different parts of <placeName ref="#London_city">London</placeName>, at distinct times of the day, and titled accordingly: Morning, Noon, Evening, and Night. Each work features figures from various classes of people going about their business. The series was engraved and published in <date when="1738">1738</date>.</note>
+               <graphic url="https://en.wikipedia.org/wiki/Four_Times_of_the_Day#/media/File:Fourtimes.jpg"/>
+                  
+            </figure>
+            </item>
+               
+         </list>
+         
+         <list sortKey="animals">
+            <item xml:id="cow"></item><!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
+            <item xml:id="horse"></item><!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
+            <item xml:id="dog"></item><!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
+            <item xml:id="chicken"></item>
+            <item xml:id="pig"></item>
+            <item xml:id="goose"></item>
+            <item xml:id="duck"></item>
+            
+            
+            </list>
+         
+         <list sortKey="plants">
+            <item xml:id="campanula"></item><!--scw: already in SI-->
+            <item xml:id="clove"></item><!--scw: already in SI-->
+            <item xml:id="dahlia"></item><!--already in SI-->
+            <item xml:id="forget_me_not"></item><!--scw: already in SI-->
+            <item xml:id="foxglove"></item><!--scw: already in SI-->
+            <item xml:id="elm"></item><!--scw: already in SI-->
+            <item xml:id="geranium"></item><!--scw already in SI-->
+            
+            <item xml:id="hollyhock"></item><!--scw already in SI-->
+            
+            <item xml:id="tiger_lily">
+               <name ref="#tiger_lily">tiger lily</name>
+              
+               <note resp="#scw">A species of lily native to Asia and eastern Russia, but that can also be cultivated in Europe and North America, the tiger lily grows from bulbs, and possesses orange and black petals that reach backward.</note>
+            </item>
+            
+            <item xml:id="tuberose"></item><!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
+            
+         </list>
+         
+      </back>
+   </text>
+</TEI>

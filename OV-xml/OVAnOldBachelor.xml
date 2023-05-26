@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+
+         <titleStmt>
+            <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+
+
+            <editor ref="#scw">Samantha Webb</editor>
+            <editor>Alexandra Drayton</editor>
+
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal ref="#ebb">Elisa Beshero-Bondar</principal>
+
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#jmh">Jonathan M. Horanic</persName>
+               <persName ref="#scw">Samantha Webb</persName>
+               <persName ref="#sbb">Sylvan Baker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName>Elisa Beshero-Bondar</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>This is optional, used to describe this edition, and “should contain phrases
+               describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+               P5.</edition>
+            <respStmt>
+               <resp>We can include a respStmt here.</resp>
+               <persName>Who?</persName>
+            </respStmt>
+
+         </editionStmt>
+
+
+
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+            <note>You can have multiple notes here.</note>
+         </notesStmt>
+
+         <sourceDesc>
+            <!--2017-01-10 ebb: We need to change this sourceDesc to indicate we’re checking each text and altering it to represent the 1824 edition as published in NCCO. -->
+            <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+            <p>Our text is based on public domain, Google-digitized text<bibl>
+                  <title level="m" ref="#OV">Our Village: Sketches of Rural Character and Scenery</title><edition>Third
+                     Edition</edition> by <author ref="#MRM">Mary Russell
+                     Mitford</author><pubPlace ref="#London_city">London</pubPlace><publisher ref="#Whittaker_Geo">Geo. B.
+                     Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+               </bibl> This text appears to be identical in pagination and content to the first
+               edition published in 1824. </p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="sketch">
+            <pb n="177"/>
+            <head><title level="a" ref="#Old_Bachelor_OV">AN OLD BACHELOR</title>.
+            </head>
+            <p>There is no effect of the subtle operation of the association of ideas more universal
+               and more curious than the manner in which the most trivial circumstances recall
+               particular persons to our memory. Sometimes these glances of recollection are purely
+               pleasurable. Thus <persName ref="#OVNarrator">I</persName> have a double liking for <date when="--05-01">May-day</date>, as being the birth-day of a
+               dear friend whose fair idea bursts upon me with the first sunbeam of that glad
+               morning; and I can never hear certain airs of <persName ref="#Mozart">Mozart</persName> and <persName ref="#Handel">Handel</persName> without seeming to
+               catch an echo of that sweetest voice in which I first learnt to love them. Pretty
+               often, however, the point of association is less elegant, and occasionally it is
+               tolerably ludicrous. <orgName ref="#OVNarratorsFamily">We</orgName> happened to-day to have for dinner a couple of wild-ducks,
+               the first of the season; and as the <rs type="person" ref="#OVNarratorsFather">master of the house</rs>, who is so little of an
+               epicure that I am sure he would never while he lived, out of its feathers, know a
+               wild-duck from a tame,—whilst he, with a little affectation of science, was squeezing
+               the lemon and mixing Cayenne pepper with the gravy, two<pb n="178"/> of us exclaimed
+               in a breath, <said who="#OVNarrator OVNarratorsMother" direct="true" aloud="true">“Poor <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>”</said>—<said who="#OVNarratorsFather" direct="true" aloud="true">“Aye,”</said> rejoined the <rs type="person" ref="#OVNarratorsFather">squeezer of lemons</rs>, <said who="#OVNarratorsFather">“poor <persName ref="#Sidney_Mr_OV">Sidney</persName>!
+                  I think he would have allowed that these ducks were done even to half a turn.”</said> And
+               then he told the story more elaborately to a <rs type="person" ref="#OldBach_young_visitor_OV">young visitor</rs>, to whom <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> was
+               unknown;—how, after eating the best parts of a couple of wild-ducks, which all the
+               company pronounced to be the finest and the best dressed wild-ducks ever brought to
+               table, that <rs type="person" ref="#Sidney_Mr_OV">judicious critic in the gastronomic art</rs> limited the too-sweeping praise
+               by gravely asserting, that the birds were certainly excellent, and that the cookery
+               would have been excellent also, had they not been roasted half a turn too much. <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> has been dead these fifteen years; but no wild-ducks have ever appeared on our
+               homely board without recalling that observation. It is his memorable saying; his one
+               good thing.</p>
+            <p><persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> was, as might be conjectured, an epicure; he was also an old bachelor, a
+               clergyman, and senior fellow of <placeName ref="#OldBach_college_OV">* * College</placeName><!--scw: NEED TO FIG OUT HOW TO CODE ELLIPSES-->, a post which he had long filled, being,
+               although only a second son, so well provided for that he could afford to reject
+               living after living in expectation of one favourite rectory, to which he had taken an
+               early fancy from the pleasantness of the situation and the imputed salubrity of the
+               air. Of the latter quality, indeed, he used to give an instance, which, however
+               satisfactory as confirming his pre-<pb n="179"/>possession, could hardly have been
+               quite agreeable, as preventing him from gratifying it;—namely, the extra-ordinary
+               and provoking longevity of <rs type="person" ref="#OldBach_incumbent_OV">the incumbent</rs>, who at upwards of ninety gave no sign of
+               decay, and bade fair to emulate the age of <persName ref="#Old_Parr">Old Parr</persName>.</p>
+            <p>Whilst waiting for the expected living, <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>, who disliked a college residence,
+               built himself a very pretty house in <rs type="place" ref="#Shinfield">our neighbourhood</rs>, which he called his home; and
+               where he lived, as much as a love of <placeName ref="#Bath_city">Bath</placeName> and <placeName ref="#Brighton">Brighton</placeName> and <placeName ref="#London_city">London</placeName> and lords would let
+               him. He counted many noble families amongst his near connextions, and passed a good
+               deal of his time at their country seats—a life for which he was by character and
+               habit peculiarly fitted.</p>
+            <p>In person he was a tall stout gentlemanly man, <quote>“about fifty, or by’r lady inclining
+               to threescore,”</quote><note resp="#sbb #scw">A quotation from <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#HenryIVpt1_play">Henry IV Part 1</title>, Act II, scene xi. <persName ref="#MRM">Mitford</persName> slightly misquotes the line, which is spoken by <persName ref="#Falstaff_WS">Falstaff</persName> to Prince Hal.</note> with fine features, a composed gravity of countenance and demeanour,
+               a bald head most accurately powdered, and a very graceful bow—quite the pattern of an
+               elderly man of fashion. His conversation was in excellent keeping with the calm
+               imperturbability of his countenance and the sedate gravity of his manner,—smooth,
+               dull, common-place, exceedingly safe, and somewhat imposing. He spoke so little, that
+               people really fell into the mistake of imagining that he thought; and the tone of
+               decision with which he would advance some second-hand opinion, was well calculated to
+               confirm the<pb n="180"/> mistake. Gravity was certainly his chief characteristic, and
+               yet it was not a clerical gravity either. He had none of the generic marks of his
+               profession. Although perfectly decorous in life and word and thought, no stranger
+               ever took <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> for a clergyman. He never did any duty any where, that ever I
+               heard of, except the agreeable duty of saying grace before dinner; and even that was
+               often performed by some lay host, in pure forgetfulness of his guest’s ordination.
+               Indeed, but for the direction of his letters, and an eye to <placeName ref="#OldBach_Rectory_OV">* * * Rectory</placeName>, I am
+               persuaded that the circumstance might have slipped out of his own recollection.</p>
+            <p>His quality of old bachelor was more perceptible. There lurked under all his polish,
+               well covered but not concealed, the quiet selfishness, the little whims, the precise
+               habits, the primness and priggishness of that disconsolate condition. His man
+               <persName ref="#Andrews_OV">Andrews</persName>, for instance, valet, groom, and body-servant abroad; butler, cook, caterer,
+               and major domo at home; tall, portly, powdered and black-coated as <rs type="person" ref="#Sidney_Mr_OV">his master</rs>, and
+               like him in all things but the knowing pig-tail which stuck out horizontally above
+               his shirt-collar, giving a ludicrous dignity to his appearance;—<persName ref="#Andrews_OV">Andrews</persName>, who,
+               constant as the dial pointed nine, carried up his chocolate and shaving water, and
+               regular as <quote>“the chimes at midnight,”</quote><note resp="#sbb">a quotation from <title ref="#Macbeth_play">Macbeth</title></note> prepared his white-wine whey; who never forgot
+               his gouty shoe in travelling, (once for two days he<pb n="181"/> had a slight touch
+               of that gentlemanly disorder,) and never gave him the newspaper unaired;—to whom
+               could <rs type="person" ref="#Andrews_OV">this jewel of a valet</rs>, <rs type="person" ref="#Andrews_OV">this matchless piece of clockwork</rs> belong, but an old
+               bachelor? And his little dog <rs type="person" ref="#Viper_pet_OV">Viper</rs>, unparagoned of terriers, black, sleek, sharp, and
+               shrewish; who would beg and sneeze and fetch and carry like a Christian; eat olives
+               and sweetmeats and mustard, drink coffee and wine and liqueurs;—who but an old
+               bachelor could have taught <rs type="person" ref="#Viper_pet_OV">Viper</rs> his multifarious accomplishments?</p>
+            <p><rs type="person" ref="#Viper_pet_OV">Little Viper</rs> was a most useful person in his way; for although <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> was a very
+               creditable acquaintance to meet on the King's highway,<note resp="#scw">The King's highway refers to the customary public right of way from village to village, even across someone else's property. Source: <bibl corresp="#English_Local_Gov">English Local Government: The Story of the King's Highway.</bibl>.</note>(your dull man, if he rides
+               well, should never think of dismounting,) or even on the level ground of a carpet in
+               the crowd of a large party; yet when he happened to drop in to take a family dinner—a
+               pretty frequent habit of his when in the country—then <rs type="person" ref="#Viper_pet_OV">Viper</rs>’s talents were
+               inestimable in relieving the ennui occasioned by that grave piece of gentility <rs type="person" ref="#Sidney_Mr_OV">his master</rs>, <quote>“not only dull in himself, but the cause of <emph>dullness</emph> in others.”</quote><note resp="#sbb #scw">Attributed to <persName ref="#Foote_Samuel">Samuel Foote</persName> by <persName ref="#Boswell">Boswell</persName> in <title ref="#Life_Johnson">Life of Johnson</title>.</note> Any thing to
+               pass away the heavy hours, till whist or piquet relieved the female world from his
+               intolerable silence.</p>
+            <p>In other respects these visits were sufficiently perplexing. Every housewife can tell
+               what a formidable guest is an epicure who comes to take pot-luck—how sure it is to be
+               bad luck, especially when the unfortu-<pb n="182"/>nate hostess lives five miles from
+               a market town. <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> always came unseasonably, on washing-day, or Saturday, or
+               the day before a great party. So sure as <orgName ref="#OVNarratorsFamily">we</orgName> had a scrap dinner, so sure came he. <persName ref="#OVNarratorsMother">My dear mother</persName>, who with true benevolence and hospitality cared much for her guest’s
+               comfort and nothing for her own pride, used to grieve over his discomfiture, and try
+               all that could be done by potted meats and omelettes, and little things tossed up on
+               a sudden to amend the bill of fare. But cookery is an obstinate art, and will have
+               its time;—however you may force the component parts, there is no forcing a dinner.
+               <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> had the evil habit of arriving just as the last bell rang; and in spite of
+               all the hurry scurry in the kitchen department, the new niceties and the old, homely
+               dishes were sure to disagree. There was a total want of keeping. The kickshaws were
+               half raw, the solids were mere rags; the vegetables were cold, the soup was scalding:
+               no shallots to the rump steaks; no mushrooms with the broiled chicken; no fish; no
+               oysters; no ice; no pineapples. Poor <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>! He must have had a great regard for
+               us to put up with our bad dinners.</p>
+            <p>Perhaps the chance of a rubber had something to do with his visits to our house. If
+               there be such a thing as a ruling passion, the love of whist was his. Cards were not
+               merely the amusement, but the business of his life. I do not mean as a money-making
+                  speculation;<pb n="183"/> for although he belonged to a fashionable club in
+               <placeName ref="#London_city">London</placeName>, and to every card-meeting of decent gentility within reach of his country
+               home, he never went beyond a regular moderate stake, and could not be induced to bet
+               even by the rashest defyer of calculation, or the most provoking undervaluer of his
+               play. It always seemed to me that he regarded whist as far too important and
+               scientific a pursuit to be degraded into an affair of gambling. It had in his eyes
+               all the dignity of a study; an acquirement equally gentlemanly and clerical. It was
+               undoubtedly his test of ability. He had the value of a man of family and a man of the
+               world, for rank, and wealth, and station, and dignities of all sorts. No human being
+               entertained a higher respect for a king, a prince, a prime minister, a duke, a
+               bishop, or a lord. But these were conventional feelings. His genuine and unfeigned
+               veneration was reserved for him who played a good rubber,<note resp="#scw">A tie-breaking game in a series.</note> a praise he did not easily
+               give. He was a capital player himself, and held all his <orgName type="org" ref="#OldBach_whist_competitors_OV">country competitors</orgName>, except
+               <rs type="person" ref="#OldBach_Sidney_whist_opponent_OV">one</rs>, in supreme and undisguised contempt, which they endured to admiration. I wonder
+               they did not send him to Coventry. He was the most disagreeable partner in the world,
+               and nearly as unpleasant an adversary; for he not only enforced the Pythagorean law
+               of science, which makes one hate whist so, but used to distribute quite impartially
+               to every one at table little disagreeable observations on<pb n="184"/> every card
+               they played. It was not scolding, or grumbling, or fretting; one has a sympathy with
+               those expressions of feeling, and at the worst can scold again; it was a smooth
+               polite commentary on the errors of the party, delivered in the calm tone of undoubted
+               superiority with which a great critic will sometimes take a small poet, or a batch of
+               poets, to task in a review. How the people could bear it!—but the world is a
+               good-natured world, and does not like a man the less for treating it scornfully.</p>
+            <p>So passed six evenings out of the seven with <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>; for it was pretty well known
+               that, on the rare occurrence of his spending a day at home without company, his
+               fac-totum <persName ref="#Andrews_OV">Andrews</persName> used to have the honour of being beaten by his master in a snug
+               game at double dumby<note resp="#sbb">A resulting move in the game of bridge when all fifty-two cards can be seen by all the players</note>; but what he did with himself on Sunday occasioned me some
+               speculation. Never in my life did I see him take up a book, although he sometimes
+               talked of <persName ref="#Shakespeare">Shakespeare</persName> and <persName ref="#Milton">Milton</persName>, and <persName ref="#Johnson">Johnson</persName> and <persName ref="#Burke_E">Burke</persName>, in a manner which proved that
+               he had heard of such things; and as to the newspaper, which he did read, that was
+               generally conned over long before night; besides he never exhibited spectacles, and I
+               have a notion that he could not read newspaper type at night without them. How he
+               could possibly get through the after-coffee hours on a Sunday puzzled me long. Chance
+               solved the problem. He came to call on <orgName ref="#OVNarratorsFamily">us</orgName> after<pb n="185"/> church, and agreed to
+               dine and sleep at our house. The moment tea was over, without the slightest apology
+               or attempt at conversation, he drew his chair to the fire, set his feet on the
+               fender, and fell fast asleep in the most comfortable and orderly manner possible. It
+               was evidently a weekly habit. Every sense and limb seemed composed to it. <rs type="person" ref="#Viper_pet_OV">Viper</rs>
+               looked up in his face, curled himself round on the hearth rug, and went to sleep too;
+               and <persName ref="#Andrews_OV">Andrews</persName>,just as the clock struck twelve, came in to wake him, that he might go to
+               bed. It was clearly an invariable custom; a settled thing.</p>
+            <p>His house and grounds were kept in the neatest manner possible. There was something
+               even disagreeable in the excessive nicety, the Dutch preciseness of the shining
+               gravel walks, the smooth shaven turf of the lawn, and the fine-sifted mould of the
+               shrubberies. A few dead leaves or scattered flowers, even a weed or two, any thing to
+               take away from the artificial toy-like look of the place, would have been an
+               improvement. <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>, however, did not think so. He actually caused his <persName ref="#OldBach_gardener_OV"></persName>gardener
+               to remove those littering plants called <rs type="plant" ref="#rose">roses</rs> and <rs type="plant" ref="#cistus">gum cistuses</rs>. Other flowers fared
+               little better. No sooner were they in bloom, than <rs type="person" ref="#OldBach_gardener_OV">he</rs> pulled them up for fear they
+               should drop. In doors, matters were still worse. The rooms and furniture were very
+               handsome, abounding in the luxurious Turkey carpets, the sofas, easy chairs, and
+                  ottomans,<pb n="186"/> which his habits required; and yet <persName ref="#OVNarrator">I</persName> never in my life saw
+               any house which looked less comfortable. Every thing was so constantly in its place,
+               so provokingly in order, so full of naked nicety, so thoroughly old-bachelorish. No
+               work! no books! no music! no flowers! But for those two things of life, <rs type="person" ref="#Viper_pet_OV">Viper</rs> and a
+               sparkling fire, one might have thought the place uninhabited. Once a year, indeed, it
+               gave signs of animation, in the shape of a Christmas party. That was <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>’s
+               shining time. Nothing could exceed the smiling hospitality of <rs type="person" ref="#Sidney_Mr_OV">the host</rs>, or the lavish
+               profusion of the entertainment. It breathed the very spirit of a welcome splendidly
+               liberal; and <rs type="person" ref="#Viper_pet_OV">little Viper</rs> frisked and bounded, and <persName ref="#Andrews_OV">Andrews</persName>’s tail vibrated (I was
+               going to say wagged) with cordiality and pleasure. <persName ref="#Andrews_OV">Andrews</persName>, on these occasions,
+               laid aside his <soCalled>"customary black”</soCalled> in favour of a blue coat and a white silk court
+               waistcoat, with a light running pattern of embroidery and silver spangles, assumed to
+               do honour to <rs type="person" ref="#Sidney_Mr_OV">his master</rs> and <orgName type="org" ref="#OldBach_party_guests_OV">the company</orgName>. How much he enjoyed the applause which the
+               wines and the cookery elicited from the <orgName type="org" ref="#OldBach_party_guests_OV">gentlemen</orgName>; and how anxiously he would direct
+               the <orgName type="org" ref="#OldBach_party_guests_OV">ladies</orgName>’ attention to a <abbr>MS.</abbr> collection of riddles, the compilation of some
+               deceased countess, laid on the drawing-room table for their amusement between dinner
+               and tea. Once, I remember, he carried his attention so far as to produce a gone-by
+               toy, called a bandalore, for the recreation of<pb n="187"/> <persName ref="#OVNarrator">myself</persName> and another <rs type="person" ref="#OldBach_girl_OV">little
+                  girl</rs>, admitted by virtue of the Christmas holidays to this annual festival. Poor
+               <persName ref="#Andrews_OV">Andrews</persName>! I am convinced that he considered the entertainment of <rs type="org" ref="#OldBach_party_guests_OV">the visitors</rs> quite as 
+                  much his affair as <rs type="person" ref="#Sidney_Mr_OV">his master</rs>’s; and certainly they both succeeded. Never did parties 
+                  pass more pleasantly. On those evenings <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> even forgot to find fault at whist.
+            </p>
+            <p>At last, towards the end of a severe winter, during which he had suffered much from
+               repeated colds, the <placeName ref="#OldBach_rectory_OV">rectory of * * *</placeName> became vacant, and our worthy neighbour
+               hastened to take possession. The day before his journey he called on <rs type="org" ref="#OVNarratorsFamily">us</rs> in the
+               highest spirits, anticipating a renewal of health and youth in this favourite spot,
+               and approaching nearer than I had ever heard him to a jest on the subject of looking
+               out for a wife. Married or single, he made us promise to visit him during the ensuing
+               summer. Alas! long before the summer arrived, <rs type="person" ref="#Sidney_Mr_OV">our poor friend</rs> was dead. He had waited
+               for this living thirty years; he did not enjoy it thirty days.</p>
+         </div>
+      </body>
+      <back>
+         <listPerson sortKey="histPersons">
+            <person xml:id="Old_Parr" sex="m">
+               <persName ref="#Old_Parr">
+                  <forename>Thomas</forename>
+                  <surname>Parr</surname>
+               </persName>
+               <birth when="1483">1483
+                  <placeName>Alderbury, Shropshire</placeName>
+               </birth>
+               <death when="1635">1635
+               <placeName ref="#London_city">London</placeName></death>
+               <note resp="#sbb #scw">Commonly known as Old Parr, Thomas Parr became something of a celebrity due to his supposed longevity of over 150 years. After his death, an autopsy found that he was likely closer to seventy years old. He is buried in <placeName ref="#Westminster_Abbey">Westminster Abbey</placeName>.</note>
+            </person>
+            
+            <person xml:id="Foote_Samuel" sex="m">
+               <persName ref="#Foote_Samuel">
+                  <forename>Samuel</forename>
+                  <surname>Foote</surname>
+               </persName>
+               <birth when="1720-01">January 1720
+                  <placeName>Truro, Cornwall</placeName>
+               </birth>
+               <death when="1777-10-21">October 21, 1777
+               <placeName>Dover</placeName>
+               </death>
+               <occupation type="theater" subtype="actor"/>
+               <occupation type="theater" subtype="manager"/>
+               <occupation type="literary" subtype="playwright"/>
+               <note resp="#scw">After failing at law and squandering his fortune, Samuel Foote became an actor on the <placeName ref="#Dublin">Dublin</placeName> and <placeName ref="#London_city">London</placeName> stages, noted for his skills in mimicry, which he used to mock fellow actors and other celebrities. He acted at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> (where he was joint-manager) and  <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. He succeeded in gaining a lease on <placeName ref="#Haymarket_Theatre">the Haymarket Theater</placeName>, where he performed his own works of mimicry, which he styled <q>"teas"</q> to avoid licensing laws. The bulk of his theatrical works are satirical plays, often provoking to his contemporaries, particularly <persName ref="#Fielding_Henry">Henry Fielding</persName>. Nevertheless, he earned the admiration of <persName ref="#Johnson">Johnson</persName>, and the cautious friendship of <persName ref="#Garrick_David">David Garrick</persName>.</note>
+               <note><ref target="http://viaf.org/viaf/29561715"/></note>
+            </person>
+
+         </listPerson>
+         
+            <listPerson sortKey="fictPersons">
+               <person xml:id="Sidney_Mr_OV" sex="m">
+                  <persName ref="#Sidney_Mr_OV">Mr. Sidney
+                     <forename>Not given</forename>
+                     <surname>Sidney</surname>
+                  </persName>
+                  <occupation type="religious" subtype="curate"/>
+                  <occupation type="educator"/>        
+                  <note resp="#sbb #scw">The main character of <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+           
+               <person xml:id="Andrews_OV" sex="m">
+                  <persName ref="#Andrews_OV">Andrews
+                     <forename>Not given</forename>
+                     <surname>Andrews</surname>
+                  </persName>
+                  <occupation type="service" subtype="majordomo"/>
+                  <occupation type="service" subtype="cook"/>
+                  <note resp="#sbb #scw">Character who serves as the main servant to <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>'s in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>, and acts on behalf of the household owner.</note>
+               </person>
+          
+               <person xml:id="OldBach_gardener_OV" sex="m">
+                  <persName ref="#OldBach_gardener_OV">
+                     <forename>Not given</forename>
+                     <surname>Not given</surname>
+                  </persName>
+                  <note resp="#sbb #scw">Character of the gardener to <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>, who appears in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+               <person xml:id="OldBach_girl_OV" sex="f">
+               <persName ref="#OldBach_girl_OV">girl at party in An Old Bachelor
+                  <forename>Not given</forename>
+                  <surname>Not given</surname>
+               </persName>
+                  <note resp="#scw">A young girl mentioned in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title> who attends <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>'s Christmas parties along with <persName ref="#OVNarrator">the narrator</persName> when she was a child.</note>
+               </person>
+               
+               <person xml:id="OldBach_incumbent_OV" sex="m">
+                  <persName ref="#OldBach_incumbent_OV">Old Bachelor incumbent
+                  <forename>Not given</forename>
+                  <surname>Not given</surname>   
+                  </persName>
+                  <occupation type="religious" subtype="curate"/>
+                  <note resp="#scw">Character of the long-lived occupant of <placeName ref="#OldBach_Rectory_OV">the unnamed rectory</placeName>that <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> is waiting to occupy in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+               <person xml:id="OldBach_Sidney_whist_opponent_OV" sex="u">
+                  <persName ref="#OldBach_Sidney_whist_opponent_OV">Mr. Sidney's whist opponent
+                     <forename>Not given</forename>
+                     <surname>Not given</surname>
+                  </persName>
+                  <note resp="#scw">A significant opponent of <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> at whist in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+               <person xml:id="OldBach_young_visitor_OV" sex="u">
+                  <persName ref="#OldBach_young_visitor_OV">young visitor in An Old Bachelor
+                     <forename>Not given</forename>
+                     <surname>Not given</surname>
+                  </persName>
+                  <note resp="#scw">Character who is visiting the <orgName ref="#OVNarratorsFamily">Our Village narrator's family</orgName> when the story of <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> is told in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+               
+               
+               <person xml:id="Viper_pet_OV" sex="m">
+                  <persName ref="#Viper_pet_OV">Viper</persName>
+                  <note resp="#sbb"><persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>'s pet terrier in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+            </listPerson>
+         
+            <listPlace sortKey="fictPlaces">
+               <place xml:id="OldBach_Rectory_OV">
+                  <placeName ref="#OldBach_Rectory_OV">Rectory in An Old Bachelor</placeName>
+                  <note resp="#scw">The unnamed rectory that <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> waits most of his adult life to occupy in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </place>
+               
+               <place xml:id="OldBach_college_OV">
+                  <placeName ref="#OldBach_college_OV">* * College in An Old Bachelor</placeName>
+                  <note resp="#scw">The unnamed College where <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>is a fellow while awaiting a vacancy at <placeName ref="#OldBach_Rectory_OV">the unnamed rectory</placeName> in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </place>
+            </listPlace>
+         
+         
+           <listOrg sortKey="fictOrgs"><!--scw: integrate into si-add fictional people OV file-->
+               <org xml:id="OVNarratorsFamily">
+               <orgName ref="#OVNarratorsFamily">OV Narrator's nuclear family</orgName>
+               <note resp="#sbb #scw">The nuclear family of the <persName ref="#OVNarrator">Our Village narrator</persName>, which consists of herself, her father, and her mother, closely mirroring <orgName ref="#Mitfords">the Mitfords</orgName>. The family is not always directly specified, and will often be referred to as <q>"we"</q> and <q>"our"</q> when the narrator speaks.</note>
+               </org>
+              
+              <org xml:id="OldBach_whist_competitors_OV"><orgName ref="#OldBach_whist_competitors_OV">competitors of Mr. Sidney at whist</orgName>
+                 <note resp="#scw">The assorted characters with whom <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName> plays whist in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+              </org>
+              
+              <org xml:id="OldBach_party_guests_OV">
+                 <orgName ref="#OldBach_party_guests_OV">party guests of Mr. Sidney</orgName>
+                 <note resp="#scw">Guests at the annual Christmas party of <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>, the protagonist of <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+              </org>
+            </listOrg>
+            
+            <listBibl sortKey="schol">
+               
+               <bibl xml:id="English_Local_Gov">
+                  <title ref="#English_Local_Gov">English Local Government: The Story of the King's Highway</title>
+                  <author>Sidney Webb</author>
+                  <author>Beatrice Webb</author>
+                  <publisher>Longman, Green &amp; Co.</publisher>
+                  <date when="1913">1913</date>
+               </bibl>
+               
+               <bibl xml:id="Life_Johnson">
+                  <title ref="#Life_Johnson">Life of Samuel Johnson, L.L.D.</title>
+                  <author>James Boswell</author>
+                  <publisher>Charles Dilly</publisher>
+                  <date>1791</date>
+                  <note resp="#scw">Influential and controversial biography of <persName ref="#Johnson">Samuel Johnson</persName> that came to set a standard for life-writing in the eighteenth and nineteenth centuries.</note>
+               </bibl>
+               
+               
+            </listBibl>
+        
+         <list sortKey="plants">
+            
+            
+            <item xml:id="rose"></item><!--scw 7/27/22: in SI but not being picked up-->
+         </list>
+            
+           
+         
+      </back>
+   </text>
+</TEI>

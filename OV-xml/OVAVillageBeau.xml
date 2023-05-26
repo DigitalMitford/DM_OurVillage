@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+
+
+         <titleStmt>
+            <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+            <author>Mary Russell Mitford</author>
+
+
+            <editor ref="#scw">Samantha Webb</editor>
+            <editor ref="#ad">Alexandra Drayton</editor>
+
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal ref="#ebb">Elisa Beshero-Bondar</principal>
+
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jonathan M. Horanic</persName>
+               <persName ref="#scw">Samantha Webb</persName>
+               <persName ref="#SCR">Susannah Ritchey</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>This is optional, used to describe this edition, and “should contain phrases
+               describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+               P5.</edition>
+            <respStmt>
+               <resp>We can include a respStmt here.</resp>
+               <persName>Who?</persName>
+            </respStmt>
+
+         </editionStmt>
+
+
+
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+            <note>You can have multiple notes here.</note>
+         </notesStmt>
+
+         <sourceDesc>
+            <!--2017-01-10 ebb: We need to change this sourceDesc to indicate we’re checking each text and altering it to represent the 1824 edition as published in NCCO. -->
+            <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+            <p>Our text is based on public domain, Google-digitized text<bibl>
+                  <title ref="#OV">Our Village: Sketches of Rural Character and Scenery</title><edition>Third
+                     Edition</edition> by <author ref="#MRM">Mary Russell
+                     Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
+                     Whittaker</publisher><placeName>Ave Maria Lane</placeName><date when="1825">1825</date>.
+               </bibl> This text appears to be identical in pagination and content to the first
+               edition published in 1824. </p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="sketch">
+            <pb n="188"/>
+            <head><title level="a" ref="#Village_Beau_OV">A VILLAGE BEAU</title>.
+               <!--ebb: If there’s a subtitle use an <lb/> element to separate -->
+            </head>
+            <p>The finest young man in our village is undoubtedly <persName ref="#Brent_Joel_OV">Joel Brent</persName>, half-brother to my
+               <persName ref="#Lizzy_OV">Lizzy</persName>. They are alike too; as much alike as a grown-up person and a little child of
+               different sexes well can be; alike in a vigorous uprightness of form, light, firm,
+               and compact as possible; alike in the bright, sparkling, triumphant blue eye, the
+               short-curled upper lip, the brown wavy hair, the white forehead and sunburnt cheeks,
+               and, above all, in the singular spirit and gaiety of their countenance and demeanour,
+               the constant expression of life and glee, to which they owe the best and rarest
+               part of their attractiveness. They seem, and they are two of the happiest and
+               merriest creatures that ever trod on the greensward. Really to see <persName ref="#Brent_Joel_OV">Joel</persName> walking by
+               the side of his team, (for this enviable mortal, the pride of our village, is by
+               calling a carter), to see him walking, on a fine sunny morning, by the side of his
+               bell-team, the fore-horse decked with ribbons and flowers like a countess on the
+               birth-day, as<pb n="189"/> consciously handsome as his driver, the long whip poised
+               gracefully on his shoulder, his <rs type="person" ref="#Lizzy_OV">little sister</rs> in his hand, and his dog <rs type="person" ref="#Ranger_dog_OV">
+               beautiful red and white spaniel</rs>—every thing that belongs to <persName ref="#Brent_Joel_OV">Joel</persName> is beautiful)
+               frisking about them;—to see this group, and to hear the merry clatter formed by
+               <persName ref="#Lizzy_OV">Lizzy</persName>'s tongue, <persName ref="#Brent_Joel_OV">Joel</persName>'s whistling, and <rs type="person" ref="#Ranger_dog_OV">Ranger</rs>'s delighted bark, is enough to put an
+               amateur of pleasant sounds and happy faces in good humour for the day.</p>
+            <p>It is a grateful sight in other respects, for <persName ref="#Brent_Joel_OV">Joel</persName> is a very picturesque person, just
+               such an one as a painter would select for the fore-ground of some English landscape,
+               where nature is shewn in all her loveliness. His costume is the very perfection of
+               rustic coquetry, of that grace, which all admire and few practise, the grace of
+               adaptation, the beauty of fitness. No one ever saw <persName ref="#Brent_Joel_OV">Joel</persName> in that wretched piece of
+               deformity a coat, or that still wretcheder apology for a coat a dock-tailed jacket.
+               Broad-cloth, the <quote>“common stale”</quote><note resp="#scw">Mitford is quoting from <title ref="#Much_Ado_play">Much Ado About Nothing</title>, Act 4, scene 1. This is Don Pedro's response to Leonato: <l>What should speak? </l>I stand dishonoured, that have gone about <l>To link my dear friend to a common stale.</l></note> of peer and peasant, approaches him not; neither does
+               <quote>“the poor creature,”</quote><note resp="#scw">Mitford may be quoting from <title ref="#HenryIVpt2_play">Henry IV, Part 2</title>, Act 2, scene 2. In a rejoinder to Poins, <persName ref="#Prince_Hal_WS">Prince Hal</persName> refers to small beer as "the poor creature," and attacks Poins' clothes and bad habits.</note> fustian. His upper garment consists of that prettier jacket
+               without skirts, call it for the more grace a doublet, of dark velveteen, hanging open
+               over his waistcoat, giving a Spanish or an Italian air to his whole appearance, and
+               setting off to great advantage his trim yet manly shape. To this he adds a silk
+               handkerchief, tied very loosely round his neck,<pb n="190"/> a shirt collar open so
+               as to shew his throat, as you commonly see in the portraits of artists, very loose
+               trowsers, and a straw hat. Sometimes in cold weather he throws over all a
+               smock-frock, and last winter brought up a fashion amongst our lads, by assuming one
+               of that blue hight Waterloo, such as butchers wear. As soon as all his comrades had
+               provided themselves with a similar piece of rustic finery, he abandoned his, and
+               indeed generally sticks to his velveteen jacket, which, by some magical influence of
+               cleanliness and neatness, always looks new. I cannot imagine how he contrives it, but
+               dirt never hangs upon <persName ref="#Brent_Joel_OV">Joel</persName>; even a fall at cricket in the summer, or a tumble on the
+               ice in the winter, fails to soil him; and he is so ardent in his diversions, and so
+               little disposed to let his coxcombry interfere with his sports, that both have been
+               pretty often tried; the former especially.</p>
+            <p>Ever since <persName ref="#Grey_William_OV">William Grey</persName>'s secession, which took place shortly after our great match,
+               for no cause assigned, <persName ref="#Brent_Joel_OV">Joel</persName> has been the leader and chief of our cricketers. Perhaps,
+               indeed, <persName ref="#Brent_Joel_OV">Joel</persName>'s rapid improvement might be one cause of <persName ref="#Grey_William_OV">William</persName>'s withdrawal, for,
+               without attributing any thing like envy or jealousy to these fine young men, we all
+               know that “two stars keep not their motion in one sphere,”<note resp="#SCR">Mitford is quoting from <title ref="#HenryIVpt1_play">Henry IV Part 1</title>, from Act 5, Scene 4, line 64. In this scene, <persName ref="#Hotspur_Harry_WS">Harry Hotspur</persName> and <persName ref="#Prince_Hal_WS">Prince Hal</persName> discuss how only one of them can ascend to the English throne.</note> and so forth, and if it
+               were absolutely necessary that either our <quote>"<persName ref="#Hotspur_Harry_WS">Harry Hotspur</persName>, or <rs type="person" ref="#Prince_Hal_WS">the Prince of Wales</rs>,"</quote>
+               should abdi-<pb n="191"/>cate that fair kingdom the cricket-ground, I must say that I
+               am content to retain <rs type="person" ref="#Brent_Joel_OV">our present champion</rs>. <persName ref="#Brent_Joel_OV">Joel</persName> is in my mind the better player,
+               joining to <persName ref="#Grey_William_OV">William</persName>'s agility, and certainty of hand and eye, all the ardour, force,
+               and gaiety of his own quick and lively spirit. The whole man is in the game, mind and
+               body; and his success is such as dexterity and enthusiasm united must always command.
+               To be sure he is a <emph rend="italics">leetle</emph> over eager, <emph rend="italics">that</emph> I must confess, and does occasionally run
+               out a slow mate; but he is sure to make up for it by his own exertions, and after all
+               what a delightful fault zeal is! Now that we are on the subject of faults, it must be
+               said, not that <persName ref="#Brent_Joel_OV">Joel</persName> has his share, which is of course, but that they are exceedingly
+               venial, little shades that become him, and arise out of his brighter qualities as
+               smoke from the flame. Thus, if he sometimes steals one of his active holidays for a
+               revel or a cricket-match, he is sure to make up the loss to his master by a double
+               portion of labour the next day; and if now and then at tide-times, he loiters in the
+               chimney-corner of the <placeName ref="#Rose_Inn_OV">Rose</placeName>, rather longer than strict prudence might warrant, no one
+               can hear his laugh and his song pouring through the open door, like the very voice of
+               <quote>“jest and youthful jollity,”</quote><note resp="#SCR">The quote is from line 25 of <title ref="#Lallegro">L'Allegro</title>. In the passage, <persName ref="#Milton">Milton</persName> Is calling on a nymph to bring him the happiness he once found in youth.</note> without feeling certain that it is good fellowship, and
+               not good liquor, that detains him. Indeed so much is he the delight of the country
+               lads, who fre-<pb n="192"/>quent that well-accustomed inn, so much is his company
+               sought after in all rustic junketings, that I am only astonished at the strength of
+               resolution, and power of resisting temptation, which he displays in going thither so
+               seldom.</p>
+            <p>If our village lads be so fond of him, it is not to be doubted but our village
+               maidens like him too. The pretty brunette, <persName ref="#Wheeler_Sally_OV">Sally Wheeler</persName>, who left a good service at
+               <placeName ref="#B_city_OV">B.</placeName>, to take in needle-work, and come home to her grandmother, she being, to use
+               <persName ref="#Wheeler_Sally_OV">Sally</persName>'s phrase, <said who="#Wheeler_Sally_OV" direct="false" aloud="true">“unked for want of company,”</said> (<abbr>N.B.</abbr><persName ref="#Dame_Wheeler_OV">Dame Wheeler</persName> is as deaf as a
+               post, a cannon would not rouse her), is thought, in our little world, to have had an
+               eye to <persName ref="#Brent_Joel_OV">Joel</persName> in this excess of dutifulness. <persName ref="#Phoebe_OV">Miss Phoebe</persName>, the lass of the <placeName ref="#Rose_Inn_OV">Rose</placeName>, she
+               also, before her late splendid marriage to the <persName ref="#Phoebe_husband_OV">patten-maker</persName>, is said to have becurled
+               and beflounced herself at least two tiers higher on club-nights, and Sundays, and
+               holidays, and whenever there was a probable chance of meeting him. The gay <persName ref="#RecruitingSerjeant_OV">recruiting
+                  serjeant</persName>, and all other beaux were abandoned the instant he appeared; nay, it is even
+               hinted, that the <persName ref="#Phoebe_husband_OV">patten-maker</persName> owes his <rs type="person" ref="#Phoebe_OV">fair bride</rs> partly to pique at <persName ref="#Brent_Joel_OV">Joel</persName>'s
+               indifference. Then <persName ref="#Matthews_Sophia_OV">Miss Sophia Matthews</persName>, the schoolmistress on the Lea, to whom in
+               point of dignity <persName ref="#Phoebe_OV">Miss Phoebe</persName> was nothing, who wears a muff and a veil, walks
+               mincingly, and tosses her head in the air, keeps a maid,—a poor little drab<pb
+                  n="193"/> of ten years old; follows, as she says, a genteel profession,—I think
+               she may have twenty scholars at eight-pence a week; and when she goes to dine with
+               <rs type="person" ref="#Matthews_Sophia_bro_OV">her brother</rs>, the collar-maker, hires a boy for a penny to carry her clogs;—<persName ref="#Matthews_Sophia_OV">Miss Sophia</persName>, it is well known, hath pretermitted her dignity in the matter of <persName ref="#Brent_Joel_OV">Joel</persName>; hath
+               invited the whole family to tea, (only think of <persName ref="#Brent_Joel_OV">Joel</persName> at a tea-party?) hath spoken of
+               him as <said who="#Matthews_Sophia_OV" direct="true" aloud="true">“a person above the common; a respectable young man; one, who with a discreet
+                  and accomplished wife, a woman of reading and education,"</said> (<persName ref="#Matthews_Sophia_OV">Miss Sophia</persName>, in the days
+               of <rs type="person" ref="#Matthews_Sophia_father_OV">her father, the late collar-maker</rs> of happy memory, before she <quote>“taught the young
+                  idea how to shoot,”</quote><note resp="#SCR">This quotation is from James Thomson's <title level="m" ref="#Seasons_poem">The Seasons</title>, section Spring, line 1149. This section of the poem is concerned with the offspring of nature's love, and how nature educated youth to be loving and fruitful.</note> had herself drunk deeply at that well of knowledge, the
+               circulating library of <placeName ref="#B_city_OV">B</placeName>.) <said who="#Matthews_Sophia_OV" direct="true" aloud="true">“not too young,”</said> (<persName ref="#Matthews_Sophia_OV">Miss Sophia</persName> calls herself twenty-eight—I
+               wonder what the register says!) <said who="#Matthews_Sophia_OV" direct="true" aloud="true">“no brazen-faced gipsy, like <persName ref="#Wheeler_Sally_OV">Sally Wheeler</persName>,”</said> (<persName ref="#Matthews_Sophia_OV">Miss Sophia's</persName> cast of countenance is altogether different from <persName ref="#Wheeler_Sally_OV">Sally</persName>'s dark and sparkling
+               beauty, she being pink-eyed, red-haired, lean, pale, and freckled) <said who="#Matthews_Sophia_OV" direct="true" aloud="true">“or the jill-flirt
+                  Phœbe”</said>--but to cut short an oration which in spite of <rs type="person" ref="#Matthews_Sophia_OV">the lady</rs>’s gentility, began to
+               grow rather scurrilous, one fact was certain,—that <persName ref="#Brent_Joel_OV">Joel</persName> might, had he so chosen, have
+               worn the crown matrimonial in <persName ref="#Matthews_Sophia_OV">Miss Sophia</persName>'s territories, consisting of a
+               freehold-cottage, a little the worse for wear, a good garden, a capital orchard, and
+               an exten-<pb n="194"/>sive right of common; to say nothing of the fair damsel and her
+               school, or, as she is accustomed to call it, her seminary.</p>
+            <p><persName ref="#Brent_Joel_OV">Joel</persName>'s proud bright eye glanced, however, carelessly over all. There was little
+               perceptible difference of feeling in the gay distant smile, with which he regarded
+               the coquettish advances of the pretty brunette, <persName ref="#Wheeler_Sally_OV">Sally Wheeler</persName>, or the respectful bow
+               with which he retreated from the dignified condescension of <persName ref="#Matthews_Sophia_OV">Miss Sophia</persName>. He fluttered
+               about our village belles like a butterfly over a bed of <rs type="plant" ref="#tulip">tulips</rs>; sometimes approaching
+               them for a moment, and seeing them ready to fix, but oftener above and out of reach,
+               a creature of a sprightlier element, too buoyant and volatile to light on an earthly
+               flower. At last, however, the rover was caught; and our damsel, <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>, had the
+               glory of winning that indomitable heart.</p>
+            <p>Now <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> is in all things <persName ref="#Lucy_OV_fict">Lucy</persName>'s successor; in post, and favour, and beauty, and
+               lovers. In my eye she is still prettier than <persName ref="#Lucy_OV_fict">Lucy</persName>; there is something so feminine and
+               so attractive in her loveliness. She is a tall young woman, finely, though, for
+               eighteen, rather fully formed; with a sweet child-like face, a fair blooming
+               complexion, a soft innocent smile, and the eye of a dove. Add to this a gentle voice,
+               a quiet modest manner, and a natural gentility of appearance, and no wonder that
+               <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> might vie with her pre-<pb n="195"/>decessor in the number of her admirers.
+               She inherited also a spice of her coquetry, although it was shewn in so different a
+               way that we did not immediately find it out. <persName ref="#Lucy_OV_fict">Lucy</persName> was a flirt active; <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> was a
+               flirt passive; <persName ref="#Lucy_OV_fict">Lucy</persName> talked to her beaux; <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> only listened to her’s; <persName ref="#Lucy_OV_fict">Lucy</persName>, when
+               challenged on the number of her conquests, denied the thing, and blushed, and
+               laughed, and liked to be laughed at; <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>, on a similar charge, gave no token of
+               liking or denial, but said quietly that she could not help it, and went on winning
+               hearts by dozens, prodigal of smiles but chary of love, till <persName ref="#Brent_Joel_OV">Joel</persName> came, <quote>“pleased her
+                  by manners most unlike her own,”</quote><note resp="#SCR #scw">Mitford is quoting <persName ref="#Crabbe_Geo">George Crabbe</persName>'s <title ref="#Parish_Register_poem">The Parish Register</title>, in the "Marriages" section of the poem, where he writes of the out-of-wedlock pregnancy of Phoebe Dawson, a young woman in his parish. At this point in the poem, Phoebe is being wooed by a local youth. Mitford slightly misquotes the line, which in the poem reads <q>"and pleased by manner most unlike her own."</q> The quotation is found on line 169.</note> and gave to her delicate womanly beauty the only
+               charms it wanted—sensibility and consciousness.</p>
+            <p>The manner in which we discovered this new flirtation, which, unlike her others, was
+               concealed with the pretty reserve and mystery that wait on true love, was
+               sufficiently curious. We had noted <persName ref="#Brent_Joel_OV">Joel</persName> more frequently than common about the house:
+               sometimes he came for <persName ref="#Lizzy_OV">Lizzy</persName>; sometimes to bring news of a cricket-match; sometimes to
+               ask questions about bats and balls; sometimes to see if his dog <rs type="person" ref="#Ranger_dog_OV">Ranger</rs> had followed
+               my <persName ref="#May-flower_OV">May</persName>; sometimes to bring me a <rs type="plant" ref="#nosegay">nosegay</rs>. All this occasioned no suspicion; we were
+               too glad to see <persName ref="#Brent_Joel_OV">Joel</persName> to think of enquiring why he came. But when the days shortened,
+               and evening closed in dark<pb n="196"/> and cold before his work was done, and
+               cricket and flowers were over, and <persName ref="#May-flower_OV">May</persName> and <persName ref="#Lizzy_OV">Lizzy</persName> safe in their own warm beds, and
+               poor <persName ref="#Brent_Joel_OV">Joel</persName>'s excuses fairly at an end; then it was, that in the after-dinner pause
+               about seven, when the clatter of plates and dishes was over, that the ornithological
+               ear of the master of the house, a dabbler in natural history, was struck by a regular
+               and melodious call, the note, as he averred, of a <rs type="animal" ref="#skylark">sky-lark</rs>. That a <rs type="animal" ref="#skylark">sky-lark</rs> should
+               sing in front of our house, at seven o’clock, in a December evening, seemed, to say
+               the least, rather startling. But our ornithologist happening to agree with <persName ref="#WhiteGilbert">Mr. White</persName>,
+               of <placeName ref="#Selborne_village">Selborne</placeName>, in the opinion, that many more birds sing by night than is commonly
+               supposed, and becoming more and more confident of the identity of the note, thought
+               the thing possible; and not being able to discover any previous notice of the fact,
+               had nearly inserted it, as an original observation, in the <title ref="#Nat_Calendar"> Naturalist’s Calendar</title>,
+               when running out suddenly one moon-light night, to try for a peep at the nocturnal
+               songster, he caught our friend <persName ref="#Brent_Joel_OV">Joel</persName>, whose accomplishments in this line we had never
+               dreamt of, in the act of whistling a summons to his lady love.</p>
+               <p>For some weeks <rs type="person" ref="#Harriet_ShopLodger_OV">our demure coquette</rs> listened to none but this bird-like wooing; partly
+               from pride in the conquest; partly from real preference; and partly, I believe, from
+               a lurking consciousness that <persName ref="#Brent_Joel_OV">Joel</persName> was<pb n="197"/> by no means a lover to be trifled
+               with. Indeed he used to threaten, between jest and earnest, a ducking in the
+               goose-pond opposite, to whoever should presume to approach his <rs type="person" ref="#Harriet_ShopLodger_OV">fair intended</rs>; and the
+               waters being high and muddy, and he at all points a formidable rival, most of her
+               former admirers were content to stay away. At last, however, she relapsed into her
+               old sin of listening. A neighbouring farmer gave a ball in his barn, to which both
+               our lovers were invited and went. Now <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> loves dancing, and <persName ref="#Brent_Joel_OV">Joel</persName>,though arrayed
+               in a new jacket, and thin cricketing-pumps, would not dance; he said he could not,
+               but that, as <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> observes, is incredible. I agree with her that the gentleman was
+               too fine. He chose to stand and look on, and laugh, and make laugh, the whole
+               evening. In the meantime his fair betrothed picked up a new partner, and a new beau,
+               in the shape of a freshly-arrived <persName ref="#Vil_Beau_carpenter_OV">carpenter</persName>, a grand martial-looking figure, as tall
+               as a grenadier, who was recently engaged as foreman to our civil <persName ref="#Wheeler_OV">Wheeler</persName>, and who,
+               even if he had heard of the denunciation, was of a size and spirit to set <persName ref="#Brent_Joel_OV">Joel</persName> and
+                  the goose-pond at defiance,—<persName ref="#David_OT">David</persName> might as well have attempted to goose-pond <persName ref="#Goliath_OT">Goliath</persName>!
+               He danced the whole evening with his <rs type="person" ref="#Harriet_ShopLodger_OV">pretty partner</rs>, and afterwards saw her home; all
+               of which <persName ref="#Brent_Joel_OV">Joel</persName> bore with great philosophy. But the next night he came again; and <persName ref="#Brent_Joel_OV">Joel</persName>
+               approaching to give his own <rs type="animal" ref="#skylark">sky-lark</rs> signal,<pb n="198"/> was startled at seeing
+                  <rs type="person" ref="#Vil_Beau_carpenter_OV">another lover</rs> leaning over the wicket, and his <rs type="person" ref="#Harriet_ShopLodger_OV">faithless mistress</rs> standing at the
+               half-open door, listening to the tall <persName ref="#Vil_Beau_carpenter_OV">carpenter</persName>, just as complacently as she was wont
+               to do to himself. He passed on without speaking, turned down the little lane that
+               leads to <persName ref="#Dame_Wheeler_OV">Dame Wheeler</persName>'s cottage, and in less than two minutes <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> heard the
+               love-call sounded at <persName ref="#Wheeler_Sally_OV">Sally</persName>'s gate. The effect was instantaneous; she discarded the
+                  <rs type="person" ref="#Vil_Beau_carpenter_OV">tall carpenter</rs> at once and for ever, locked and bolted the door, and sat down to work
+               or to cry in the kitchen. She did not cry long. The next night we again heard the
+               note of the <rs type="animal" ref="#skylark">sky-lark</rs> louder and more brilliant than ever, echoing across our court,
+               and the lovers, the better friends for their little quarrel, have been as constant as
+               <rs type="animal" ref="#turtle_dove">turtle-doves</rs> ever since.</p>
+         </div>
+      </body>
+      
+      <back>
+         <div> 
+               <listPerson sortKey="fictPersons">
+                  
+                  <person xml:id="Grey_William_OV" sex="m"></person><!--scw: <xlm:id "Grey_William_OV" is already done in the Country Cricket Match file and note updated there to reflect his appearance in this sketch-->
+                  
+                  <person xml:id="Hotspur_Harry_WS" sex="m"><!--scw: we may not need separate entries for the historical and the fictional Shakespeare characters, but I have both here. If I were to delete one, I would have our xml id refer to "Percy_Henry" rather than "Hotspur"-->
+                  <persName ref="#Hotspur_Harry_WS">
+                     <surname>Percy</surname>
+                     <forename>Henry</forename>
+                     <forename type="nick">Harry</forename>
+                     <forename type="nick">Hotspur</forename>
+                  </persName>
+                  <birth when="1364-05-20"><placeName>Northumberland</placeName></birth>
+                  <death when="1403-07-21"><placeName>Shrewsbury</placeName></death>
+                  <note resp="#SCR #scw">In Shakespeare's history play <title ref="#HenryIVpt1_play">Henry IV Part 1</title>, he is a main character, a rebel against the king who is killed by Prince Hal. He, as well as the events depicted in the play, is based on the real-life <persName ref="#Percy_Henry">Sir Henry Percy</persName> and the rebellion he led against King Henry IV.</note>
+               </person>
+                  
+                  
+               <person xml:id="Phoebe_husband_OV" sex="m">
+                  <persName ref="#Phoebe_husband_OV">Phoebe's husband</persName>
+                  <occupation type="trade"/>
+                  <note resp="#scw">Character mentioned in several <title level="m" ref="#OV">Our Village</title> sketches as the man who married <persName ref="#Phoebe_OV">Phoebe</persName>. He is unnamed, and said to be a patten-maker.</note>
+               </person>   
+                  
+               <person xml:id="Vil_Beau_carpenter_OV" sex="m">
+                  <persName>
+                     <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade" subtype="carpenter"/>
+                  <note resp="#SCR #scw">A young carpenter who competes with <persName ref="#Brent_Joel_OV">Joel Brent</persName>_for the affections of <persName ref="#Harriet_ShopLodger_OV">Harriet</persName> in <title ref="#Village_Beau_OV">A Village Beau</title>.</note>
+               </person>
+                  
+               <person xml:id="Wheeler_Sally_OV" sex="f">
+                  <persName>
+                  <surname type="paternal">Wheeler</surname>
+                  <forename type="nick">Sally</forename>
+                  </persName>
+                  <occupation type="trade" subtype="seamstress"/>        
+               <note resp="#SCR">Sally Wheeler is one of the women vying for the affections of <persName ref="#Brent_Joel_OV">Joel Brent</persName> in the <title ref="#OV">Our Village</title> sketch, <title ref="#Village_Beau_OV">A Village Beau</title>.</note>
+               </person>
+                  
+                  
+                  
+               <person xml:id="Matthews_Sophia_OV" sex="f">
+                  <persName ref="#Matthews_Sophia_OV">Sophia Matthews
+                  <surname type="paternal">Matthews</surname>
+                  <forename>Sophia</forename>
+                  </persName>
+                  <occupation type="educator" subtype="teacher"/>
+                  <note resp="#SCR #scw">One of the young women vying for <persName ref="#Brent_Joel_OV">Joel Brent</persName>'s hand in marriage. She speaks badly of anyone she considers a rival.</note>
+               </person>
+                  
+               <person xml:id="Matthews_Sophia_bro_OV" sex="m">
+                  <persName ref="#Matthews_Sophia_bro_OV">Sophia Matthews' brother
+                     <surname>Matthews</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#scw">Character mentioned in <title level="a" ref="#Village_Beau_OV">A Village Beau</title>. He is the brother of <persName ref="#Matthews_Sophia_OV">Sophia Matthews</persName> and works as a collar-maker.</note>
+               </person>   
+                  
+               <person xml:id="Matthews_Sophia_father_OV" sex="m">
+                  <persName ref="#Matthews_Sophia_father_OV">Sophia Matthews' father
+                     <surname>Matthews</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#scw">Character mentioned in <title level="a" ref="#Village_Beau_OV">A Village Beau</title>. He is the late father of <persName ref="#Matthews_Sophia_OV">Sophia Matthews</persName>, who worked as a collar-maker.</note>
+               </person>   
+                  
+                  
+               <person xml:id="Dame_Wheeler_OV" sex="f">
+                  <persName>
+                  <surname type="married">Wheeler</surname>
+                  <forename>not given</forename>
+                  </persName>
+                  <note resp="#SCR">She is the mostly deaf grandmother of <persName ref="#Wheeler_Sally_OV">Sally Wheeler</persName> who lives with her granddaughter.</note>
+               </person>
+             
+            
+            <person xml:id="Prince_Hal_WS" sex="m"><!--scw: Henry V entry in SI may need an update? Like Henry Percy and Harry Hotspur, we may not need entries for both people.-->
+               <persName ref="#Prince_Hal_WS">
+                  <surname>Plantagenet</surname>
+                  <forename>Henry</forename>
+                  <forename type="nick">Hal</forename>
+                  <forename type="nick">Harry</forename>
+                  <roleName>Prince of Wales</roleName>
+                  <roleName>King of England and of France and Lord of Ireland</roleName>
+               </persName>
+               <occupation type="government" subtype="monarch"></occupation>
+               <note resp="#scw">Prince Hal is typically known as the youthful character of <persName ref="#Henry_V">King Henry V</persName> before he became king, as made famous in Shakespeare's plays <title ref="#HenryIVpt1_play">Henry IV Part 1</title> and <title ref="#HenryIVpt2_play">Henry IV Part 2</title>. In these plays, he carouses with <persName ref="#Falstaff_WS">Falstaff</persName> and other colorful, low-born characters, rendering his interest in ruling the kingdom a matter of critical debate. In Shakespeare's <title ref="#HenryIVpt1_play">Henry IV Part 1</title>, it is Hal who kills <persName ref="#Hotspur_Harry_WS">Hotspur</persName> at the Battle of Shrewsbury.</note>
+            </person>
+                  
+                  <person xml:id="Ranger_dog_OV" sex="m">
+                     <persName ref="#Ranger_dog_OV">Ranger</persName>
+                     <note resp="#SCR">A spaniel belonging to <persName ref="#Brent_Joel_OV">Joel Brent</persName>, mentioned in <title level="a" ref="#Village_Beau_OV">A Village Beau</title>.</note>
+                  </person>
+                  
+               </listPerson>
+               
+             <listPerson sortKey="histPersons">
+                
+                <person xml:id="Crabbe_Geo" sex="m">
+                   <persName ref="#Crabbe_Geo">
+                      <surname>Crabbe</surname>
+                      <forename>George</forename>
+                   </persName>
+                   <birth when="1754-12-24">December 24, 1754
+                      <placeName>Alderburgh, Suffolk</placeName>
+                   </birth>
+                   <death when="1832-02-03">February 3, 1832
+                   <placeName>Trowbridge, Wiltshire</placeName></death>
+                   <occupation type="religious" subtype="rector"/>
+                   <occupation type="literary" subtype="poet"/>
+                   <note resp="#scw">English poet known for depicting rural life in realistic detail. His most famous works include The Village, <title ref="#Parish_Register_poem">The Parish Register</title>, and The Borough. George Crabbe came from modest origins, initially training as a surgeon, but harboring literary ambitions. He earned the patronage and friendship of <persName ref="#Burke_E">Edmund Burke</persName>, who introduced him into literary and political circles that included <persName ref="#Fox_ChasJ">Charles James Fox</persName> and <persName ref="#Johnson">Samuel Johnson</persName>, and also helped procure him a living as a rector. His work was greatly influential on the romantic poets, who admired his representation of rural lives and spaces, although he was also sometimes derided for a lack of the poetical, including by <persName ref="#MRM">Mitford</persName>.</note>
+                   <note><ref target="http://viaf.org/viaf/100175819"/></note>
+                   
+                </person>
+                
+                <person xml:id="Percy_Henry"><!--scw: we may not need separate entries for the historical man and the fictionalized Shakespeare characters, but I have both here-->
+                   <persName ref="#Percy_Henry">
+                      <surname>Percy</surname>
+                      <forename>Henry</forename>
+                      <forename type="nick">Hotspur</forename>
+                      <roleName>Sir</roleName>
+                      <roleName>2nd Earl of Northumberland</roleName>
+                      <roleName>Knight of the Garter</roleName>
+                      <roleName>Lieutenant of the Duchy of Aquitaine</roleName>
+                   </persName>
+                   <birth when="1364-05-20">May 20, 1364
+                   <placeName>Warkworth, Northumberland</placeName>
+                   </birth>
+                   <death when="1403-07-21">July 21, 1403
+                   <placeName>Shrewsbury, Shropshire</placeName>
+                   </death>
+                   <occupation type="military" subtype="navy"/>
+                   <occupation type="military" subtype="army"/>
+                   <note resp="#SCR #scw">Henry Percy was knighted by King Edward III, and held important military and administrative positions during the reigns of <persName ref="#RichardII">Richard II</persName> and Henry IV. His nickname, Hotspur, was reportedly given to him by his Scottish opponents when he fought against them during <persName ref="#RichardII">Richard II</persName>'s campaigns on the Borders. Though he initially had favor with Henry IV, he developed a number of grievances against him, including anger at Henry's refusal to ransom Percy's brother-in-law who had been captured by the Scottish. He eventually organized a rebellion, possibly with the help of <persName ref="#Glendower_Owyn">Owyn Glendower</persName>. <!--scw: Glendower has a note and xml:id in one of the other OV sketches.--> He was killed at the Battle of Shrewsbury under disputed circumstances, although Shakespeare's <title ref="#HenryIVpt_play">Henry IV Part 1</title> created the legend that Prince Hal killed him in hand-to-hand combat. It is the first recorded battle using the English longbow on English soil. </note>
+                   <note><ref target="http://viaf.org/viaf/25686896"/></note>    
+                   
+                </person>
+                
+                
+             </listPerson>
+            
+             <listPerson sortKey="archPersons">
+                  
+               <person xml:id="Goliath_OT" sex="m">
+                  <persName ref="#Goliath_OT">Goliath</persName>
+                  <note resp="#SCR">Goliath is the Philistine giant that the future <persName ref="#David_OT">King David</persName> of Israel slays with a sling. The term David and Goliath has come to represent an underdog situation in which the underdog is victorious. Goliath is also representative of Christ's defeat of Satan in the New Testament as the Philistines represent paganism, and Kind David is one of the anscestors of Christ in Christianity. The story of David and Goliath is found in 1 Samuel 17. The story is important Biblically as it is David's defeat of Goliath that leads King Saul to appoint David as head of the Israelite army, leading to David's ascension to the Israelite throne.</note>
+               </person>
+            </listPerson>
+            
+            <listPlace sortKey="histPlaces">
+               <place xml:id="Selborne_village">
+                  <placeName>Selborne</placeName>
+                  <location><geo>51.0945n -0.9385w</geo></location>
+                  <note resp="#SCR">This village in East Hampshire is on the northern most boundary of what is currently South Downs national park. <persName ref="#WhiteGilbert">Gilbert White</persName> made his natural observations here when writing <title ref="#Nat_Calendar">A Naturalist's Calendar</title> and <title ref="#Nat_Hist_Selborne">The Natural History and Antiquities of Selborne</title>.</note>
+               </place>
+               
+               <place xml:id="Swan_Inn">
+                  <placeName ref="#Swan_Inn">Swan Inn
+                     <addName>Swan Pub</addName>
+                  </placeName>
+                  <note resp="#scw">A seventeenth-century public house and coaching inn next to which <orgName ref="#Mitfords">the Mitford family</orgName> lived in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. It is featured in <title level="m" ref="#OV">Our Village</title> as the <placeName ref="#Rose_Inn_OV">Rose Inn</placeName>.</note>
+               </place>
+               
+            </listPlace>
+            
+            <listPlace sortKey="fictPlaces">
+               
+               <place xml:id="B_city_OV">
+                  <placeName ref="#B_city_OV">city of B.</placeName>
+                  <note resp="#scw">The city of B. is <persName ref="#MRM">Mitford</persName>'s screened reference to <placeName ref="#Reading_city">Reading</placeName> in <title level="m" ref="#OV">Our Village</title>.</note>
+               </place>
+               
+               <place xml:id="Rose_Inn_OV">
+                  <placeName ref="#Rose_Inn_OV">Rose Inn</placeName>
+                  <note resp="#scw">The Rose Inn is mentioned many times as the local inn in <title level="m" ref="#OV">Our Village</title>. It is based on the real-life <placeName ref="#Swan_Inn">Swan Inn</placeName>, next to which the <orgName ref="#Mitfords">Mitfords</orgName> lived in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>.</note>
+         
+               </place>
+            </listPlace>
+            
+            <listBibl sortKey="schol">
+               <bibl xml:id="Nat_Calendar">
+                  <title level="m" ref="#Nat_Calendar">A Naturalist's Calandar: with Observations in Various Branches of Natural History</title>
+                  <author ref="#WhiteGilbert">Gilbert White</author>
+                  <editor>John Aikin</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>B. and J. White</publisher>
+                  <date when="1795">1795</date>
+                  <note resp="#SCR #scw">This book, published posthumously, gives precise accounts of the actions of animals, bird sounds, and weather phenomena, all of which were noted by hand in tabular form by the author, and rendered in the same format in the book. It was later often republished with <title ref="#Nat_Hist_Selborne">The Natural History and Antiquities of Selborne</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Nat_Hist_Selborne"><!--scw: There may be another entry for this in another file-->
+                  <title level="m" ref="#Nat_Hist_Selborne">The Natural History and Antiquities of Selborne</title>
+                  <author ref="#WhiteGilbert">Gilbert White</author>
+                  <pubPlace></pubPlace>
+                  <publisher>B. White and Son</publisher>
+                  <date when="1789">1789</date>
+                  <note resp="#scw">This influential book of nature writing is ostensibly formed from 110 letters addressed by the author to <persName>Thomas Pennant</persName>, a zoologist, and <persName>Daines Barrington</persName>, a fellow of the Royal Society. In each letter, some of which were composed for the book itself, White describes his observations of local natural surroundings, flora, fauna, and geologic formation in minute detail. These observations were carefully prepared from notes White took over time, and were meant to be a scientific record of the natural phenomena under discussion, coupled with an assessment of the social conditions of the area. The book was immensely successful, and is considered an early example of ecological exploration. It was a favorite book of <persName ref="#MRM">Mitford</persName>'s, and she invokes it as a formal model for <title level="m" ref="#OV">Our Village</title> in the introductory sketch, and refers to it frequently.</note>
+                  
+               </bibl>
+            
+               <bibl xml:id="Parish_Register_poem">
+                  <title level="a" ref="#Parish_Register_poem">The Parish Register</title>
+                  <title level="m">Poems</title>
+                  <author>George Crabbe</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J. Hatchard</publisher>
+                  <date when="1807">1807</date>
+                  <note resp="#SCR #scw">A pastoral poem by George Crabbe, recounting stories of the parish poor from the point of view of the clergyman. It is divided into three parts: Baptisms, Marriages, and Burials. The poem was published as part of a collection entitled Poems.</note>
+               </bibl>
+          
+           
+               <bibl xml:id="Seasons_poem">
+                  <title level="m" ref="#Seasons_poem">The Seasons</title>
+                  <author>James Thomson</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>John Millian</publisher>
+                  <date when="1730">1730</date>
+                  <note resp="#SCR #scw">A four-part, blank-verse pastoral poem sequence, beginning with Winter and ending with Autumn. It was published as four separate poems beginning in 1726, until it was finally collected as The Seasons in <date when="1730">1730</date>. The work was influential on writers from the mid-eighteenth century to the nineteenth century for its contemplative feeling mixed with descriptions of scenery.</note>
+               </bibl>
+            </listBibl>
+            
+          
+                  
+            <list sortKey="plants">
+               
+               
+               <item xml:id="nosegay">
+                  <name ref="#nosegay">nose-gay</name>
+                     <!--<name type="genus"></name>
+                     <name type="species"></name>
+                     <name type="family"></name>
+                     <note resp="#SCR">Also called tussie-mussie or a posey, the nose-gay is composed of a mixture of flowers and herbs, edged with paper frill or greens. They are associated with the floral language of love, and were popular in Victorian England. Different arrangements signified different relationship statuses.</note>--><!--scw: I cannot get the <name type=> to comply so I toggle commented it-->
+                  
+               </item>
+            </list>
+            
+               
+         </div>
+      </back>
+   </text>
+</TEI>
