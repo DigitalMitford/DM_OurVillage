@@ -448,7 +448,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <surname>not given</surname>
                   <forename>not given</forename>
                </persName>
-               <occupation type="educator" subtype="schoolmaster"/>
+               <occupation type="educator" subtype="schoolHead"/>
                <note resp="#scw">Character of the <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> schoolmaster who is mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. Name not given.</note>
             </person>
             
