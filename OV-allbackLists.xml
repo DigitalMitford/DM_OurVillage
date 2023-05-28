@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="#OV">Our Village: Sketches of Rural Character and Scenery</title>
+            <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
             <author ref="#MRM">Mary Russell Mitford</author>
-            <editor ref="#scw">Samantha Webb</editor>
             <editor ref="#ad">Alexandra Drayton</editor>
+            <editor ref="#scw">Samantha Webb</editor>
             <sponsor>
                <orgName>Mary Russell Mitford Society: Digital Mitford
-               Project</orgName>
+                    Project</orgName>
             </sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>
-            <principal ref="#ebb">Elisa Beshero-Bondar</principal>
+            <principal>Elisa Beshero-Bondar</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="#jmh">Jonathan M. Horanic</persName>
+               <persName ref="#ad">Alexandra Drayton</persName>
                <persName ref="#scw">Samantha Webb</persName>
+               <persName ref="#jap">Jordan Price</persName>
             </respStmt>
             <respStmt>
                <resp>Proofing and corrections by</resp>
                <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+               <persName ref="#bas">Brooke A. Stewart</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>This is optional, used to describe this edition, and “should contain phrases
-               describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
-               P5.</edition>
+            <edition>This is optional, used to describe this edition, and “should contain
+                    phrases describing the edition or version”: First digital edition in TEI, date:
+                    2 June 2013. P5.</edition>
             <respStmt>
                <resp>We can include a respStmt here.</resp>
                <persName>Who?</persName>
@@ -39,8 +39,8 @@
             <pubPlace>Greensburg, PA, USA</pubPlace>
             <date>2013</date>
             <availability>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -51,20 +51,18 @@
             <note>You can have multiple notes here.</note>
          </notesStmt>
          <sourceDesc>
-            <!--2017-01-10 ebb: We need to change this sourceDesc to indicate we’re checking each text and altering it to represent the 1824 edition as published in NCCO. -->
-            <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
             <p>Our text is based on public domain, Google-digitized text<bibl>
-                  <title ref="#OV">Our Village: Sketches of Rural Character and Scenery</title>
-                  <edition>Third
-                     Edition</edition> by <author ref="#MRM">Mary Russell
-                     Mitford</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher ref="#Whittaker_GB_pub">Geo. B.
-                     Whittaker</publisher>
-                  <placeName>Ave Maria Lane</placeName>
-                  <date>1825</date>.
-               </bibl> This text appears to be identical in pagination and content to the first
-               edition published in 1824. </p>
+                  <title>Our Village: Sketches of Rural Character and
+                            Scenery</title>
+                  <edition>Third Edition</edition> by <author>Mary Russell
+                            Mitford</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Geo. B.
+                            Whittaker</publisher>
+                  <placeName>Ave Maria
+                            Lane</placeName>
+                  <date>1825</date>. </bibl> This text appears to be
+                    identical in pagination and content to the first edition published in 1824. </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -75,6 +73,240 @@
    </teiHeader>
    <text>
       <body>
+         <div type="file">
+            <head>OVAGreatFarmHouse.xml</head>
+            <div>
+               <list type="plants">
+                  <item xml:id="geranium"><!--scw: check this-->
+                     <name>geranium</name>
+                     <rs type="genus">geranium</rs>
+                     <rs type="species">perennial herb</rs>
+                     <rs type="family">geraniaceae</rs>
+                     <note resp="#tfb"> This flower is from the geranium genus and the perrenial herb species. It is also called cranesbill because the genus word is greek for crane. Native mostly to subtropical Africa. It grows most commonly in the Mediterranean.</note>
+                  </item>
+                  <item xml:id="auricula">
+                     <name>auricula</name>
+                     <rs type="genus">primula</rs>
+                     <rs type="species">p. auricula</rs>
+                     <rs type="family">primulaceae</rs>
+                     <note resp="#tfb"> This flower is commonly called primula auricula, but is often known also as mountain cowslip, auricula, or bear's ear. It grows on rocks in mountain rages particularly in central Europe.</note>
+                  </item>
+                  <item xml:id="hollyhock">
+                     <name>hollyhock</name>
+                     <rs type="genus">alcea</rs>
+                     <rs type="species">malvaceae</rs>
+                     <rs type="family">malvaceae</rs>
+                     <note resp="#tfb"> This flower is commonly called alcea, but is often known as hollyhock. It is native to Asia and Europe.</note>
+                  </item>
+                  <item xml:id="ranunculus">
+                     <name>ranunculus</name>
+                     <rs type="genus">ranunculu</rs>
+                     <rs type="species">ranunculaceae</rs>
+                     <rs type="family">Ranunculaceae</rs>
+                     <note resp="#tfb"> This flower is commonly a genus of about 600 plants includings buttercups, spearworts, and water crowfoots.</note>
+                  </item>
+                  <item xml:id="tulip">
+                     <name>tulip</name>
+                     <rs type="genus">tulipa</rs>
+                     <rs type="species">perennial</rs>
+                     <rs type="family">liliaceae</rs>
+                     <note resp="#tfb"> This flower is from the tulipa genus and the perrenial species. It grows most commonly in the Mediterranean, but grows in gardens and in potted plants.</note>
+                  </item>
+                  <item xml:id="elm">
+                     <name ref="#elm">elm</name>
+                     <rs type="genus">Ulmus</rs>
+                     <rs type="species"/>
+                     <rs type="family">Ulmaceae</rs>
+                     <note resp="#tfb">The elm is appears frequently in literature, with its first presence taking place in the Iliad. It is also in the Aeneid, as the Stygian Elm. Virgil refers to a Roman superstition that elms were trees of ill-omen because their fruit seemed to have no value. Two elm-motifs have risen from classical literature: the 'Paradisal elm' motif, representing pastoral idylls, and the 'Elm and Death' motif. Many references to elm from the Renaissance onwards fit one of these two categories.</note>
+                  </item>
+                  <item xml:id="pink"/>
+                  <item xml:id="rose"/>
+                  <item xml:id="hyacinth"/>
+               </list>
+               <list type="animals"><!--SCW: We'll need to decide which of these is relevant-->
+                  <item xml:id="horse">
+                     <name ref="#horse">horse</name>
+                  </item>
+                  <item xml:id="Arabian_horse">
+                     <name>Arabian horse</name>
+                  </item>
+                  <item xml:id="sheep">
+                     <name ref="#sheep">sheep</name>
+                  </item>
+                  <item xml:id="cow">
+                     <name ref="#cow">cow</name>
+                  </item>
+                  <item xml:id="butterfly">
+                     <name ref="#butterfly">butterfly</name>
+                  </item>
+                  <item xml:id="bee">
+                     <name ref="#bee">bee</name>
+                  </item>
+                  <item xml:id="pig">
+                     <name ref="#pig">pig</name>
+                  </item>
+                  <item xml:id="dog">
+                     <name ref="#dog">dog</name>
+                  </item>
+                  <item xml:id="ox">
+                     <name ref="#ox">oxen</name>
+                  </item>
+                  <item xml:id="greyhound">
+                     <name ref="#greyhound">greyhound</name>
+                  </item>
+                  <item xml:id="goat">
+                     <name ref="#goat">goat</name>
+                  </item>
+                  <item xml:id="guinea_hen">
+                     <name ref="#guinea_hen">guinea hen</name>
+                  </item>
+                  <item xml:id="pony">
+                     <name ref="#pony">pony</name>
+                  </item>
+                  <item xml:id="peacock">
+                     <name ref="#peacock">peacock</name>
+                  </item>
+                  <item xml:id="turkey">
+                     <name ref="#turkey">turkey</name>
+                  </item>
+                  <item xml:id="geese">
+                     <name ref="#geese">geese</name>
+                  </item>
+                  <item xml:id="duck">
+                     <name ref="#duck">duck</name>
+                  </item>
+                  <item xml:id="fowl">
+                     <name ref="#fowl">fowl</name>
+                  </item>
+                  <item xml:id="pigeon">
+                     <name ref="#pigeon">pigeon</name>
+                  </item>
+                  <item xml:id="bantam">
+                     <name ref="#bantam">bantam</name>
+                  </item>
+                  <item xml:id="donkey">
+                     <name ref="#donkey">donkey</name>
+                  </item>
+                  <item xml:id="Hector_pet_OV">
+                     <name ref="#Hector_pet_OV">Hector</name>
+                     <note resp="#scw">An exquisite greyhound belonging to the farmer in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                  </item>
+                  <item xml:id="hare">
+                     <name ref="#hare">hare</name>
+                  </item>
+                  <item xml:id="Helen_pet_OV">
+                     <name ref="#Helen_pet_OV">Helen</name>
+                     <note resp="#scw">A greyhound featured in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                  </item>
+                  <item xml:id="rooster"><!--scw: check this-->
+                     <name ref="#rooster">cock</name>
+                  </item>
+                  <item xml:id="spaniel">
+                     <name ref="#spaniel">spaniel</name>
+                  </item>
+               </list>
+               <listPerson>
+                  <person xml:id="Great_Farmhouse_farmer_OV">
+                     <persName>no name given</persName>
+                     <note resp="#scw">The farmer of this sketch is never named. However, letter
+                            evidence suggests that Mitford is recalling her friend Mr. Newell of
+                                <placeName ref="#Whitby_Hill">Whitby Hill farm</placeName>, who died
+                            in <date when="1816-10">October 1816</date>. After his death, Mitford
+                            was given one his greyhounds, Nell. (See Letter to Mary Webb, October
+                            28, 1816.)</note>
+                  </person>
+                  <person xml:id="Great_Farmhouse_wife_OV">
+                     <persName>no name given</persName>
+                     <note resp="#scw">This character is not named in the sketch. However, letter
+                            evidence suggests that Mitford is recalling her friends, the Newells of
+                                <placeName ref="#Whitby_Park">Whitby Park</placeName>. Mr. Newell
+                            died in <date when="1816-10">October 1816</date>, and the Mitfords
+                            remained in contact with his widow for some years afterwards, according
+                            to Mitford's Journal.</note>
+                  </person>
+                  <person xml:id="Newell_Mr">
+                     <persName>Mr. Newell
+                                <surname>Newell</surname>
+                        <forename>unidentified</forename>
+                     </persName>
+                     <note resp="#scw">Farmer friend of the Mitfords, likely the basis of the farmer recollected in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                  </person>
+                  <person xml:id="Newell_Mrs">
+                     <persName>Mrs. Newell
+                                <surname>Newell</surname>
+                        <forename>unidentified</forename>
+                     </persName>
+                     <note resp="#scw">Friend of the Mitfords who is, letter evidence suggests, likely the basis for the farmer's wife featured in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                  </person>
+                  <person xml:id="Great_Farmhouse_MP_OV">
+                        <!--scw: this person may not need an xml:id, and could just be identified in a note-->
+                     <persName>no name given</persName>
+                     <note resp="#scw">Member of Parliament mentioned in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>, whose estates
+                            are managed by <persName ref="#Great_Farmhouse_farmer_OV">the
+                                farmer</persName>. Given the timing of the narrator's recollections,
+                            and the fact that this sketch has origins in an <date when="1816">1816</date> letter, it is possible that the Member of Parliament
+                            referred to is Charles Shaw-Lefevre, who at that time was representing
+                            Reading.</note>
+                  </person>
+                  <person xml:id="Shaw_Lefevre_Charles"><!--scw: not finished-->
+                     <persName>
+                        <surname>Shaw</surname>
+                        <surname>Lefevre</surname>
+                        <forename>Charles</forename>
+                     </persName>
+                     <birth when="1750-09-20">September 20, 1750
+                                <placeName>Womerley, Yorkshire</placeName>
+                     </birth>
+                     <death when="1823-04-27">April 27, 1823
+                            <placeName/>
+                     </death>
+                     <note resp="#scw">Whig Member of Parliament who represented the borough
+                            of Reading for several years, fighting a number of contested elections.
+                            He was acquainted with the Mitford family, and they socialized in the
+                            early part of the nineteenth century. Mitford's nickname for him was
+                            Gog. He may be the <rs type="person" ref="#Great_Farmhouse_MP_OV">local
+                                Member of Parliament</rs> mentioned in <title ref="#Great_Farmhouse_OV">A Great Farmhouse,</title> whose estates
+                            are managed by <persName ref="#Great_Farmhouse_farmer_OV">the
+                                farmer</persName> .</note>
+                  </person>
+                  <person xml:id="Great_Farmhouse_son_OV">
+                     <persName>no name given</persName>
+                     <note resp="#scw">Son of the farming couple whom Mitford recollects with
+                            fondness in <title ref="#Great_Farmhouse_OV">A Great
+                            Farmhouse</title>.</note>
+                  </person>
+               </listPerson>
+               <listPlace>
+                  <place xml:id="proposed_new_ID3">
+                     <placeName><!--best-known name of the place--></placeName>
+                     <placeName><!--alternate place name--></placeName>
+                     <location>
+                        <geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo>
+                     </location>
+                  </place>
+                  <place xml:id="Whitby_Park"><!--scw: check if a place or a farm name. See notes on insolvency court claim, the Jurist, 1837-->
+                     <placeName>Whitby Park</placeName>
+                     <note resp="#scw">Location of Mr. and Mrs. Newell's farm in St. Giles parish, Berkshire, likely the model for the great farmhouse at M. in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                  </place>
+                  <place xml:id="M_farmhouse_OV">
+                     <placeName ref="#M_farmhouse">M. farmhouse</placeName>
+                     <note resp="#scw">The farmhouse whose inhabitants Mitford recalls in <title ref="#Great_Farmhouse">A Great Farmhouse</title>.</note>
+                  </place>
+                  <place xml:id="W_Hill_OV">
+                     <placeName ref="#W_Hill">W. Hill</placeName>
+                     <note resp="#scw">A steep, corkscrew-like hill described in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title> on which <persName ref="#Great_Farmhouse_farmer_OV">the farmer</persName>'s greyhound, <rs type="animal" ref="#Helen_pet_OV">Helen</rs> proudly kills an old hare.</note>
+                     <!--scw: This place might be locatable-->
+                  </place>
+                  <place xml:id="M_OV">
+                     <placeName ref="#M_OV">M.</placeName>
+                     <note resp="#scw">Abbreviation used for the area in which <placeName ref="#M_farmhouse_OV">the great farmhouse</placeName> is located, from the sketch of the <title ref="#OV">Our Village</title> sketch of the same name. <!--scw: Since Mitford's friends, <persName ref="#Newell_Mr #Newell_Mrs">Mr. and Mrs. Newell</persName>, were likely the original inspirations for the farming couple in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>, M. is located in St. Giles parish--></note>
+                     <!--scw: I need to check this out more-->
+                  </place>
+               </listPlace>
+            </div>
+         </div>
          <div type="file">
             <head>OVTheTalkingLady.xml</head>
             <listPerson sortKey="fictPersons">
@@ -121,28 +353,28 @@
                </person>
                <person xml:id="Talk_Lady_Barbara_OV" sex="f">
                   <persName ref="#Talk_Lady_Barbara_OV">
-                     
+                     <surname>not given</surname>
                      <forename>Barbara</forename>
                   </persName>
                   <note resp="#scw">Cousin of the title character of the sketch, <title level="a" ref="#Talking_Lady_OV"/>. She is mentioned in passing.</note>
                </person>
                <person xml:id="Talk_Lady_civil_lad_OV" sex="m">
                   <persName ref="#Talk_Lady_civil_lad_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
                </person>
                <person xml:id="Talk_Lady_civil_lad_mama_OV" sex="f">
                   <persName ref="#Talk_Lady_civil_lad_mama_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
                </person>
                <person xml:id="Talk_Lady_grumpy_gent_OV" sex="m">
                   <persName ref="#Talk_Lady_grumpy_gent_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
@@ -163,7 +395,7 @@
                </person>
                <person xml:id="Talk_Lady_LadyGreen_housemaid_OV" sex="f">
                   <persName ref="#Talk_Lady_LadyGreen_housemaid_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="service" subtype="maid"/>
@@ -177,14 +409,14 @@
                </person>
                <person xml:id="Talk_Lady_widow_OV" sex="f">
                   <persName ref="#Talk_Lady_widow_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">A woman who is mentioned as having unsuccessfully set up house with the title character of <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title>.</note>
                </person>
                <person xml:id="Talk_Lady_nephew_OV" sex="m">
                   <persName ref="#Talk_Lady_nephew_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">The last nephew of the title character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking Lady</title> whose death leads her to move in with <persName ref="#Talk_Lady_widow_OV">the widow</persName>, and subsequently, to take the trip that brings her to visit the <orgName ref="#OVNarratorsFamily">the narrator's family</orgName>.</note>
@@ -217,6 +449,380 @@
                   </note>
                </bibl>
             </listBibl>
+         </div>
+         <div type="file">
+            <head>OVACountryCricket-Match.xml</head>
+            <listPerson sortKey="fictPersons">
+               <person xml:id="Allen_Mary_OV" sex="f">
+                  <persName ref="#Allen_Mary_OV">Mary Allen
+                        <surname type="paternal">Allen</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character from <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. She is the love-interest of <persName ref="#Brown_James_OV">James Brown</persName> whose plea for him to come to play for her town's team prevents him from participating in the <placeName ref="#Shinfield">Shinfield</placeName> match against <orgName ref="#CountryCM_B_cricketers_OV">the team from B.</orgName>. She is from <placeName ref="#M_town_OV">the town of M.</placeName>.</note>
+               </person>
+               <person xml:id="Appleton_Ben_OV" sex="m">
+                  <persName ref="#Appleton_Ben_OV">
+                     <surname>Appleton</surname>
+                     <forename>Benjamin</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character appearing in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the sixth player chosen for the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>, and is distinguished for his good humor.</note>
+               </person>
+               <person xml:id="Brent_J_master_OV" sex="m">
+                  <persName ref="#Brent_J_master_OV">Joel Brent's master
+                        <surname>not given</surname>
+                     <!--scw: surname and forenames may need to be revised if identified, and note revised.-->
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade" subtype="farmer"/>
+                  <note resp="#scw">Character mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> as the farmer for whom <persName ref="#Brent_Joel_OV">Joel Brent</persName> works. He succumbs to social pressure and allows <persName ref="#Brent_Joel_OV">Joel</persName> to join the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName> and play in the match against <orgName ref="#CountryCM_B_cricketers_OV">the team from B.</orgName> rather than bringing in the hay harvest.</note>
+               </person>
+               <person xml:id="Brown_James_OV" sex="m">
+                  <persName ref="#Brown_James_OV">
+                     <surname>Brown</surname>
+                     <forename>James</forename>
+                  </persName>
+                  <occupation type="trade" subtype="blacksmith"/>
+                  <note resp="#jap #scw">Character who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. After traveling as a journeyman blacksmith for six years, he has returned to <placeName ref="#Shinfield">Shinfield</placeName>, where he is commended as the best cricket player on the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>. His secret relationship with <persName ref="#Allen_Mary_OV">Mary Allen</persName> from a neighboring town leads him to abscond from playing the match against <orgName ref="#CountryCM_B_cricketers_OV">the team from B.</orgName>. Notes from <persName ref="#Needham_Francis">Francis Needham</persName>'s archives suggest that a blacksmith named <persName ref="#Brown_Benjamin">Benjamin Brown</persName> may have served as the model for this character.</note>
+               </person>
+               <person xml:id="Brown_J_bro_OV" sex="m">
+                  <persName ref="#Brown_J_bro_OV">James Brown's brother
+                    <surname>Brown</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <note resp="#scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the married brother of <persName ref="#Brown_James_OV">James Brown</persName>, with whom the latter has come to reside after six years as a journeyman blacksmith.</note>
+               </person>
+               <person xml:id="Brown_J_sisInLaw_OV" sex="f">
+                  <persName ref="#Brown_J_sisInLaw_OV">James Brown's sister-in-law
+                        <surname type="married">Brown</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <note resp="#scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. She is the wife of <persName ref="#Brown_J_bro_OV">James Brown</persName>'s brother, and sister-in-law to <persName ref="#Brown_James_OV">James Brown</persName>. She is the one who delivers the letter from <persName ref="#Allen_Mary_OV">Mary Allen</persName> to <persName ref="#Brown_James_OV">James</persName>, which leads him to abandon the match.</note>
+               </person>
+               <person xml:id="Coper_Tom_OV" sex="m">
+                  <persName ref="#Coper_Tom_OV">
+                     <surname>Coper</surname>
+                     <forename>Thomas</forename>
+                  </persName>
+                  <occupation type="trade" subtype="gardener"/>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is one of the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricketers</orgName>, and is considered a good batter. He is also mentioned in <title ref="#Walks_Hard_Summer_OV">The Hard Summer.</title>
+                  </note>
+               </person>
+               <person xml:id="CountryCM_evangelical_farmer_OV" sex="m"><!--scw: watch to see whether this character may get a name later in the series-->
+                  <persName ref="#CountryCM_evangelical_farmer_OV">evangelical farmer
+                        <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade" subtype="farmer"/>
+                  <note resp="#scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. His alliance with the <persName ref="#CountryCM_highChurch_curate_OV">high church curate</persName> enables the renewal of cricket in <placeName ref="#Shinfield">Shinfield</placeName>.</note>
+               </person>
+               <person xml:id="CountryCM_thief_OV" sex="f">
+                  <persName ref="#CountryCM_thief_OV">handkerchief thief</persName>
+                  <note resp="#scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. She is a child thief who steals the handkerchief of <persName ref="#Long_Samuel_OV">Samuel Long</persName> after the match.</note>
+               </person>
+               <person xml:id="CountryCM_highChurch_curate_OV" sex="m">
+                  <persName ref="#CountryCM_highChurch_curate_OV">high Church curate
+                        <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="religious" subtype="curate"/>
+                  <note resp="#scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. His alliance with the <persName ref="#CountryCM_evangelical_farmer_OV">evangelical farmer</persName> enables the renewal of cricket in <placeName ref="#Shinfield">Shinfield</placeName>.</note>
+               </person>
+               <person xml:id="CountryCM_publican_OV" sex="m">
+                  <persName ref="#CountryCM_publican_OV">publican of Country Cricket Match
+                        <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <occupation type="trade" subtype="liquor"/>
+                  <note resp="#scw">Character, a publican, who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He, along with the <persName ref="#RoseInnLandlord">Rose Inn Landlord</persName>, donates ribbons for the cricket games. <!--scw 7/27/22: It's unclear whether he is the retired publican with radical leanings mentioned in the first and last sketches; will check--></note>
+               </person>
+               <person xml:id="CountryCM_umpire_OV" sex="m">
+                  <persName ref="#CountryCM_umpire_OV">Country Cricket Match umpire
+                        <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <note resp="#scw">The umpire who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>.</note>
+               </person>
+               <person xml:id="Grey_William_OV" sex="m">
+                  <persName ref="#Grey_William_OV">
+                     <surname>Grey</surname>
+                     <forename>William</forename>
+                  </persName>
+                  <occupation type="trade" subtype="farmer"/>
+                  <note resp="#jap #scw">Character who appears in several <title level="m" ref="#OV">Our Village</title> sketches, but most prominently in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>, where he is the captain of the <rs type="org" ref="#CountryCM_cricketers_OV">cricket team</rs> who also organizes the team's players. He is noted as a rival of <persName ref="#Brent_Joel_OV">Joel Brent</persName> in <title level="a" ref="#Village_Beau_OV">A Village Beau</title>, and is also mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
+               </person>
+               <person xml:id="Grover_Charles_OV" sex="m">
+                  <persName ref="#Grover_Charles_OV">
+                     <surname>Grover</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Grover, known as a man of good judgment, acts as a spy on the <orgName ref="#CountryCM_B_cricketers_OV">B. parish cricket team</orgName> to report on the team's skills. He also brings the news that <persName ref="#Brent_Joel_OV">Joel Brent</persName> cannot participate in the match.</note>
+               </person>
+               <person xml:id="Harris_George_OV" sex="m">
+                  <persName ref="#Harris_George_OV">
+                     <surname>Harris</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the seventh man chosen for the <orgName ref="#CountryCM_cricketers_OV">cricket team</orgName>.</note>
+               </person>
+               <person xml:id="Hearne_Joseph_OV" sex="m">
+                  <persName ref="#Hearne_Joseph_OV">
+                     <surname>Hearne</surname>
+                     <forename>Joseph</forename>
+                  </persName>
+                  <occupation type="trade" subtype="miller"/>
+                  <note resp="#jap #scw">Character in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He works at the <placeName ref="#A_mills_OV">A. Mills</placeName> in a neighboring parish, but lodges in <placeName ref="#Shinfield">Shinfield</placeName> parish at the home of his <rs type="person" ref="#Hearne_Jos_fatherInLaw_OV">father-in-law</rs>. Despite being an excellent cricket player, his hesitancy about playing on the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName> in their match against <orgName ref="#CountryCM_B_cricketers_OV">the B. parish team</orgName> leads him to be rejected for play by <persName ref="#Grey_William_OV">William Grey</persName>.</note>
+               </person>
+               <person xml:id="Hearne_Jos_fatherInLaw_OV" sex="m">
+                  <persName ref="#Hearne_Jos_fatherInLaw_OV">Joseph Hearne's father-in-law
+                    <surname>not given</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <note resp="#scw">Character mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the father-in-law of <persName ref="#Hearne_Joseph_OV">Joseph Hearne</persName>, and the man with whom the latter lodges, making him eligible to play on the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>.</note>
+               </person>
+               <person xml:id="Harriet_ShopLodger_OV" sex="f"><!--this xml:id already exists in SI, so no need to update it-->
+                  <persName ref="#Harriet_ShopLodger_OV"><!--scw:UPDATE DESCRIPTION WITH BELOW IN SI AND ADD TO OCCUPATION-->
+                     <surname>not given</surname>
+                     <forename>Harriet</forename>
+                  </persName>
+                  <occupation type="service" subtype="maid"/>
+                  <note resp="#scw">By the end of <title ref="#OV">Our Village</title>, 1st series, she is the new servant for the <persName ref="#OVNarrator">Our Village narrator</persName>'s family, replacing <persName ref="#Lucy_OV_fict">Lucy</persName>. She is the fictional counterpart of <persName ref="#Keep_Harriet">Harriet Keep</persName>.</note>
+               </person>
+               <person xml:id="Lieutenant_OV"/>
+               <!--scw: check to make sure this isn't anywhere else. warning issued-->
+               <person xml:id="Long_Samuel_OV" sex="m">
+                  <persName ref="#Long_Samuel_OV">
+                     <surname>Long</surname>
+                     <forename>Samuel</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#jap #scw">A character who appears in several <title level="a" ref="#OV">Our Village</title> sketches. He is one of the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName> in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is a middle-aged man, a day-laborer, who has recently moved back to <placeName ref="#Shinfied">Shinfield</placeName> from <placeName ref="#S_parish_OV">S. parish</placeName>. <placeName ref="#S_parish_OV">S. parish</placeName>. He is known as a good bowler. He also appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>.</note>
+               </person>
+               <person xml:id="Long_SamMother_OV" sex="f">
+                  <persName ref="#Long_SamMother_OV">Samuel Long's mother
+                        <surname type="married">Long</surname>
+                     <forename>not given</forename>
+                  </persName>
+                  <note resp="#scw">Character mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. She is the mother of <persName ref="#Long_Samuel_OV">Samuel Long</persName>, and the maker of the handkerchief that is stolen.</note>
+               </person>
+               <person xml:id="Lucy_OV_fict"/>
+               <!--scw: revise proposed entry in si.add file to make consistent with ov extension-->
+               <!--REVISION FOR SI, "Mason_OV" entry:
+                    Cross-reference with entry for "Strong_George": Needham mentions a <persName ref="#Strong_George">George Strong</persName> who was a bricklayer in Three Mile Cross, suggesting that he was probably the model for this character.-->
+               <person xml:id="Simmons_George_OV" sex="m">
+                  <persName ref="#Simmons_George_OV">
+                     <surname>Simmons</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the third person chosen to join the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>, known as a fast thrower. He is the brother of <persName ref="#Simmons_John_OV">John Simmons</persName>.</note>
+               </person>
+               <person xml:id="Simmons_John_OV" sex="m">
+                  <persName ref="#Simmons_John_OV">
+                     <surname>Simmons</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is a member of the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>, known for his good fielding skills, and he is the brother of <persName ref="#Simmons_George_OV">George Simmons</persName>.</note>
+               </person>
+               <person xml:id="Strong_John_OV" sex="m">
+                  <persName ref="#Strong_John_OV">
+                     <surname>Strong</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the son of the village <persName ref="#Mason_OV">mason</persName>, although his occupation is not given. He is rejected from the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName> for being too tall and lacking in strength, but is later called on to play after <persName ref="#Brown_James_OV">James Brown</persName> abandons the team.</note>
+               </person>
+               <person xml:id="Willis_Robert_OV" sex="m">
+                  <persName ref="#Willis_Robert_OV">
+                     <surname>Willis</surname>
+                     <forename>Robert</forename>
+                  </persName>
+                  <occupation type="trade" subtype="blacksmith"/>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the tenth member of the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>. He is the brother of <persName ref="#Willis_David_OV">David Willis</persName>. <persName ref="#Needham_Francis">Francis Needham</persName>'s archival research found three local blacksmiths from a Willis family, including a <persName ref="#Willis_John">John</persName>, <persName ref="#Willis_Thomas">Thomas</persName>, and <persName ref="#Willis_David">David</persName>, but none named Robert.</note>
+                  <!--scw 7/27/22: Check to make sure that the SI entry for the OV blacksmith character shouldn't be revised to incorporate THIS name-->
+               </person>
+               <person xml:id="Willis_David_OV" sex="m">
+                  <persName ref="#Willis_David_OV">
+                     <surname>Willis</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <occupation type="trade" subtype="blacksmith"/>
+                  <note resp="#jap #scw">Character who appears in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. He is the eleventh person on the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName>, and the fifteen-year old brother of <persName ref="#Willis_Robert_OV">Robert Willis</persName>. <persName ref="#Needham_Francis">Francis Needham</persName>'s archival research found references to three blacksmiths from a Willis family, including <persName ref="#Willis_David">David</persName>.</note>
+               </person>
+            </listPerson>
+            <listPerson sortKey="histPersons">
+               <person xml:id="Cowley_Abe" sex="m">
+                  <persName ref="#Cowley_Abe">
+                     <surname>Cowley</surname>
+                     <forename>Abraham</forename>
+                  </persName>
+                  <birth when="1618">1618
+                        <placeName ref="#London_city">London</placeName>
+                  </birth>
+                  <death when="1667-08-28">July 28, 1667
+                    <placeName>Chertsey</placeName>
+                  </death>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#scw">Cowley was one of the leading poets and philosophical writers of his day, although not as well-known today as some of his contemporaries. He won fame at the age of fifteen for an elegy on the death of Lord Carlton. While a student at <orgName ref="#Cambridge_Univ">Cambridge</orgName>, he composed one of his most famous works, <title>the Davideis</title>, an epic on the struggles of <persName ref="#David_OT">King David</persName>. During the <rs type="event" ref="#EngCivilWar">Civil War</rs>, Cowley sided with the Royalists, and so had to endure a twelve-year exile in <placeName ref="#Paris">Paris</placeName> after the loss of that side. In <date when="1647">1647</date>, Cowley published  <title level="a" ref="#The_Chronicle">The Chronicle</title>, a satirical work in which he lists multiple women with whom he has had love affairs. In addition to poetry, Cowley also wrote a book on experimental farming.</note>
+                  <note>
+                     <ref target="http://cowley.lib.virginia.edu/"/>
+                  </note>
+               </person>
+               <person xml:id="Grimaldi_Jos" sex="m">
+                  <persName ref="#Grimaldi_Jos">
+                     <surname>Grimaldi</surname>
+                     <forename>Joseph</forename>
+                  </persName>
+                  <birth when="1779-12-18">December 18, 1778
+                    <placeName ref="#London_city">London</placeName>
+                  </birth>
+                  <death when="1837-05-31">May 31, 1837
+                    <placeName ref="#London_city">London</placeName>
+                  </death>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#scw">Joseph Grimaldi was one of the most famous clowns and comic actors of his day, acting in pantomimes from an early age. Born into a theatrical family, he was brought to the stage by his father, and had a long career at Sadler Wells, <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> theaters, working with <persName ref="#Kemble_C">Charles Kemble</persName> and other important figures. He was most known for acting in pantomimes, and retired from the stage in <date when="1823">1823</date>.</note>
+               </person>
+            </listPerson>
+            <listOrg sortKey="fictOrgs">
+               <org xml:id="CountryCM_B_cricketers_OV">
+                  <orgName ref="#CountryCM_B_cricketers_OV">B. parish cricket players</orgName>
+                  <note resp="#scw">The opposing cricket team in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Usually in <title level="m" ref="#OV">Our Village</title>, the initial <q>
+                        <abbr>B.</abbr>
+                     </q> designates <placeName ref="#Reading_city">Reading</placeName>, but in this sketch, it refers to a parish to the nortwest of <persName ref="#OVNarrator">the narrator</persName>'s own. Location as yet unidentified.</note>
+                  <!--scw 7/28/22: Looking at present-day maps, parish could be Burghfield, which was a parish in MRM's day. Where Pinge Wood is located. More research needed-->
+               </org>
+               <org xml:id="CountryCM_cricketers_OV">
+                  <orgName ref="#CountryCM_cricketers_OV">Shinfield parish cricket players</orgName>
+                  <note resp="#scw">The Shinfield parish cricket team featured in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>.</note>
+               </org>
+               <org xml:id="CountryCM_belles_OV">
+                  <orgName ref="#CountryCM_belles_OV">cricket belles</orgName>
+                  <note resp="#scw">Young women, mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>, who attend genteel cricket matches in distinction from the robust country affairs Mitford describes in this sketch.</note>
+               </org>
+               <org xml:id="CountryCM_cricket_dandies_OV">
+                  <orgName ref="#CountryCM_cricket_dandies_OV">cricket dandies</orgName>
+                  <note resp="#scw">Groups of men, mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>, who attend cricket matches at genteel locales such as <orgName ref="#Lords_Cricket_Ground">Lord's Cricket Ground</orgName>.</note>
+               </org>
+               <org xml:id="CountryCM_gent_cricketers_OV">
+                  <orgName ref="#CountryCM_gent_cricketers_OV">gentleman cricketers</orgName>
+                  <note resp="#scw">The gentlemen who bet on cricketing, including players, mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>.</note>
+               </org>
+               <org xml:id="CountryCM_lads_of_influence_OV">
+                  <orgName ref="#CountryCM_lads_of_influence_OV">lads of influence</orgName>
+                  <note resp="#scw">Group of young men in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> who persuade their peers and local authorities to resurrect cricket play in the parish.</note>
+               </org>
+               <org xml:id="CountryCM_cricketSpectators_OV">
+                  <orgName ref="#CountryCM_cricketSpectators_OV">cricket spectators</orgName>
+                  <note resp="#scw">The spectators of the cricket match in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. In the story, the narrator praises the spectators of such rural games over gentleman sportsmen, among them mothers, young girls and boys, and retired, amateur cricketers.</note>
+               </org>
+               <org xml:id="CountryCM_S_cricketers_OV">
+                  <orgName ref="#CountryCM_S_cricketers_OV">S. parish cricket players</orgName>
+                  <note resp="#scw">The rival cricket team from the parish of S. mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>.</note>
+               </org>
+               <org xml:id="CountryCM_magistrates_OV">
+                  <orgName ref="#CountryCM_magistrates_OV">magistrates</orgName>
+                  <note resp="#scw">The magistrates, mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>, who permit the resumption of cricket in the parish.</note>
+                  <!--scw: NOTE TO SELF: check whether magistrates were parish or county-based-->
+               </org>
+               <org xml:id="MartinBoys_OV">
+                  <orgName ref="#MartinBoys_OV">Martin boys</orgName>
+                  <note resp="#scw">The Martins are three farmers who present themselves to play on the <orgName ref="#CountryCM_cricketers_OV">Shinfield cricket team</orgName> in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>, but they are rejected for their lack of skills in the game.</note>
+               </org>
+            </listOrg>
+            <listOrg sortKey="histOrgs">
+               <org xml:id="Cambridge_Univ">
+                  <orgName ref="#Cambridge_Univ">Cambridge University</orgName>
+                  <note resp="jap">The University in <placeName ref="#Cambridge_city">Cambridge</placeName>. The school was established in <date when="1209">1209</date>.</note>
+               </org>
+               <org xml:id="Lords_Cricket_Ground">
+                  <orgName ref="#Lords_Cricket_Ground">Lord's Cricket Ground</orgName>
+                  <note resp="#jap #scw">A cricket venue in <placeName ref="#St_JohnsWood">St. John's Wood</placeName> founded by Thomas Lord. It houses the Marylebone Cricket Club.</note>
+               </org>
+               <org xml:id="Oxford_Univ">
+                  <orgName ref="#Oxford_Univ">Oxford University</orgName>
+                  <note resp="#scw">Founded sometime around <date when="1096">1096</date>, the university located in <placeName ref="#Oxford_city">Oxford</placeName> is considered the oldest in the English-speaking world.</note>
+               </org>
+            </listOrg>
+            <listPlace sortKey="histPlaces">
+               <place xml:id="Coventry_city">
+                  <placeName>Coventry</placeName>
+                  <region/>
+                  <country>England</country>
+                  <location>
+                     <geo>52.408056, -1.510556</geo>
+                  </location>
+                  <note resp="jap">City in the West Midlands in England.</note>
+               </place>
+               <place xml:id="Bramley_vil">
+                  <placeName ref="#Bramley_vil">Bramley</placeName>
+                  <region/>
+                  <country>England</country>
+                  <location>
+                     <geo>-1.0613,51.329</geo>
+                  </location>
+               </place>
+               <place xml:id="Shinfield_parish"><!--scw: We have a single Shinfield id in the SI, but should have two, one for village, one for parish-->
+                  <placeName ref="#Shinfield_parish"/>
+               </place>
+               <place xml:id="St_JohnsWood">
+                  <placeName ref="#St_JohnsWood"/>
+                  <note resp="#scw">A district in the City of Westminster, <placeName ref="#London_city">London</placeName>. The area was being developed in <persName ref="#MRM">Mitford</persName>'s time as a suburban residential location.</note>
+               </place>
+            </listPlace>
+            <listPlace sortKey="fictPlaces">
+               <place xml:id="A_mills_OV">
+                  <placeName ref="#A_mills_OV">A mills</placeName>
+                  <note resp="#scw">Place of employment of <persName ref="#Hearne_Joseph_OV">Joseph Hearne</persName> from <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. The mills are located in an adjacent parish.</note>
+                  <!--scw NOTE TO SELF: to be cross-referenced with a real place and verified-->
+               </place>
+               <place xml:id="H_common_OV">
+                  <placeName ref="#H_common_OV">H. common</placeName>
+                  <note resp="#scw">The common named in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> used by the opposing teams for their cricket match. It is located within <placeName ref="#Shinfield">Shinfield parish</placeName>.</note>
+                  <!--scw 7/28/22: Needs more research-->
+               </place>
+               <place xml:id="M_town_OV">
+                  <placeName ref="#M_town_OV">M. town</placeName>
+                  <note resp="#scw">Town mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> said to be located twelve miles from <placeName ref="#Shinfield_parish">Shinfield parish</placeName>. It is the residence of <persName ref="#Allen_Mary">Mary Allen</persName>. Location as yet unidentified.</note>
+               </place>
+               <place xml:id="S_parish_OV">
+                  <placeName ref="#S_parish_OV">S. parish</placeName>
+                  <note resp="#scw">Parish mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> as the home of a rival cricket team. It is located to the southeast of the village parish. Location as yet unidentified. <!--scw: It might be Swallowfield, if MRM is using the correct initial. It is likely NOT the same "S" that Mary Allen uses to identify where James Brown lives, which is Shinfield. Needs more research.--></note>
+               </place>
+            </listPlace>
+            <listBibl sortKey="work_MRM">
+               <bibl xml:id="Chevy_Chase_ballad">
+                  <title ref="#Chevy_Chase_ballad">The Ballad of Chevy Chase</title>
+                  <author>anonymous</author>
+                  <note resp="#scw">An old English ballad that tells the story of the dispute between Percy, the Duke of Northumberland and  the Scottish Earl Douglas over hunting. It was much admired in <persName ref="#MRM">Mitford</persName>'s time, having been published in a number of ballad collections, including <title level="m" ref="#Percy_Reliques">Reliques of Ancient English Poetry</title>. Its tune had also been adapted with other lyrics.</note>
+               </bibl>
+               <bibl xml:id="The_Chronicle">
+                  <title level="a" ref="#The_Chronicle">The Chronicle</title>
+                  <title type="main">The Chronicle</title>
+                  <title type="sub">A Ballad</title>
+                  <author ref="#Cowley_Abe">Abraham Cowley</author>
+                  <date when="1647">1647</date>
+                  <note resp="#scw">A comic poem in which the author lists the names of many supposed mistresses and how the relationships ended.</note>
+               </bibl>
+               <bibl xml:id="Le_Sylph_play">
+                  <title level="m" ref="#Le_Sylph_play">Le Sylph</title>
+                  <title type="main">Le Sylph</title>
+                  <title type="sub">
+                     <foreign xml:lang="fr">ou le mari comme il y en a peu</foreign>
+                  </title>
+                  <author>Martin de Choisy</author>
+                  <pubPlace>Montpellier</pubPlace>
+                  <date when="1780">1780</date>
+                  <note resp="#scw">A comic French play in verse.</note>
+               </bibl>
+            </listBibl>
+            <list sortKey="animals"><!--scw 6/18/20: all except as noted are in si-add NewStubsIP file-->
+               <item xml:id="cow"/>
+               <item xml:id="donkey"/>
+               <item xml:id="pig"/>
+               <item xml:id="goose"/>
+               <item xml:id="duck"/>
+               <!--scw 6/18/20: not in si-add NEW STUBSIP-->
+               <item xml:id="nightingale"/>
+               <!--scw 6/18/20: already in SI_LOCAL-->
+            </list>
          </div>
          <div type="file">
             <head>OVEllen.xml</head>
@@ -431,7 +1037,7 @@
                <!--scw 6/19/20: ID already in A Country Cricket Match and note updated in that sketch to reflect his mention here.-->
                <person xml:id="Walks_HSummer_fatGent_OV" sex="m">
                   <persName ref="#Walks_HSummer_fatGent_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
@@ -439,20 +1045,20 @@
                <person xml:id="Walks_HSummer_helper_OV" sex="u">
                   <persName ref="#Walks_HSummer_helper_OV">helper
                   <forename>not given</forename>
-                     
+                     <surname>not given</surname>
                   </persName>
                   <note resp="#scw">A character who assists the <persName ref="#OVNarrator">narrator</persName> water her flowers during a drought in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. Name and gender not given, but it is suggested they work in the stable.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoy_OV" sex="m">
                   <persName ref="#Walks_HSummer_hotBoy_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoyMom_OV" sex="f">
                   <persName ref="#Walks_HSummer_hotBoyMom_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
@@ -468,7 +1074,7 @@
                </person>
                <person xml:id="Walks_HSummer_coachman_OV" sex="m">
                   <persName ref="#Walks_HSummer_coachman_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="driver"/>
@@ -476,21 +1082,21 @@
                </person>
                <person xml:id="Walks_HSummer_littleHussar_OV" sex="m">
                   <persName ref="#Walks_HSummer_littleHussar_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character of an 8-year old cricket player who appears in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. The <persName ref="#OVNarrator">narrator</persName> does not know his name, and so she denotes him by his dress, which resembles that of a hussar.</note>
                </person>
                <person xml:id="Walks_HSummer_paleGirl_OV" sex="f">
                   <persName ref="#Walks_HSummer_paleGirl_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                      <note resp="#scw">An overheated character mentioned in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName ref="#OVNarrator">the narrator</persName> sees in the coach. Name not given.</note>
                   </persName>
                </person>
                <person xml:id="Schoolmaster_OV" sex="m"><!--scw: see similar character in The Visit; consider combining into single character xml:id, as could designate the same person-->
                   <persName ref="#Schoolmaster_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="schoolHead"/>
@@ -563,7 +1169,7 @@
             <listPerson sortKey="archPersons">
                <person xml:id="Jochebed" sex="f">
                   <persName ref="#Jochebed">
-                     
+                     <surname>not given</surname>
                      <forename>Jochebed</forename>
                   </persName>
                   <note resp="#scw">The mother of <persName ref="#Moses_OT">Moses</persName>, Aaron, and Miriam.</note>
@@ -736,7 +1342,7 @@
                <person xml:id="TomC_Tray_OV" sex="u">
                   <persName ref="#TomC_Tray_OV">
                      <forename>Tray</forename>
-                     
+                     <surname>not given</surname>
                   </persName>
                   <note resp="#scw">Character mentioned in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>.</note>
                   <!--scw: need to review this entry-->
@@ -748,7 +1354,7 @@
                <person xml:id="TomC_head_keeper_OV" sex="m">
                   <persName ref="#TomC_head_keeper_OV">Head gamekeeper
                         <forename>not given</forename>
-                     
+                     <surname>not given</surname>
                   </persName>
                   <occupation type="service" subtype="gamekeeper"/>
                   <note resp="#scw">Character who appears in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>. He acts as something of an ally and friend to <persName ref="#Cordery_Tom_OV">Tom</persName> by turning a blind eye to his poaching.</note>
@@ -770,7 +1376,7 @@
                <person xml:id="TomC_hisHonor_OV" sex="m">
                   <persName ref="#TomC_hisHonor_OV">his Honor
                         <forename>not given</forename>
-                     
+                     <surname>not given</surname>
                   </persName>
                   <note resp="#scw">Character mentioned in the sketch <title level="a" ref="#Tom_Cordery_OV">Tom Cordery</title>. It is difficult to discern anything about this character other than that he is a member of the nobility. In the story, he appears as someone about whom <persName ref="#Cordery_Tom_OV">Tom</persName> tells hunting tales to distract and tempt his clients into unattractive hunting grounds.<!--scw: The story about this man resembles something MRM writes about that I read somewhere in a letter. Not in L'Estrange. Perhaps to Mary Webb, Feb 11, 1820, about her father coursing on Mortimer Common. Or about an old hare she and her father were hunting and had killed, but don't recall the letter. Will check--></note>
                </person>
@@ -1019,28 +1625,28 @@
                </person>
                <person xml:id="BramMay_loiterer_OV" sex="m">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who provides the narrator and her companion with the key to the church when they arrive in Bramley.</note>
                </person>
                <person xml:id="BramMay_rustic_OV" sex="m">
                   <persName ref="#BramMay_rustic_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who guides the narrator and her companion on a tour of the Bramley church.</note>
                </person>
                <person xml:id="Bram_parish_clerk_OV" sex="m">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, this character attends the Maying rather than attending to visitors of the church.</note>
                </person>
                <person xml:id="BramMay_vender_OV" sex="m">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">One of the characters whom the <persName ref="#OVNarrator">narrator</persName> encounters in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
@@ -1052,13 +1658,13 @@
                <person xml:id="Lady_BRManor_OV" sex="f">
                   <persName ref="#Lady_BRManor_OV">Lady of B.R. Manor
                         <forename>not given</forename>
-                     
+                     <surname>not given</surname>
                   </persName>
                   <note resp="#scw">The lady is mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, and is likely a reference to <persName ref="#Brocas_H">Harriot Brocas</persName>, wife of <persName ref="#Brocas_Bernard">Bernard Brocas</persName>, who was known to spend little time at their newly renovated estate, <placeName ref="#Beaurepaire">Beaurepaire House</placeName>, after her husband's death, prefering to stay at <placeName ref="#Wokefield_Park">Wokefield Park</placeName>. </note>
                </person>
                <person xml:id="M_butcher_OV" sex="m">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="butcher"/>
@@ -1067,7 +1673,7 @@
                </person>
                <person xml:id="M_butchers_boy_OV" sex="m">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title>. He gives the narrator and her companion directions to the Maying, and later accompanies them on part of their journey.</note>
@@ -1089,7 +1695,7 @@
                </person>
                <person xml:id="Sil_farmwoman_OV" sex="f">
                   <persName>
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw"> Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title> who reveals that the narrator and her companion have reached <placeName ref="#Silchester">Silchester</placeName>. She gives the narrator and her companion directions to the Maying as they make their way to the festival.</note>
@@ -1278,7 +1884,7 @@
                   </person>
                   <person xml:id="CousMary_girl_OV" sex="f">
                      <persName>little girl
-                            
+                            <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">Character appearing in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, whom the title character helps climb the hill.</note>
@@ -1309,7 +1915,7 @@
                         </surname>
                         <forename>Mary</forename>
                      </persName>
-                     <occupation type="educator" subtype="governess"/>
+                     <occupation type="service" subtype="governess"/>
                      <!--8/10/22 scw: this is firing an error but it is not an error-->
                      <note resp="#alw #scw">Title character from the <title level="a" ref="#OV">Our Village</title> sketch <title ref="#Cousin_Mary_OV">Cousin Mary</title>. She is raised without accomplishments and is beloved by all. Surname not given.</note>
                   </person>
@@ -1333,7 +1939,7 @@
                   </person>
                   <person xml:id="MaryC_sister_OV" sex="f">
                      <persName>
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">Sister of the title character of the <title level="a" ref="#OV">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary, with whom Mary lives before becoming a governess, and who is a notorious matchmaker</title>.</note>
@@ -1654,7 +2260,7 @@
          <div type="file">
             <head>OVOurVillage.xml</head>
             <div>
-               <listPerson sortKey="histPersons"><!--ebb: 30 May 2014: added versions of these from the OVSI.xml file-->
+               <listPerson type="hist"><!--ebb: 30 May 2014: added versions of these from the OVSI.xml file-->
                   <person xml:id="Queen_Caroline"/>
                   <person xml:id="Austen_Jane"/>
                   <person xml:id="White_Gilbert"/>
@@ -1663,16 +2269,7 @@
                   <!--scw: 16 August 2014: Not found in main SI-->
                   <person xml:id="Dryden"/>
                </listPerson>
-               <listPerson sortKey="fictPersons" type="fict" subtype="int"><!--2023-05-26 ebb scw lmw: CHECKED:These are added PROPERLY with _OV at the end. Double check that total list is entered by doing this in oXygen:
-               Go to File: Open URL 
-               Open URL to https://digitalmitford.org/si.xml 
-               
-               Search these values in the officially publish si.
-               If they are not there, look for them in the DM_SiteIndex repo in SI-Full-IP >> si-local.xml 
-               
-               -->
-                  
-                  <!--ebb: added as stubs to main site index.-->
+               <listPerson type="fict" subtype="int"><!--ebb: added as stubs to main site index.-->
                   <person xml:id="RetiredPublican"/>
                   <person xml:id="RetiredPublicansWife"/>
                   <person xml:id="Blacksmith"/>
@@ -2307,7 +2904,7 @@
                   </person>
                   <person xml:id="Lucy_OV_fict" sex="f"><!--scw 8/11/22: this ID already in SI-->
                      <persName ref="#Lucy_OV_fict">Lucy
-                            
+                            <surname>not given</surname>
                         <forename>Lucy</forename>
                         <!--scw: I think we'd established a way of indicating this, but I forget what it is. Will check back through notes.-->
                         <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. Lucy is a beloved servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. She appears or is mentioned in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. She is based on <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>, whose marriage to <persName ref="#Hill_Charles">Charles Hill</persName> in <date when="1820">1820</date> led to her move to <placeName ref="#Silchester">Silchester</placeName> to teach school.</note>
@@ -2430,7 +3027,7 @@
                </person>
                <person xml:id="Martha_Aunt_OV" sex="f">
                   <persName ref="#Martha_Aunt_OV">Aunt Martha
-                  
+                  <surname>not given</surname>
                      <forename>Martha</forename>
                   </persName>
                   <note resp="#scw">Title character of <title level="a" ref="#Aunt_Martha_OV">Aunt Martha</title>, who is described as a beloved unmarried member of a <persName ref="#AuntMartha_patriarch_OV">a gentleman</persName> and <orgName ref="#AuntMartha_nieces_OV">his daughters</orgName>' household. It has been speculated that she is a fictionalized portrait of <persName ref="#Webb_Mary_elder">Mary Webb</persName>.</note>
@@ -2512,7 +3109,9 @@
                   <person xml:id="Pennant_Thomas"/>
                   <person xml:id="WhiteGilbert"/>
                </listPerson>
-              
+               <listPlace>
+                    
+                </listPlace>
                <listOrg type="person" subtype="fict">
                   <org xml:id="urchins"/>
                   <org xml:id="walkers"/>
@@ -2520,7 +3119,8 @@
                   <org xml:id="LieutenantsChildren"/>
                   <org xml:id="skating_spectators"/>
                </listOrg>
-            
+               <listBibl/>
+               <listNym/>
             </div>
          </div>
          <div type="file">
@@ -2546,7 +3146,7 @@
                   <person xml:id="Lucy"/>
                   <person xml:id="OVNarratorsFather"/>
                </listPerson>
-               <listPlace sortKey="histPlaces">
+               <listPlace type="geog">
                   <place xml:id="London_city"/>
                   <place xml:id="ThreeMileCross"/>
                   <!--scw: the town of B is mentioned several times here and elsewhere. Unidentified as yet.-->
@@ -2561,28 +3161,28 @@
                <!--scw: already described in Country Cricket Match-->
                <person xml:id="FHill_Frances_OV" sex="f">
                   <persName ref="#FHill_Frances_OV">Frances
-                  
+                  <surname>not given</surname>
                      <forename>Frances</forename>
                   </persName>
                   <note resp="#scw">This character appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>. She is the infant daughter of <persName ref="#FHill_friend_OV">the friend from F. Hill</persName> whom the narrator visits, and is the fictional counterpart of <persName ref="#Dickinson_Daughter">Frances Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friend_OV" sex="f">
                   <persName ref="#FHill_friend_OV">Farley Hill friend
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">This character, who appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, hosts <persName ref="#OVNarrator">the narrator</persName> at her home in F. Hill. She is based on <persName ref="#MRM">Mitford</persName>'s friend, <persName ref="#Dickinson_Mrs">Catherine Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friendHusband_OV" sex="m">
                   <persName ref="#FHill_friendHusband_OV">Farley Hill friend's husband
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">This character, who is mentioned in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, is based on <persName ref="#Dickinson_Charles">Charles Dickinson</persName>.</note>
                </person>
                <person xml:id="FHill_friendFather_OV" sex="m">
                   <persName ref="#FHill_friendFather_OV">F. Hill friend's father
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character who appears in <title level="a" ref="#Walks_TheVisit_OV">The Visit</title> accompanying <rs type="person" ref="#FHill_friend_OV #FHill_friendSister_OV">his daughters</rs> as they sing and play during a call on the <soCalled>great house</soCalled>.</note>
@@ -2594,7 +3194,7 @@
                </person>
                <person xml:id="FHill_friendSister_OV" sex="f">
                   <persName ref="#FHill_friendSister_OV">sister of the F. Hill friend
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">In <title level="a" ref="#Walks_TheVisit_OV">The Visit</title>, this character is referred to as the sister of the <persName ref="#FHill_friend_OV">F. Hill friend</persName> as she sings.</note>
@@ -2635,7 +3235,7 @@
                </person>
                <person xml:id="parishSchoolmaster_OV" sex="m">
                   <persName ref="#parishSchoolmaster_OV">parish schoolmaster
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="teacher"/>
@@ -2647,7 +3247,7 @@
                </person>
                <person xml:id="villageGlazier_OV" sex="m">
                   <persName ref="#villageGlazier_OV">village glazier
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="glazier"/>
@@ -2655,7 +3255,7 @@
                </person>
                <person xml:id="villageMiller_OV" sex="m">
                   <persName ref="#villageMiller_OV">village miller
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="trade" subtype="miller"/>
@@ -3040,7 +3640,7 @@
                </person>
                <person xml:id="Mrs_R_1stWife_son_OV" sex="m">
                   <persName ref="#Mrs_R_1stWife_son_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">The son of <persName ref="#Mrs_R_1stWife_OV">the first wife of </persName>
@@ -3064,7 +3664,7 @@
                </person>
                <person xml:id="MrsMosse_coachman_OV" sex="m">
                   <persName ref="#MrsMosse_coachman_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="service" subtype="coachman"/>
@@ -3072,14 +3672,14 @@
                </person>
                <person xml:id="MrsMosse_electDuke_OV" sex="m">
                   <persName ref="#MrsMosse_electDuke_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. He offends <persName ref="#Russell_Richard_OV">Mitford's maternal grandfather</persName> by saluting <rs type="person" ref="#Russell_MaryDicker_OV">his wife</rs>.</note>
                </person>
                <person xml:id="Russell_Fanny_OV" sex="f"><!--scw 6/29/21: Check to see whether this person may be Mrs. Fanny from "Modern Antiques".--><!--scw 5/25/22: It's possible this Fanny is the same as in Modern Antiques, but I haven't confirmed from dates and the story is elusive-->
                   <persName ref="#Russell_Fanny_OV">Fanny
-                  
+                  <surname>not given</surname>
                      <forename>Frances</forename>
                      <forename type="nick">Fanny</forename>
                      <!--scw: change to addName-->
@@ -3088,7 +3688,7 @@
                </person>
                <person xml:id="MrsMosse_OxfordProf_OV" sex="m">
                   <persName ref="#MrsMosse_OxfordProf_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="educator" subtype="teacher"/>
@@ -3096,21 +3696,21 @@
                </person>
                <person xml:id="MrsMosse_OxfordProfWife_OV" sex="f">
                   <persName ref="#MrsMosse_OxfordProfWife_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. She is among the many visitors to <persName ref="#Russell_MaryDicker_OV">Mitford's maternal grandmother</persName>'s home.</note>
                </person>
                <person xml:id="MrsMosse_pewOpener_OV" sex="m">
                   <persName ref="#MrsMosse_pewOpener_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. He is among the many visitors to <persName ref="#Russell_MaryDicker_OV">Mitford's maternal grandmother</persName>'s home.</note>
                </person>
                <person xml:id="MrsMosse_sexton_OV" sex="m">
                   <persName ref="#MrsMosse_sexton_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="religious"/>
@@ -3118,7 +3718,7 @@
                </person>
                <person xml:id="MrsMosse_sextonsDaughter_OV" sex="f">
                   <persName ref="#MrsMosse_sextonsDaughter_OV">
-                     
+                     <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs. Mosse</title>, who imprudently marries the son of <persName ref="#Russell_Richard_OV">Dr. Russell</persName>'s first wife.</note>
@@ -3316,28 +3916,28 @@
                <listPerson sortKey="fictPersons">
                   <person xml:id="madcap_lord_OV" sex="m">
                      <persName ref="#madcap_lord_OV">
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">In the <title level="m" ref="#OV">Our Village</title> sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>, the <persName ref="#OVNarrator">narrator</persName> facetiously imagines how a long-ago lord was prevented from making an enclosure in <placeName ref="#Shinfield">Shinfield parish</placeName>.</note>
                   </person>
                   <person xml:id="Vio_farmhouse_landlord_OV" sex="m"><!--scw: I'm keeping an eye out for someone similar, in order to cross-ref-->
                      <persName ref="#Vio_farmhouse_landlord_OV">
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">In the <title level="m" ref="#OV">Our Village</title> sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>, this character is mentioned as a landlord whose carelessness has affected his tenants and the farmhouse they live in.</note>
                   </person>
                   <person xml:id="Vio_old_man_OV" sex="m">
                      <persName ref="#Vio_old_man_OV">
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <note resp="#scw">An old man whom the <persName ref="#OVNarrator">narrator</persName> sees digging in <placeName ref="#parish_workhouse_OV">workhouse</placeName> garden in the sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>.</note>
                   </person>
                   <person xml:id="Vio_ruined_tenant_OV" sex="u"><!--scw: Gender not stated, assume male. This character may or may not appear in other sketches. I'm keeping an eye out for someone similar, in order to cross-ref-->
                      <persName ref="#Vio_ruined_tenant_OV">
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <occupation type="trade" subtype="farmer"/>
@@ -3590,7 +4190,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                   </person>
                   <person xml:id="Vil_Beau_carpenter_OV" sex="m">
                      <persName>
-                        
+                        <surname>not given</surname>
                         <forename>not given</forename>
                      </persName>
                      <occupation type="trade" subtype="carpenter"/>
@@ -3802,7 +4402,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                <!--scw 7/7/20: this xml:id and note is already listed at the end of "The Talking Lady." Note in that sketch has been updated to account for her mention in this sketch.-->
                <person xml:id="Talk_Gent_soldier_OV" sex="m">
                   <persName ref="#Talk_Gent_soldier_OV">soldier
-                  
+                  <surname>not given</surname>
                      <forename>not given</forename>
                   </persName>
                   <occupation type="military"/>
