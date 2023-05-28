@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -112,16 +114,9 @@
                      <rs type="family">liliaceae</rs>
                      <note resp="#tfb"> This flower is from the tulipa genus and the perrenial species. It grows most commonly in the Mediterranean, but grows in gardens and in potted plants.</note>
                   </item>
-                  <item xml:id="elm">
-                     <name ref="#elm">elm</name>
-                     <rs type="genus">Ulmus</rs>
-                     <rs type="species"/>
-                     <rs type="family">Ulmaceae</rs>
-                     <note resp="#tfb">The elm is appears frequently in literature, with its first presence taking place in the Iliad. It is also in the Aeneid, as the Stygian Elm. Virgil refers to a Roman superstition that elms were trees of ill-omen because their fruit seemed to have no value. Two elm-motifs have risen from classical literature: the 'Paradisal elm' motif, representing pastoral idylls, and the 'Elm and Death' motif. Many references to elm from the Renaissance onwards fit one of these two categories.</note>
-                  </item>
-                  <item xml:id="pink"/>
-                  <item xml:id="rose"/>
-                  <item xml:id="hyacinth"/>
+                 
+              
+                  
                </list>
                <list type="animals"><!--SCW: We'll need to decide which of these is relevant-->
                   <item xml:id="horse">
@@ -136,9 +131,7 @@
                   <item xml:id="cow">
                      <name ref="#cow">cow</name>
                   </item>
-                  <item xml:id="butterfly">
-                     <name ref="#butterfly">butterfly</name>
-                  </item>
+                  
                   <item xml:id="bee">
                      <name ref="#bee">bee</name>
                   </item>
@@ -277,15 +270,7 @@
                   </person>
                </listPerson>
                <listPlace>
-                  <place xml:id="proposed_new_ID3">
-                     <placeName><!--best-known name of the place--></placeName>
-                     <placeName><!--alternate place name--></placeName>
-                     <location>
-                        <geo><!--Latitude followed by longitude, separated by a white space like this:
-              53.226658 -0.541254
-              --></geo>
-                     </location>
-                  </place>
+                 
                   <place xml:id="Whitby_Park"><!--scw: check if a place or a farm name. See notes on insolvency court claim, the Jurist, 1837-->
                      <placeName>Whitby Park</placeName>
                      <note resp="#scw">Location of Mr. and Mrs. Newell's farm in St. Giles parish, Berkshire, likely the model for the great farmhouse at M. in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
@@ -329,16 +314,7 @@
                   </persName>
                   <note resp="#scw">In Shakespeare's play, <title level="m" ref="#Merry_Wives_play">The Merry Wives of Windsor</title>, Slender is a foolish character whom Anne Page tricks as part of the larger trick on <persName ref="#Falstaff_WS">Falstaff</persName>.</note>
                </person>
-               <person xml:id="Percy_Henry" sex="m">
-                  <persName ref="#Percy_Henry">
-                     <surname>Percy</surname>
-                     <forename>Henry</forename>
-                     <forename type="nick">Hotspur</forename>
-                     <roleName>Earl of Northumberland</roleName>
-                  </persName>
-                  <birth/>
-                  <death when="1408">1408</death>
-               </person>
+              
                <person xml:id="PP_Esq_OV" sex="m"><!--scw 8/7/22: May redo this as an in-text annotation rather than an SI entry-->
                   <persName ref="#PP_Esq_OV">
                      <surname>
@@ -604,8 +580,7 @@
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. She is the mother of <persName ref="#Long_Samuel_OV">Samuel Long</persName>, and the maker of the handkerchief that is stolen.</note>
                </person>
-               <person xml:id="Lucy_OV_fict"/>
-               <!--scw: revise proposed entry in si.add file to make consistent with ov extension-->
+               
                <!--REVISION FOR SI, "Mason_OV" entry:
                     Cross-reference with entry for "Strong_George": Needham mentions a <persName ref="#Strong_George">George Strong</persName> who was a bricklayer in Three Mile Cross, suggesting that he was probably the model for this character.-->
                <person xml:id="Simmons_George_OV" sex="m">
@@ -751,14 +726,7 @@
                   </location>
                   <note resp="jap">City in the West Midlands in England.</note>
                </place>
-               <place xml:id="Bramley_vil">
-                  <placeName ref="#Bramley_vil">Bramley</placeName>
-                  <region/>
-                  <country>England</country>
-                  <location>
-                     <geo>-1.0613,51.329</geo>
-                  </location>
-               </place>
+               
                <place xml:id="Shinfield_parish"><!--scw: We have a single Shinfield id in the SI, but should have two, one for village, one for parish-->
                   <placeName ref="#Shinfield_parish"/>
                </place>
@@ -813,16 +781,7 @@
                   <note resp="#scw">A comic French play in verse.</note>
                </bibl>
             </listBibl>
-            <list sortKey="animals"><!--scw 6/18/20: all except as noted are in si-add NewStubsIP file-->
-               <item xml:id="cow"/>
-               <item xml:id="donkey"/>
-               <item xml:id="pig"/>
-               <item xml:id="goose"/>
-               <item xml:id="duck"/>
-               <!--scw 6/18/20: not in si-add NEW STUBSIP-->
-               <item xml:id="nightingale"/>
-               <!--scw 6/18/20: already in SI_LOCAL-->
-            </list>
+            
          </div>
          <div type="file">
             <head>OVEllen.xml</head>
@@ -1022,8 +981,7 @@
          <div type="file">
             <head>OVWalksInTheCountryTHEHARDSUMMER.xml</head>
             <listPerson sortKey="fictPersons">
-               <person xml:id="Coper_Tom_OV"/>
-               <!--scw 6/19/20: noted already in Country Cricket Match file with xml.id. Note there updated in that sketch to include this sketch.-->
+               
                <person xml:id="Eusden_Jem_OV" sex="m"><!--scw: need to cross-ref this entry-->
                   <persName ref="#Eusden_Jem_OV">
                      <surname>Eusden</surname>
@@ -1033,8 +991,7 @@
                   <occupation type="scholar"/>
                   <note resp="#scw">One of the country boys who plays a skillful game of cricket in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. He is said to be about 13-years old, and is a rival of <persName ref="#Kirby_Joe_OV">Joe Kirby</persName>.</note>
                </person>
-               <person xml:id="Grey_William_OV" sex="m"/>
-               <!--scw 6/19/20: ID already in A Country Cricket Match and note updated in that sketch to reflect his mention here.-->
+               
                <person xml:id="Walks_HSummer_fatGent_OV" sex="m">
                   <persName ref="#Walks_HSummer_fatGent_OV">
                      <surname>not given</surname>
@@ -1161,6 +1118,7 @@
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="literary" subtype="poet"/>
                   <note resp="#scw">Best known as the popularizer of fairy tales in his book <title ref="#Stories_Tales_Times_Past">Tales and Stories of Times Past&gt;</title>, Perrault worked in various government secretarial roles, including as secretary to the Academy of Inscriptions and Belles Lettres. He was elected to the prestigious Academie francaise in <date when="1671">1671</date>. He advised on the design of the Aesop's Fables fountains in the labyrinth at the Palace of Versailles, and the Colonade section of the Louvre. He wrote treatises on painting and theater, and became an influential advocate for modern authors against those who held to strict classical standards of writing in the debate around the Moderns versus the Ancients. He began writing fairy tales after he was pushed out of his government position and subsequently lost his pension.</note>
+                  <note resp="#scw">Charles Perrault is today best known as the inventor of the modern fairy tale. Born into a wealthy family, Perrault spent his career as a secretary in the Academy of Inscriptions and Belles-Lettres. He also worked in various capacities within the court of Louis XIV to promote the King's projects. He was a prominent advocate for the Modern side in the debate between the Ancients and the Moderns in excellence in the arts, and a distinguished art critic. In <date when="1671">1671</date>, he was elected to the <foreign>Academie francaise</foreign>. After he was forcibly retired from the court by one of his rivals, and denied his government pension, he turned to writing. He published an epic poem, then, in <date when="1697">1697</date> composed a collection of fairy tales under the name of his youngest son, Pierre Darmancourt, entitled <title level="m">Tales and Stories of the Past with Morals</title>. This collection of stories, drawn from previous literary collections and from French folk tales, featured tales that became classics, such as <title level="a">Little Red Riding Hood</title>, <title level="a">Cinderella; or the Little Glass Slipper</title>, <title level="a">Bluebeard</title>, and <title level="a">Sleeping Beauty</title>. It also introduced the character of Mother Goose. The volume went through numerous editions, translations, and adaptations. By Mitford's time, Perrault's tales were recognized and published as stories for children, despite their sometimes racy themes.</note><!--scw: integrate notes-->
                   <note>
                      <ref target="http://viaf.org/viaf/34461426"/>
                   </note>
@@ -1203,10 +1161,7 @@
                   <note resp="#scw">The characters riding on the inside of the coach who are observed by the <persName ref="#OVNarrator">narrator</persName> during the heatwave in <title level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. They consist of <persName ref="#Walks_HSummer_fatGent_OV">the fat gentleman</persName>, <persName ref="#Walks_HSummer_hotBoy_OV">an overheated young boy</persName>,<persName ref="#Walks_HSummer_hotBoyMom_OV"> his mother</persName>, and <persName ref="#Walks_HSummer_paleGirl_OV">a pale girl</persName>.</note>
                </org>
             </listOrg>
-            <listPlace sortKey="fictPlaces">
-               <place xml:id="B_city_OV"/>
-               <!--scw: I entered a note and xml:id for this in The Talking Gentleman backlist. I'm not sure if this one has an xml:id somewhere else in another OV file, but B is MRM's name for Reading throughout OV. We could tag as Reading or as its own separate thing.-->
-            </listPlace>
+            
             <listPlace sortKey="histPlaces">
                <place xml:id="Spice_Islands">
                   <placeName ref="#Spice_Islands">Spice Islands
@@ -1265,41 +1220,14 @@
                   </figure>
                </item>
             </list>
-            <list sortKey="animals">
-               <item xml:id="cow"/>
-               <!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
-               <item xml:id="horse"/>
-               <!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
-               <item xml:id="dog"/>
-               <!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
-               <item xml:id="chicken"/>
-               <item xml:id="pig"/>
-               <item xml:id="goose"/>
-               <item xml:id="duck"/>
-            </list>
+           
             <list sortKey="plants">
-               <item xml:id="campanula"/>
-               <!--scw: already in SI-->
-               <item xml:id="clove"/>
-               <!--scw: already in SI-->
-               <item xml:id="dahlia"/>
-               <!--already in SI-->
-               <item xml:id="forget_me_not"/>
-               <!--scw: already in SI-->
-               <item xml:id="foxglove"/>
-               <!--scw: already in SI-->
-               <item xml:id="elm"/>
-               <!--scw: already in SI-->
-               <item xml:id="geranium"/>
-               <!--scw already in SI-->
-               <item xml:id="hollyhock"/>
-               <!--scw already in SI-->
-               <item xml:id="tiger_lily">
-                  <name ref="#tiger_lily">tiger lily</name>
+               
+               <item xml:id="lily-tiger">
+                  <name ref="#lily-tiger">tiger lily</name>
                   <note resp="#scw">A species of lily native to Asia and eastern Russia, but that can also be cultivated in Europe and North America, the tiger lily grows from bulbs, and possesses orange and black petals that reach backward.</note>
                </item>
-               <item xml:id="tuberose"/>
-               <!--scw 6/27/20: already in draft in SI-add_NEWSTUBSip-->
+               
             </list>
          </div>
          <div type="file">
@@ -1569,54 +1497,31 @@
             </listBibl>
             <list sortKey="plants">
                <item xml:id="oak"/>
-               <item xml:id="ivy"/>
-               <item xml:id="woodbine"/>
-               <item xml:id="acorns"/>
+               
+              
+               <item xml:id="acorns"/><!--scw: point to oak in tag-->
                <item xml:id="gentianella"/>
-               <item xml:id="pine"/>
-               <item xml:id="bramble"/>
-               <item xml:id="furze"/>
-               <item xml:id="broom"/>
-               <item xml:id="beech"/>
-               <item xml:id="elm"/>
+              
+              
+              
+               
+               
                <item xml:id="Scottish_fir"/>
-               <item xml:id="fern"/>
-               <item xml:id="heath"/>
+               
             </list>
             <list sortKey="animals">
-               <item xml:id="Marygold_pet_OV"/>
-               <item xml:id="ferret"/>
-               <item xml:id="hare"/>
-               <item xml:id="terrier"/>
-               <item xml:id="mongrel"/>
-               <item xml:id="pheasant"/>
-               <item xml:id="rat"/>
-               <item xml:id="adder"/>
-               <item xml:id="dog"/>
-               <item xml:id="duck"/>
-               <item xml:id="greyhound"/>
-               <item xml:id="goose"/>
-               <item xml:id="partridge"/>
-               <item xml:id="rabbit"/>
+               <item xml:id="rat"/><!--scw: in SI-Local, 2 types of rats, black and brown. We may need an indistinct rat.-->
+               
             </list>
          </div>
          <div type="file">
             <head>OVBramleyMaying.xml</head>
-            <list sortKey="animals">
-               <item xml:id="horse"/>
-               <item xml:id="cow"/>
-            </list>
-            <list sortKey="plants">
-               <item xml:id="ash"/>
-               <item xml:id="beech"/>
-               <item xml:id="briar"/>
-               <item xml:id="broom"/>
-               <item xml:id="cherry_tree"/>
-               <item xml:id="furze"/>
-               <item xml:id="Guelder_rose"/>
-               <item xml:id="lilac"/>
+            
+            <list sortKey="plants"> 
+               <item xml:id="cherry_tree"/><!--scw: in SI-Local, 2 cherrys: cherry_wild and cherry_bird. Check the text to see which is what - 2nd known as MayDay tree-->
+              
                <item xml:id="peony"/>
-               <item xml:id="stock"/>
+               
             </list>
             <listPerson sortKey="fictPersons">
                <person xml:id="BramMay_companion_OV" sex="u"><!--scw: gender is not identified. What's the code for this?-->
@@ -1801,9 +1706,12 @@
                </place>
                <place xml:id="Bramley_vil">
                   <placeName ref="#Bramley_vil">Bramley</placeName>
+                
+                     <country>England<region></region></country>
                   <location>
-                     <geo/>
+                     <geo>-1.0613,51.329</geo>
                   </location>
+                  
                   <note resp="#scw">Village in <placeName ref="#Hampshire_county">Hampshire</placeName>, located ten miles south of <placeName ref="#Reading_city">Reading</placeName>, near <placeName ref="#Silchester">Silchester</placeName>.</note>
                </place>
                <place xml:id="Holy_Brook">
@@ -1832,9 +1740,7 @@
                   </location>
                   <note resp="#scw">Church located in <placeName ref="#Bramley">Bramley</placeName>, <placeName ref="#Hampshire_county">Hampshire</placeName> that dates from <date notBefore="1100">the tweflth century</date>, undergoing many renovations since that time. The church is notable for its beautiful stained glass and its elaborate marble tomb sculpture of <persName ref="#Brocas_Bernard">Bernard Brocas</persName>. It is featured in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, when the <persName ref="#OVNarrator">narrator</persName> and <persName ref="#BramMay_companion_OV">her companion</persName> take a tour.</note>
                </place>
-               <place xml:id="SilchesterAmphitheatre">
-                  <placeName ref="#SilchesterAmphitheatre"/>
-               </place>
+               
                <place xml:id="Wokefield_Park">
                   <placeName ref="#Wokefield_Park">Wokefield Park</placeName>
                   <location>
@@ -2027,34 +1933,20 @@
                   </place>
                </listPlace>
                <list sortKey="plants">
-                  <item xml:id="rose">
-                        <!--<name>rose</name>
-                        <name>
-                            <rs type="genus">Rose</rs>
-                            <rs type="family">Rosaceae</rs>
-                        </name>
-                        <note resp="#alw">A rose is a prickly bush or shrub that typically bears red, pink, yellow, or white fragrant flowers, native to north temperate regions. Numerous hybrids and cultivars have been developed and are widely grown as ornamentals.</note>-->
-                    </item>
-                  <item xml:id="winter_berry">
+                  
+                   
+                  <item xml:id="winter_berry"><!--scw 5/28/23: see git hub SI Local for instructions-->
+                     
                            <!-- <name>winter berry</name>-->
                             <!--<note resp="#alw">Since winterberry is a generalized term, it is possible that Mitford is referring to hawthorn berries or blackthorn berrries, but Ilex verticillata, commonly called holly, is the most common European winterberry.</note>-->
-                            <!--scw: I removed the tag because it was figurative-->
+                     
+                     <!--ADD TO NOTE<note>
+    <ptr target="https://www.woodlandtrust.org.uk/blog/2018/11/winter-berries/"/>
+</note>-->
+                     <!--scw: I removed the tag because it was figurative-->
                         </item>
-                  <item xml:id="lily">
-                           <!--<name>lily</name>
-                              <name>
-                                    <rs type="genus">lilium</rs>
-                                    <rs type="family">liliaceae</rs>
-                              </name>
-                              <note resp="#alw">The lily, or Lilium (members of which are true lilies), is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. Most species are native to the temperate northern hemisphere, though their range extends into the northern subtropics.</note>-->
-                            </item>
-                  <item xml:id="oak">
-                                    <!--<name>oak</name>
-                                    <name>
-                                        <rs type="genus">Quercus</rs>
-                                        <rs type="family">Fagaceae</rs>
-                                    </name>
-                                    <note resp="#alw">An oak is a tree belonging to the genus Quercus, of the beech family, bearing the acorn as fruit.</note>--></item>
+                  
+                  
                   <item xml:id="grape">
                         <!--<name>grape</name>
                         <name>
@@ -2064,7 +1956,7 @@
                          <note resp="#alw">A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis.</note>--></item>
                </list>
                <list sortKey="animals">
-                  <item xml:id="colt">
+                  <item xml:id="colt"><!--SCW: We have pony. Do we want colt?-->
                                  <!--name>colt</name>
                                  <name>
                                      <rs type="genus">Equus</rs>
@@ -2082,7 +1974,7 @@
                                  </name>
                                  <note resp="#alw">A butterfly is an insect with two pairs of large wings that are covered with tiny scales, usually brightly colored, and typically held erect when at rest.</note>-->
                              </item>
-                  <item xml:id="swallow">
+                  <item xml:id="swallow"><!--scw: this exists in SILocal but no note-->
                                 <!-- <name>swallow</name>
                                  <name>
                                      <rs type="phylum">Chordata</rs>
@@ -2091,19 +1983,11 @@
                                      <rs type="suborder">Passeri</rs>
                                      <rs type="family">Hirundinidae</rs>
                                  </name>
-                                 <note resp="#alw">The swallow is from a family of passerine birds found around the world on all continents except Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance. The term 'swallow' is used colloquially in Europe as a synonym for the barn swallow. </note>-->
+                                 <note resp="#alw">The swallow is from a family of passerine birds found around the world on all continents except Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance. The term <q>swallow</> is used colloquially in Europe as a synonym for the barn swallow. </note>-->
                              </item>
-                  <item xml:id="donkey">
-                                 <!--<name>donkey</name>
-                                 <name>
-                                     <rs type="genus">Equus</rs>
-                                     <rs type="species">E. africanus</rs>
-                                     <rs type="subspecies">E. a. asinus</rs>
-                                     <rs type="family">Equidae</rs>
-                                 </name>
-                                 <note resp="#alw">Donkeys, also called burros and asses, are found throughout the world. They are members of the Equidae family, which also includes horses and zebras. They look a lot like their cousins, but have long, floppy ears and tend to be stockier than horses or zebras.</note>-->
-                             </item>
-                  <item xml:id="fawn">
+                  
+                            
+                  <item xml:id="fawn"><!--scw: there are 4 dif entries for deer in SI LOcal-->
                                  <!--<name>fawn</name>
                                  <name>
                                      <rs type="phylum">Chordata</rs>
@@ -2252,10 +2136,7 @@
                   <note resp="#scw">Influential and controversial biography of <persName ref="#Johnson">Samuel Johnson</persName> that came to set a standard for life-writing in the eighteenth and nineteenth centuries.</note>
                </bibl>
             </listBibl>
-            <list sortKey="plants">
-               <item xml:id="rose"/>
-               <!--scw 7/27/22: in SI but not being picked up-->
-            </list>
+            
          </div>
          <div type="file">
             <head>OVOurVillage.xml</head>
@@ -2303,11 +2184,10 @@
                   <person xml:id="Wheeler"/>
                   <person xml:id="WheelersWife"/>
                   <person xml:id="Curate"/>
-                  <person xml:id="Lieutenant"/>
+                 
                   <person xml:id="JohnEvans"/>
                   <person xml:id="JohnEvansWife"/>
-                  <person xml:id="OVNarrator"/>
-                  <!--scw: All of these id’s added to OV fictional people file-->
+                  
                </listPerson>
                <listPerson type="fict" subtype="ext"><!--ebb: added as stubs to the site index.-->
                   <person xml:id="Robinson_Crusoe"/>
@@ -2412,34 +2292,31 @@
                   </listOrg>
                </listOrg>
                <list type="plant">
-                  <item xml:id="stocks"/>
-                  <item xml:id="clematis"/>
-                  <item xml:id="rose"/>
-                  <item xml:id="geranium"/>
-                  <item xml:id="yew_tree"/>
-                  <item xml:id="hollyhock"/>
-                  <item xml:id="honeysuckle"/>
-                  <item xml:id="apricot_tree"/>
-                  <item xml:id="tulip"/>
-                  <item xml:id="pink"/>
+                 
+                  
+                  <!--<item xml:id="yew_tree"/><!-\-scw: change to yew in text-\->-->
+                 
+                  
+                  
+                  
+                
                   <item xml:id="larkspur"/>
-                  <item xml:id="peony"/>
-                  <item xml:id="carnation"/>
+                 
+                 
                   <item xml:id="privet"/>
-                  <item xml:id="lime_tree"/>
-                  <item xml:id="oak_tree"/>
-                  <item xml:id="elm_tree"/>
+                  
+                  
+                  
                   <item xml:id="chrysanthemum"/>
-                  <item xml:id="dahlia"/>
-                  <item xml:id="hedge_row"/>
+                 
+                  <item xml:id="hedge_row"/><!--scw: delete tag. we don't need-->
                   <item xml:id="cucumber"/>
                   <item xml:id="melon_plant"/>
                   <item xml:id="thorn"/>
-                  <item xml:id="vine"/>
-                  <item xml:id="furze"/>
+                  <item xml:id="vine"/><!--scw: delete in text tag.-->
+                 
                </list>
                <listBibl>
-                  <bibl xml:id="Nat_Hist_Selborne"/>
                   <bibl xml:id="The_Recruiting_Serjeant"/>
                   <bibl xml:id="Odyssey"/>
                </listBibl>
@@ -2663,15 +2540,13 @@
             </listBibl>
             <list sortKey="plants">
                <item xml:id="apple"/>
-               <item xml:id="asparagus"/>
-               <item xml:id="vine"/>
-               <item xml:id="woodbine"/>
+              
+               
+               <item xml:id="woodbine"/><!--scw: woodbine is alt name of honeysuckle acc to SI local. Need to enter alt name and delete this id-->
             </list>
             <list sortKey="animals">
-               <item xml:id="hare"/>
-               <!--scw: Already in the siADDNEW Stubs IP file, but i include here so my file will scan properly-->
-               <item xml:id="sheep"/>
-               <!--scw: Already in the siADDNEW Stubs IP file, but i include here so my file will scan properly-->
+               
+               
                <item xml:id="fox"/>
             </list>
          </div>
@@ -2720,23 +2595,8 @@
                      <ref target="http://viaf.org/viaf/66820978"/>
                   </note>
                </person>
-               <person xml:id="Perrault_Charles" sex="m"><!--scw: a duplicate from another OV sketch. Will need to combine-->
-                  <persName>
-                     <surname>Perrault</surname>
-                     <forename>Charles</forename>
-                  </persName>
-                  <persName type="pseudo">Pierre Darmancourt</persName>
-                  <!--scw 7/28/22: check this, not sure it's correct-->
-                  <birth when="1628-01-12">January 12, 1628
-                    <placeName ref="#Paris">Paris</placeName>
-                  </birth>
-                  <death when="1703-05-16">May 16,1703
-                    <placeName ref="#Paris">Paris</placeName>
-                  </death>
-                  <occupation type="literary"/>
-                  <occupation type="government"/>
-                  <note resp="#scw">Charles Perrault is today best known as the inventor of the modern fairy tale. Born into a wealthy family, Perrault spent his career as a secretary in the Academy of Inscriptions and Belles-Lettres. He also worked in various capacities within the court of Louis XIV to promote the King's projects. He was a prominent advocate for the Modern side in the debate between the Ancients and the Moderns in excellence in the arts, and a distinguished art critic. In <date when="1671">1671</date>, he was elected to the <foreign>Academie francaise</foreign>. After he was forcibly retired from the court by one of his rivals, and denied his government pension, he turned to writing. He published an epic poem, then, in <date when="1697">1697</date> composed a collection of fairy tales under the name of his youngest son, Pierre Darmancourt, entitled <title level="m">Tales and Stories of the Past with Morals</title>. This collection of stories, drawn from previous literary collections and from French folk tales, featured tales that became classics, such as <title level="a">Little Red Riding Hood</title>, <title level="a">Cinderella; or the Little Glass Slipper</title>, <title level="a">Bluebeard</title>, and <title level="a">Sleeping Beauty</title>. It also introduced the character of Mother Goose. The volume went through numerous editions, translations, and adaptations. By Mitford's time, Perrault's tales were recognized and published as stories for children, despite their sometimes racy themes.</note>
-               </person>
+               
+                  
             </listPerson>
             <listOrg sortKey="fictOrgs">
                <org xml:id="Cowslip_mimic_boys_OV">
@@ -2750,13 +2610,11 @@
                </org>
             </listOrg>
             <listPlace sortKey="fictPlaces">
-               <place xml:id="lea_OV">
-                  <placeName ref="#lea_OV">the lea in Our Village</placeName>
-                  <note resp="#scw">The lea near the <persName ref="#OVNarrator">Our Village narrator</persName>'s home where she frequently walks.</note>
-               </place>
+               
                <place xml:id="parish_workhouse_OV">
                   <placeName ref="#parish_workhouse_OV">parish workhouse in Our Village</placeName>
-                  <note resp="#scw">The parish workhouse mentioned in several <title level="m" ref="#OV">Our Village</title> sketches.</note>
+                  <note resp="#scw">The parish workhouse mentioned in several <title level="m" ref="#OV">Our Village</title> sketches.</note><!--scw: Needs further research and reading to establish which workhouse is being referred to when.-->
+                  <!--scw: Violeting and First Primrose probably refer to a workhouse in 3 Mile Cross, nearish to the cottage. Tom Cordery probably a different one.-->
                </place>
             </listPlace>
             <listBibl sortKey="schol">
@@ -2795,31 +2653,25 @@
                </bibl>
             </listBibl>
             <list sortKey="animals"><!--scw: the following animals and plants id's have not been checked against the SI or other files. IDs may exist elsewhere.-->
-               <item xml:id="cow"/>
-               <item xml:id="turkey_cock"/>
-               <item xml:id="pig"/>
-               <item xml:id="Newfoundland_dog"/>
+               
+               <item xml:id="turkey_cock"/><!--scw: compare w/ a turkey, latter in SI local-->
+               
+               
                <item xml:id="dragon_fly"/>
-               <item xml:id="trout"/>
+              
                <item xml:id="fly"/>
-               <item xml:id="cuckoo"/>
-               <item xml:id="butterfly"/>
-               <item xml:id="nightingale"/>
-               <item xml:id="greyhound"/>
+               
+               
             </list>
             <list sortKey="plants">
-               <item xml:id="clowslip"/>
-               <!--scw: already in SI-->
-               <item xml:id="alder"/>
-               <item xml:id="hawthorn"/>
-               <item xml:id="wild_rose"/>
-               <item xml:id="lily"/>
-               <item xml:id="ivy"/>
-               <item xml:id="daisy"/>
-               <item xml:id="violet"/>
-               <item xml:id="hyancinth"/>
-               <item xml:id="ash"/>
-               <item xml:id="marsh_marygold"/>
+               
+              
+               <item xml:id="wild_rose"/><!--scw: change tag to rose_wild-->
+               
+              
+               
+               
+              
             </list>
          </div>
          <div type="file">
@@ -2835,56 +2687,35 @@
                   <item xml:id="wood_pigeon">
                      <name ref="#wood_pigeon">wood pigeon</name>
                   </item>
-                  <item xml:id="peacock"/>
-                  <item xml:id="dog"/>
-                  <item xml:id="pig"/>
-                  <item xml:id="cow"/>
+                  
+                 
                </list>
                <list sortKey="plants">
                   <item xml:id="acacia">
                      <name ref="#acacia">acacia</name>
                   </item>
-                  <item xml:id="honeysuckle">
-                     <name ref="#honeysuckle">honeysuckle</name>
-                  </item>
+                  
                   <item xml:id="chestnut"/>
-                  <item xml:id="poppy">
-                     <name ref="#poppy">poppy</name>
-                  </item>
-                  <item xml:id="lily">
-                     <name ref="#lily">lily</name>
-                  </item>
-                  <item xml:id="fir">
-                     <name ref="#fir">fir tree</name>
-                  </item>
-                  <item xml:id="alder">
-                     <name ref="#alder">alder</name>
-                  </item>
-                  <item xml:id="oak">
-                     <name ref="#oak">oak</name>
-                  </item>
-                  <item xml:id="blue_bell">
+                 
+                  
+                  
+                  
+                  <item xml:id="blue_bell"><!--scw: change to proper id in text, si local--> 
                      <name ref="#blue_bell">blue bell</name>
                   </item>
-                  <item xml:id="thyme">
-                     <name ref="#thyme">thyme</name>
-                  </item>
+                  
                   <item xml:id="lily_valley">
                      <name ref="#lily_valley">lily of the valley</name>
                   </item>
-                  <item xml:id="pollard">
+                  <item xml:id="pollard"><!--scw: do we need this?-->
                      <name ref="#pollard">pollard</name>
                   </item>
                   <item xml:id="poplar">
                      <name ref="#poplar"/>
                   </item>
-                  <item xml:id="ivy">
-                     <name ref="#ivy">ivy</name>
-                  </item>
-                  <item xml:id="bramble">
-                     <name ref="#bramble"/>
-                  </item>
-                  <item xml:id="peony"/>
+                  
+                 
+                  
                </list>
                <listPerson sortKey="fictPersons">
                   <person xml:id="Brown_Mr_OV" sex="m">
@@ -2907,7 +2738,7 @@
                             <surname>not given</surname>
                         <forename>Lucy</forename>
                         <!--scw: I think we'd established a way of indicating this, but I forget what it is. Will check back through notes.-->
-                        <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. Lucy is a beloved servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. She appears or is mentioned in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. She is based on <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>, whose marriage to <persName ref="#Hill_Charles">Charles Hill</persName> in <date when="1820">1820</date> led to her move to <placeName ref="#Silchester">Silchester</placeName> to teach school.</note>
+                        <!--scw: THIS NOTE IS WORTH PUTTING INTO SI-LOCAL--><note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. Lucy is a beloved servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. She appears or is mentioned in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. She is based on <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>, whose marriage to <persName ref="#Hill_Charles">Charles Hill</persName> in <date when="1820">1820</date> led to her move to <placeName ref="#Silchester">Silchester</placeName> to teach school.</note>
                      </persName>
                   </person>
                   <person xml:id="LondonTailor_OV" sex="m">
@@ -2965,15 +2796,7 @@
                      <note resp="#scw">Village in <placeName ref="#Hampshire_county">Hampshire</placeName>, nine miles from <placeName ref="#Reading_city">Reading</placeName>, known for its Roman ruins. It is featured in several stories in <title ref="#OV">Our Village</title>, sometimes by name, sometimes through the abbreviation <placeName ref="#S_city_OV">S.</placeName>
                      </note>
                   </place>
-                  <place xml:id="proposed_new_ID3">
-                     <placeName><!--best-known name of the place--></placeName>
-                     <placeName><!--alternate place name--></placeName>
-                     <location>
-                        <geo><!--Latitude followed by longitude, separated by a white space like this:
-              53.226658 -0.541254
-              --></geo>
-                     </location>
-                  </place>
+                  
                </listPlace>
                <listBibl sortKey="schol">
                   <bibl xml:id="Porter_and_Three_Ladies">
@@ -3070,7 +2893,7 @@
             </listOrg>
             <list sortKey="plants">
                <item xml:id="passion_flower"/>
-               <item xml:id="vine"/>
+              
             </list>
             <listBibl sortKey="schol">
                <bibl xml:id="Our_Miss_Austen">
@@ -3109,18 +2932,16 @@
                   <person xml:id="Pennant_Thomas"/>
                   <person xml:id="WhiteGilbert"/>
                </listPerson>
-               <listPlace>
-                    
-                </listPlace>
+              
                <listOrg type="person" subtype="fict">
-                  <org xml:id="urchins"/>
-                  <org xml:id="walkers"/>
-                  <org xml:id="riders"/>
-                  <org xml:id="LieutenantsChildren"/>
-                  <org xml:id="skating_spectators"/>
+                  <org xml:id="urchins"/><!--scw: now "#sliding_urchins_OV"-->
+                  <org xml:id="walkers"/><!--scw: walkers_OV-->
+                  <org xml:id="riders"/><!--scw: riders_OV-->
+                  
+                 
                </listOrg>
-               <listBibl/>
-               <listNym/>
+              
+              
             </div>
          </div>
          <div type="file">
@@ -3142,14 +2963,13 @@
                   <person xml:id="WilliamSmith"/>
                   <person xml:id="MrSmiththeHatter"/>
                   <person xml:id="Clerk"/>
-                  <person xml:id="OVNarrator"/>
+                  
                   <person xml:id="Lucy"/>
                   <person xml:id="OVNarratorsFather"/>
                </listPerson>
                <listPlace type="geog">
                   <place xml:id="London_city"/>
-                  <place xml:id="ThreeMileCross"/>
-                  <!--scw: the town of B is mentioned several times here and elsewhere. Unidentified as yet.-->
+                  
                   <place xml:id="Burleigh"/>
                </listPlace>
             </div>
@@ -3157,8 +2977,7 @@
          <div type="file">
             <head>OVWalksInTheCountryTHEVISIT.xml</head>
             <listPerson sortKey="fictPersons">
-               <person xml:id="Eusden_Jem_OV" sex="m"/>
-               <!--scw: already described in Country Cricket Match-->
+               
                <person xml:id="FHill_Frances_OV" sex="f">
                   <persName ref="#FHill_Frances_OV">Frances
                   <surname>not given</surname>
@@ -3224,8 +3043,7 @@
                   </persName>
                   <note resp="#scw">Mother of <persName ref="#Kirby_Ben_OV">Ben Kirby</persName> and <persName ref="#Kirby_Joseph_OV">Joe Kirby</persName> as she appears in several <title level="m" ref="#OV">Our Village</title> sketches. </note>
                </person>
-               <person xml:id="Long_Samuel_OV" sex="m"/>
-               <!--scw: already described in Country Cricket Match. Details provided in backlist of that sketch.-->
+               
                <person xml:id="Lyle_Annot_WS" sex="f">
                   <persName ref="#Lyle_Annot_WS">Annot Lyle
                   <surname type="paternal">Lyle</surname>
@@ -3573,19 +3391,13 @@
                   <note resp="#scw">Engraving modeled after stage scene painting by <persName>John Inigo Richards</persName>. It depicts a young man gesturing while walking across a mill yard surrounded by three buildings, being watched on the right by a young woman from a second-floor house window, and two other women on the left who are mending a net outside a barn. Two older men work in the mill in the background.</note>
                </item>
             </list>
-            <list sortKey="animals">
-               <item xml:id="deer"/>
-               <item xml:id="goose"/>
-               <item xml:id="horse"/>
-               <item xml:id="pig"/>
-               <item xml:id="wood_pigeon"/>
-            </list>
+            
             <list sortKey="plants">
                <item xml:id="birch"/>
                <item xml:id="fungus"/>
                <item xml:id="fern"/>
-               <item xml:id="moss"/>
-               <item xml:id="pine"/>
+               <item xml:id="pine"></item>
+              
             </list>
          </div>
          <div type="file">
@@ -4002,12 +3814,7 @@
                      <placeName ref="#Vio_old_farmhouse_OV"/>
                      <note resp="#scw">A crumbling old farmhouse that the <persName ref="#OVNarrator">narrator</persName> mourns in the sketch, <title level="a" ref="#Walks_Violeting_OV">Violeting</title>.</note>
                   </place>
-                  <place xml:id="parish_workhouse_OV">
-                     <placeName ref="#parish_workhouse_OV"/>
-                     <note/>
-                     <!--scw: Needs further research and reading to establish which workhouse is being referred to when.-->
-                     <!--scw: Violeting and First Primrose probably refer to a workhouse in 3 Mile Cross, nearish to the cottage. Tom Cordery probably a different one.-->
-                  </place>
+                  
                </listPlace>
                <list sortKey="plants"><!--scw 8/8/22: the following id's were produced several years ago. Perhaps we can incorporate some of this text into current annotations?-->
                   <item xml:id="potato">
@@ -4017,12 +3824,7 @@
                         <rs type="family">Solanaceae</rs>
                         <note resp="#qar">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish..</note>-->
                     </item>
-                  <item xml:id="cabbage">
-                        <!--<name ref="#cabbage">cabbage</name>
-                        <rs type="genus">Brassica</rs>--><!--SCW to EBB: This is firing an error due to the @type that does not fire in the SI. Some sort of list issue?-->
-                        <!--<rs type="species">brassica oleracea</rs>
-                        <rs type="family">Brassicaceae</rs>
-                        <note resp="#qar"> </note>--> </item>
+                 
                   <item xml:id="onion">
                      <name ref="#onion">onion</name>
                      <!-- <rs type="genus">Allium</rs>-->
@@ -4108,7 +3910,7 @@
                     <note resp="#qar">The leaves and bark of the willow tree has been mentioned as a remedy for aches and fever in ancient texts from Assyria, Sumer and Egypt. Hippocrates mentioned this  plant for its medicinial properties, and the Native Americans also used willow for a staple in medical treatments. In 1763, Reverend Edward Stone in England notified the Royal Society of his findings that the willow had medicinal properties. In 1828, Henri Leroux, a French pharmacist, and Raffaele Piria, an Italiam chemist, isolated the bark extract, called salicin, into a crystalline form and separated into a pure state.</note>-->
                   </item>
                   <item xml:id="elm">
-                     <name ref="#elm">elm</name>
+                     <name ref="#elm">elm</name><!--scw: consider adding this note to SI local elm note-->
                      <!--<rs type="genus">Ulmus</rs>
                     <rs type="species"></rs>
                     <rs type="family">Ulmaceae</rs>
@@ -4116,13 +3918,7 @@
                     
 The elm also holds political significance. The cutting of the elm was a diplomatic altercation between the Kings of France and England in 1188. In England, after the Glorious Revolution of 1688, the 'Dutch Elm' hybrid was planted and become popular with enthusiasts o the new political order. Furthermore, the 'Liberty Tree' was an American white elm in Boston. In 1775, the British felled it, and the Americans planted 'Liberty Elms' and sewed elm symbols on to their reolutionary flags.</note>-->
                   </item>
-                  <item xml:id="ivy">
-                     <name ref="#ivy">ivy</name>
-                     <!--<rs type="genus">Hedera</rs>
-                    <rs type="species"></rs>
-                    <rs type="family">Araliaceae</rs>
-                    <note resp="#qar">In floriography, ivy represents wedded love, fidelity, affection, and friendship. </note> -->
-                  </item>
+                  
                   <item xml:id="primrose">
                      <name ref="#primrose">primrose</name>
                      <!--<rs type="genus">Primula</rs>
@@ -4131,24 +3927,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                     <note resp="#qar">The Earl of Rosebury has primroses in his coat of arms. It also projects the meaning "I can't live without you" in floriography</note> -->
                   </item>
                </list>
-               <list sortKey="animals">
-                  <item xml:id="horse">
-                     <name ref="#horse">horse</name>
-                     <note resp="#yourID"/>
-                  </item>
-                  <item xml:id="sheep">
-                     <name ref="#sheep">sheep</name>
-                  </item>
-                  <item xml:id="cow">
-                     <name ref="#cow">cattle</name>
-                  </item>
-                  <item xml:id="butterfly">
-                     <name ref="#butterfly">butterfly</name>
-                  </item>
-                  <item xml:id="bee">
-                     <name ref="#bee">bee</name>
-                  </item>
-               </list>
+               
                <listEvent sortKey="histEvents">
                   <event xml:id="AbolitionAct1807" when="1807">
                      <label>Act for the Abolition of the Slave Trade</label>
@@ -4166,8 +3945,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
             <head>OVAVillageBeau.xml</head>
             <div>
                <listPerson sortKey="fictPersons">
-                  <person xml:id="Grey_William_OV" sex="m"/>
-                  <!--scw: <xlm:id "Grey_William_OV" is already done in the Country Cricket Match file and note updated there to reflect his appearance in this sketch-->
+                  
                   <person xml:id="Hotspur_Harry_WS" sex="m"><!--scw: we may not need separate entries for the historical and the fictional Shakespeare characters, but I have both here. If I were to delete one, I would have our xml id refer to "Percy_Henry" rather than "Hotspur"-->
                      <persName ref="#Hotspur_Harry_WS">
                         <surname>Percy</surname>
@@ -4320,6 +4098,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                   <place xml:id="B_city_OV">
                      <placeName ref="#B_city_OV">city of B.</placeName>
                      <note resp="#scw">The city of B. is <persName ref="#MRM">Mitford</persName>'s screened reference to <placeName ref="#Reading_city">Reading</placeName> in <title level="m" ref="#OV">Our Village</title>.</note>
+                     <note resp="#scw">The initial given by <persName ref="#MRM">Mitford</persName> for the city of <placeName ref="#Reading_city">Reading</placeName> in <title level="m" ref="#OV">Our Village</title>. She indicates this in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1824-06-23">June 23, 1824</date>.<!--scw 7/8/20: The letter is in L'Estrange and in our files, but it has not yet been marked-up. The xml:id of the letter, according to Greg's spreadsheet is MRM1824--></note>
                   </place>
                   <place xml:id="Rose_Inn_OV">
                      <placeName ref="#Rose_Inn_OV">Rose Inn</placeName>
@@ -4478,12 +4257,7 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                   <note resp="#scw">The capital city of Antwerp Province in the Flemish Region, known colloquially as Flanders, in Belgium. Before the Reformation, Antwerp rose to become a powerful trading city under the rule of the Spanish. With the Union of Utrecht in <date when="1579">1579</date>, the city became part of the United Provinces of the Netherlands, and the port was subsequently closed by treaty agreement, leading to the decline in the city's trading status. During <persName ref="#MRM">Mitford</persName>'s lifetime, Antwerp was controlled by Napoleonic <placeName ref="#France">France</placeName>, and after <label corresp="#Waterloo">the Battle of Waterloo</label>, it became part of <placeName>the Kingdom of the United Netherlands</placeName> until <date when="1832">1832</date>, when it was joined to <placeName>Belgium</placeName> following a siege by French forces.</note>
                </place>
             </listPlace>
-            <listPlace sortKey="fictPlaces">
-               <place xml:id="B_city_OV">
-                  <placeName ref="#B_city_OV">B.</placeName>
-                  <note resp="#scw">The initial given by <persName ref="#MRM">Mitford</persName> for the city of <placeName ref="#Reading_city">Reading</placeName> in <title level="m" ref="#OV">Our Village</title>. She indicates this in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1824-06-23">June 23, 1824</date>.<!--scw 7/8/20: The letter is in L'Estrange and in our files, but it has not yet been marked-up. The xml:id of the letter, according to Greg's spreadsheet is MRM1824--></note>
-               </place>
-            </listPlace>
+            
             <listBibl sortKey="schol">
                <bibl xml:id="Joe_Millers_Jests">
                   <title level="m" type="main" ref="#Joe_Millers_Jests">Joe Miller's Jests</title>
@@ -4518,51 +4292,38 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                      <name ref="#Fly_pet_OV">Fly</name>
                      <note resp="#scw">In the <title level="m" ref="#Our_Village1st_ed">Our Village</title> story, <title level="a" ref="#Walks_First_Primrose">The First Primrose</title>, Fly is the dog owned by <persName ref="#Barnard_farmer_OV">farmer Barnard</persName>.</note>
                   </item>
-                  <item xml:id="rabbit"/>
-                  <item xml:id="nightingale"/>
-                  <item xml:id="glow_worm"/>
+                  
+                  
                   <item xml:id="snake"/>
-                  <item xml:id="horse"/>
-                  <item xml:id="dog"/>
-                  <item xml:id="pig"/>
+                 
                </list>
                <list sortKey="plants">
-                  <item xml:id="periwinkle"/>
-                  <item xml:id="woodbine"/>
+                  
+                  
                   <item xml:id="elder_tree"/>
-                  <item xml:id="tree"/>
-                  <item xml:id="oak"/>
-                  <item xml:id="elm"/>
-                  <item xml:id="sweet_briar"/>
-                  <item xml:id="dogwood"/>
-                  <item xml:id="Portugal_laurel"/>
-                  <item xml:id="bay"/>
-                  <item xml:id="laburnum"/>
-                  <item xml:id="bird_cherry"/>
-                  <item xml:id="broom"/>
-                  <item xml:id="furze"/>
-                  <item xml:id="bramble"/>
-                  <item xml:id="pollard"/>
-                  <item xml:id="ivy"/>
+                  
+                 
+                  
+                 
+                
+                  
+                  <item xml:id="bird_cherry"/><!--scw: "cherry_bird" - make the change in text-->
+                  
                   <!--scw: ivy mentioned several times, ground ivy mentioned once. Both tagged as "ivy." They may need different IDs.-->
                   <item xml:id="cabbage"/>
                   <item xml:id="celery"/>
                   <item xml:id="hedgerow"/>
-                  <item xml:id="primrose"/>
-                  <!--scw: yellow mentioned in text; may need different tags? maybe not.-->
-                  <item xml:id="violet"/>
-                  <!--scw: either hue mentioned in text-->
-                  <item xml:id="cowslip"/>
+                 
+                  
                   <item xml:id="oxslip"/>
                   <item xml:id="arum"/>
                   <item xml:id="orchid"/>
-                  <item xml:id="hyacinth"/>
+                  <item xml:id="hyacinth"/><!--scw: hyacinth is bluebell in SI local-->
                   <!--scw: wild hyacinth in text-->
                   <item xml:id="pansy"/>
                   <item xml:id="strawberry"/>
                   <item xml:id="hearts_ease"/>
-                  <item xml:id="birch"/>
-                  <item xml:id="willow"/>
+                  
                </list>
                <listPerson sortKey="fictPersons">
                   <person xml:id="Adams_Betty_OV" sex="f">
@@ -4648,28 +4409,8 @@ The elm also holds political significance. The cutting of the elm was a diplomat
                      <note resp="#scw">Characters mentioned in the <title ref="#OV">Our Village</title> story, <title ref="#Walks_First_Primrose_OV">The First Primrose</title>. They are the fourteen children of the amiable <persName ref="#Hilton_Rachel_OV">Rachel</persName> and <persName ref="#White_Joseph_OV">Joseph White</persName>.</note>
                   </org>
                </listOrg>
-               <listPlace sortKey="fictPlaces">
-                  <place xml:id="proposed_new_ID3">
-                     <placeName><!--best-known name of the place--></placeName>
-                     <placeName><!--alternate place name--></placeName>
-                     <location>
-                        <geo><!--Latitude followed by longitude, separated by a white space like this:
-              53.226658 -0.541254
-              --></geo>
-                     </location>
-                  </place>
-               </listPlace>
-               <listBibl sortKey="schol">
-                  <bibl xml:id="proposed_new_ID4">
-                     <title><!--Title--></title>
-                     <author><!--Author--></author>
-                     <editor><!--if indicated--></editor>
-                     <pubPlace><!--where published--></pubPlace>
-                     <publisher><!--publisher--></publisher>
-                     <!--<date when="yyyy"><!-\-Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.-\-></date>-->
-                  </bibl>
-               </listBibl>
-               <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+               
+               
             </div>
          </div>
       </body>

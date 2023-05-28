@@ -23,8 +23,8 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
             <author>Mary Russell Mitford</author>
 
 
-            <editor>Samantha Webb</editor>
-            <editor>Alexandra Drayton</editor>
+            <editor ref="#scw">Samantha Webb</editor>
+            <editor ref="#ad">Alexandra Drayton</editor>
 
             <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
                Project</orgName></sponsor>
@@ -33,12 +33,12 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
 
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName>Jonathan M. Horanic</persName>
-               <persName>Samantha Webb</persName>
+               <persName ref="#jmh">Jonathan M. Horanic</persName>
+               <persName ref="#scw">Samantha Webb</persName>
             </respStmt>
             <respStmt>
                <resp>Proofing and corrections by</resp>
-               <persName>Elisa Beshero-Bondar</persName>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -77,10 +77,10 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
             <!--2017-01-10 ebb: We need to change this sourceDesc to indicate we’re checking each text and altering it to represent the 1824 edition as published in NCCO. -->
             <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
             <p>Our text is based on public domain, Google-digitized text<bibl>
-                  <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third
+                  <title ref="#OV">Our Village: Sketches of Rural Character and Scenery</title><edition>Third
                      Edition</edition> by <author>Mary Russell
                      Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
-                     Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                     Whittaker</publisher><placeName ref="#AveMariaLane">Ave Maria Lane</placeName><date>1825</date>.
                </bibl> This text appears to be identical in pagination and content to the first
                edition published in 1824. </p>
          </sourceDesc>
@@ -97,8 +97,8 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
       <body>
          <div type="sketch">
             <pb n="273"/>
-            <head>A PARTING GLANCE AT OUR
-               VILLAGE.<!--ebb: If there’s a subtitle use an <lb/> element to separate -->
+            <head><title ref="#Parting_Glance_OV">A PARTING GLANCE AT OUR
+               VILLAGE</title>.<!--ebb: If there’s a subtitle use an <lb/> element to separate -->
             </head>
             <p>It is now eighteen months since our village first sat for its picture, and I cannot
                say farewell to my courteous readers, without giving them some little intelligence of
