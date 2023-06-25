@@ -127,10 +127,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     we leave it to become intimate with every spot and every person it contains; or
                     to ramble with <persName ref="#WhiteGilbert">Mr. White</persName> *<note
                         type="author" anchored="true">* <persName ref="#WhiteGilbert">White</persName>’s
-                        <bibl corresp="#Nat_Hist_Selborne">Natural History and Antiquities of
-                            Selborne</bibl>; one of the most fascinating
+                        <title level="m" ref="#Nat_Hist_Selborne">Natural History and Antiquities of
+                            Selborne</title>; one of the most fascinating
                         books ever written. I wonder that no naturalist has adopted the same
-                        plan</note>. <!-- 2017-01-13 bas: format? --> over his own parish of <placeName ref="#Selborne_village">Selborne</placeName>, and
+                        plan.</note> over his own parish of <placeName ref="#Selborne_village">Selborne</placeName>, and
                     form a friendship with the fields and
                     coppices, as well as with the birds, mice, and squirrels, who
                     inhabit them; or to sail with <persName ref="#Robinson_Crusoe">Robinson
@@ -150,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     through it, always abounding in carts, <orgName type="person" ref="#OV_horsemen">horsemen,</orgName> and
                     carriages, and lately enlivened by a stage-coach from
                         <placeName ref="#B_city_OV">B——</placeName> to
-                        <placeName ref="#S_city_OV">S——</placeName>, which passed through about ten days ago, and
+                        <placeName ref="#S--OV">S——</placeName>, which passed through about ten days ago, and
                     will I suppose return some time or other. There are coaches of all varieties
                     now-a-days; perhaps this may be intended for a monthly diligence, or a fortnightly
                     fly. Will you walk with me through <placeName ref="#ThreeMileCross">our
@@ -159,14 +159,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <p>The tidy square red cottage on the right hand, with the long well-stocked
                     garden by the side of the road, belongs to a <persName ref="#RetiredPublican_OV">retired publican</persName> from a neighbouring town; a substantial person with a <persName ref="#RetiredPublicansWife_OV">comely wife</persName>; one who piques
                     himself on independence and idleness, talks politics, reads
-                    newspapers, hates the minister<note resp="#scw">Probably refers to <persName ref="#Liverpool_Earl">Lord Liverpool</persName>, whose party had won the <date when="1820">1820</date> general election, and he was returned to serve as Prime Minister.</note>, and cries out for
+                    newspapers, hates the minister<note resp="#scw">Probably refers to <persName ref="#Liverpool_Earl_PM">Lord Liverpool</persName>, whose party had won the <date when="1820">1820</date> general election, and he was returned to serve as Prime Minister.</note>, and cries out for
                             reform. He
                     introduced into our peaceful vicinage the rebellious innovation of an
                     illumination on <label corresp="#Qu_Caroline_Affair">the queen’s acquittal</label>. Remonstrance and persuasion were in
                     vain; he talked of liberty and broken windows—so we all lighted up. Oh! how he
                     shone that night with candles and laurel, and white bows, and gold paper, and a
-                    transparency (originally designed for a pockethandkerchief) with
-                    a flaming portrait of <rs type="person" ref="#Queen_Caroline">Her Majesty,</rs>
+                    transparency (originally designed for a pocket handkerchief) with
+                    a flaming portrait of <persName ref="#Queen_Caroline">Her Majesty,</persName>
                     hatted and feathered, in red ochre. He had no rival in <pb n="4"/><placeName
                         ref="#ThreeMileCross">the village</placeName>, that we all acknowledged; the
                     very bonfire was less splendid; the <orgName type="person" ref="#illuminationBoys_OV">little boys</orgName> reserved
@@ -178,12 +178,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rs type="person" ref="#RetiredPublican_OV">our worthy neighbour</rs> begins to feel the weariness of
                     idleness. He hangs over his gate, and tries to entice passengers to stop and
                     chat; he volunteers little jobs all round, smokes <name ref="#cherry_wild">cherrytrees</name> to cure the
-                   blight, and traces and blows up all the <name ref="#wasp">wasp-nests</name> in the <rs type="place" ref="#Shinfield">parish</rs><!--2017-01-19 ebb: The xml:id for “Shinfield” is in our list of places in the site index. This is firing an error because you’re referring to the organization of Shinfield parish. I think we should resolve this by making a new entry for the si, pointing to the Shinfield Parish (and linking it to Shinfield as a place). -->. I have seen a great many  in our
+                   blight, and traces and blows up all the <name ref="#wasp">wasp-nests</name> in the <rs type="place" ref="#Shinfield_parish">parish</rs><!--2017-01-19 ebb: The xml:id for “Shinfield” is in our list of places in the site index. This is firing an error because you’re referring to the organization of Shinfield parish. I think we should resolve this by making a new entry for the si, pointing to the Shinfield Parish (and linking it to Shinfield as a place). . --><!--scw 6/17/23: ID for Shinfield_parish is now entered in OV-allbackLists-->I have seen a great many  in our
                             garden to-day, and shall enchant him with the intelligence. He even assists <persName ref="#RetiredPublicansWife_OV">his
                         wife</persName> in her sweepings and dustings. Poor man! he is a very
                     respectable person, and would be a very happy one, if he would add a little
                     employment to his dignity. It would be the salt of life to him.</p> 
-                <p>Next to his house, though parted from it by another long garden with a <name ref="#yew_tree">yew</name> arbour at the end, is the pretty dwelling of the  <persName ref="#Shoemaker_OV">shoemaker</persName>, a pale, sickly-looking, black-haired
+                <p>Next to his house, though parted from it by another long garden with a <name ref="#yew">yew</name> arbour at the end, is the pretty dwelling of the  <persName ref="#Shoemaker_OV">shoemaker</persName>, a pale, sickly-looking, black-haired
                     man, the very model of sober industry. There he sits in his little
                         shop from early morning till late at night. An earthquake would
                     hardly stir him: the illumination did not. He stuck immoveably to his last, from
@@ -224,8 +224,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <name ref="#rose">rose</name> on the other, tall and narrow
                     like itself. That slender mansion has a fine genteel look. The little parlour
                     seems made for <persName ref="#Hogarth">Hogarth’s</persName>
-                    old maid and her stunted footboy<note resp="#scw">Likely a reference to <persName ref="#Hogarth">Hogarth</persName>'s painting Morning, which is part of the series, <title level="m" ref="#FourTimesDay_WH">Four Times of the Day</title>.</note>
-                    card-parties,—it would just hold one table; for the
+                    old maid and her stunted footboy; <note resp="#scw">Likely a reference to <persName ref="#Hogarth">Hogarth</persName>'s painting Morning, which is part of the series, <title level="m" ref="#Four_Times_Day_WH">Four Times of the Day</title>.</note>
+                    for tea and card-parties,—it would just hold one table; for the
                     rustle of faded silks, and the splendour of <placeName ref="#China">old China</placeName>; for the delight of four
                     by honours, and a little snug quiet scandal between the deals; for affected
                     gentility and real starvation. This should have been its destiny; but fate has
@@ -288,7 +288,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         town-ward as often as she can. She is gone to
                         <placeName ref="#B_city_OV">B——</placeName> to-day with her last and principal lover, a
                         <persName ref="#RecruitingSerjeant_OV">recruiting serjeant</persName>—a man as tall as <persName ref="#Serjeant_Kite">Serjeant
-                            Kite</persName>, and as impudent.<!--scw 6/16/23: consider doing full annotation for Farquhar's play--> Some day or other he will carry off
+                            Kite</persName>, and as impudent. Some day or other he will carry off
                         <persName ref="#Phoebe_OV">Miss Phoebe</persName>.</p>
                 <p>In a line with the bow-window room is a low garden-wall, belonging to a house
                     under repair:—the white<pb n="9"/> house opposite the
@@ -312,7 +312,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     sprang out, and at nearly Christmas the foliage was as brilliant as when the
                     outrage was committed.</p>
                 <p>Next door lives a <persName ref="#LizzysFather_OV">carpenter</persName>,
-                    <quote corresp="#ParishRegister_poem">famed ten miles round, and worthy all his fame;</quote><note resp="#scw"><persName ref="#MRM">Mitford</persName> alters the gender of the character in this quotation, which in the original poem refers to the Widow Goe.</note> few
+                    <quote corresp="#Parish_Register_poem">famed ten miles round, and worthy all his fame;</quote><note resp="#scw"><persName ref="#MRM">Mitford</persName> alters the gender of the character in this quotation, which in the original poem refers to the Widow Goe.</note> few
                         cabinet-makers surpass him, with his
                     <persName ref="#LizzysMother_OV">excellent wife</persName>, and their little daughter
                     <persName ref="#Lizzy_OV">Lizzy</persName>, the <rs type="person" ref="#Lizzy_OV">plaything</rs> and <rs type="person" ref="#Lizzy_OV">queen of the village</rs>, a child
@@ -343,8 +343,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Lizzy’s <said who="#Lizzy_OV" direct="true">Pretty <persName ref="#May-flower_OV">May</persName>.</said> We are now at the end
                     of the street; a cross lane, a
                     rope-walk, shaded with <name ref="#lime_tree">limes</name> and
-                    <name ref="#oak_tree">oaks</name>, and a cool clear pond
-                    overhung with <name ref="#elm_tree">elms</name>, lead us to the bottom of the
+                    <name ref="#oak">oaks</name>, and a cool clear pond
+                    overhung with <name ref="#elm">elms</name>, lead us to the bottom of the
                     hill. There is still one house
                         round the corner, ending in a picturesque
                     wheeler’s shop. The
@@ -361,7 +361,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     require. Never were better or kinder people than his <rs type="person" ref="#Wheeler_OV">host</rs>
                     and <rs type="person" ref="#WheelersWife_OV">hostess</rs>; and there is a fine reflection of clerical
                     importance about them, since their connexion with the
-                    <orgName ref="#village_church_OV">Church</orgName>, which is quite edifying—a decorum, a gravity, a
+                    <orgName ref="#villageChurch_OV">Church</orgName>, which is quite edifying—a decorum, a gravity, a
                     solemn politeness. Oh, to see the worthy <persName ref="#Wheeler_OV">wheeler</persName> carry the
                     gown after his <rs type="person" ref="#Curate_OV">lodger</rs> on a Sunday, nicely pinned up in his
                         <rs type="person" ref="#WheelersWife_OV">wife’s</rs> best handkerchief!—or to hear him rebuke a
@@ -373,19 +373,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         pretty white cottage opposite, which stands
                     straggling at the end of the <placeName ref="#ThreeMileCross">village</placeName> in a
                     garden full of flowers, belongs
-                    to our <persName ref="#Mason_OV">mason</persName>, the <rs type="person" ref="#Mason">shortest of men</rs>, and his
+                    to our <persName ref="#Mason_OV">mason</persName>, the <rs type="person" ref="#Mason_OV">shortest of men</rs>, and his
                     handsome, tall <persName ref="#MasonsWife_OV">wife</persName>: he a dwarf, with the voice of a giant; one
                     starts when he begins to talk as if he were shouting through a speaking trumpet;
                     she, the sister,
                     daughter, and grand-daughter, of a
-                    long line of <orgName type="person" ref="#OVGardeners">gardeners</orgName>, and no contemptible one herself. It
+                    long line of gardeners, and no contemptible one herself. It
                     is very magnanimous in me not to hate her; for she beats me in my own way, in
                     <name ref="#chrysanthemum">chrysanthemums,</name> and <name ref="#dahlia">dahlias</name>, and
                     the like gauds. Her plants are sure to live; mine have a
                     sad trick of dying, perhaps because I love them, <quote corresp="#Othello_play">not wisely, but too
-                        well,</quote><note resp="#scw">Spoken by Othello, act V, scene 2.</note><!--scw: FOR EDITOR’S NOTE: These lines are spoken by Othello in Shakespeare’s Othello, Act V, scene 2: “...When you shall these unlucky deeds relate, speak of me as I am; nothing extenuate, / Nor set down aught in malice: then you must speak of one that loved not wisely but too well;”--> and kill them with over-kindness. Half-way up the
+                        well,</quote><note resp="#scw">Spoken by Othello, act V, scene 2.</note> and kill them with over-kindness. Half-way up the
                     hill is another detached cottage, the residence of an
-                    <persName ref="#Officer_OV">officer</persName>, and his beautiful <persName ref="#officersFamily_OV">family</persName>.
+                    <persName ref="#Officer_OV">officer</persName>, and his beautiful <persName ref="#Officers_family_OV">family</persName>.
                     That <persName  ref="#OfficersEldestSon_OV">eldest boy</persName>, who is hanging over the gate, and looking
                     with such intense childish admiration at my <persName ref="#Lizzy_OV">Lizzy</persName>, might be
                     a model for a <persName ref="#Cupid">Cupid</persName>.</p>
@@ -401,7 +401,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     He was sent to <orgName ref="#St_Lukes_Hospital">St. Luke’s</orgName>, and dismissed as cured; but his
                     power was gone and his strength; he could no longer manage a garden, nor submit
                     to the restraint, nor encounter the fatigue of regular employment; so he
-                    retreated to the <orgName ref="#workhouse_OV">workhouse</orgName>, the pensioner and factotum of the
+                    retreated to the <orgName ref="#parishWorkhouse_OV">workhouse</orgName>, the pensioner and factotum of the
                     village, amongst whom he divides his services. His mind often wanders, intent on
                     some fantastic and impracticable plan, and lost to present objects; but he is
                     perfectly harmless, and full of a child-like simplicity, a smiling
@@ -415,7 +415,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     fruit-trees, and raising <name ref="#cucumber">cucumbers</name>.
                     He is the happiest of men just now, for he has the management of a
                       melon bed—a melon bed!—fie! What a
-                      grand pompous name was that for three <name ref="#melon">melon plants</name> under a
+                      grand pompous name was that for three <name ref="#melon_plant">melon plants</name> under a
                     hand-light! <persName ref="#Evans_John_OV">John Evans</persName> is sure that they will succeed. We
                     shall see: as the chancellor said, <quote>I
                         doubt.</quote><!--scw: Have not been able to identify this quote.--></p>
@@ -434,7 +434,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         magnificent plume, there is something that does almost as
                         well,—<persName ref="#Lizzy_OV">Lizzy</persName> and <persName ref="#May-flower_OV">May-flower</persName> in the
                     midst of a game at romps, <quote corresp="#FaerieQu_ES">making a sun-shine in the shady
-                        place;</quote><!--scw: ED NOTE: A quotation from Edmund Spenser’s The Faerie Queene, Book I. -->
+                        place;</quote><note resp="#scw">From Book I.</note>
                     <persName ref="#Lizzy_OV">Lizzy</persName> rolling, laughing, clapping her hands, and glowing
                     like a rose;
                     <persName ref="#May-flower_OV">May-flower</persName> playing about her like summer lightning,
@@ -452,7 +452,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName ref="#May-flower_OV">May-flower</persName> will certainly desert you to have a gambol with
                     that blood-horse!) half-way down, just at the turn, the
                         red cottage of the <pb n="15"
-                        /><persName ref="#Lieutenant_OV">lieutenant</persName>, covered with <name ref="#vine">vines</name>,
+                        /><persName ref="#Lieutenant_OV">lieutenant</persName>, covered with vines,
                     the very image of comfort and content; farther down, on the opposite side, the
                         small white dwelling of the little
                     <persName ref="#Mason_OV">mason</persName>; then the <name ref="#lime_tree">limes</name> and the
@@ -465,15 +465,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     chalky hills; and over every part of the picture trees, so profusely scattered, that it appears like a
                     woodland scene, with glades and
                         villages intermixed. The trees
-                    are of all kinds and all hues, chiefly the finely-shaped <name ref="#elm_tree"
-                        >elm</name>, of so deep and bright a green, the tips of whose high outer
-                    branches drop down with such a crisp and garland-like richness, and the <name ref="#oak_tree">oak</name>, whose stately form is just now so splendidly adorned
+                    are of all kinds and all hues, chiefly the finely-shaped <name ref="#elm">elm</name>, of so deep and bright a green, the tips of whose high outer
+                    branches drop down with such a crisp and garland-like richness, and the <name ref="#oak">oak</name>, whose stately form is just now so splendidly adorned
                     by the sunny colouring of the young leaves. Turning again up the
                     hill, we find ourselves on that peculiar charm of
                     English scenery, a green common, divided by the road; the
                     right side fringed by hedge-rows and trees, with cottages and 
                         farm-houses irregularly placed, and terminated by a double avenue of
-                            noble <name ref="#oak_tree">oaks</name>; the left, prettier still, dappled by bright
+                            noble <name ref="#oak">oaks</name>; the left, prettier still, dappled by bright
                     pools of water, and islands of 
                     cottages and cottage-gardens, and sinking
                     gradually down to corn-fields and
@@ -504,17 +503,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person xml:id="Austen_Jane"/>
                 <person xml:id="White_Gilbert"/>
                 <person xml:id="Napoleon"/>
-                <person xml:id="Hogarth_William"/> <!--scw: 16 August 2014: Not found in main SI-->
+                <person xml:id="Hogarth_William"/>
                 <person xml:id="Dryden"/>
                     
                 
     
             </listPerson>
 
-            <listPerson type="fict" subtype="int"><!--ebb: added as stubs to main site index.-->
+          <!--  <listPerson type="fict" subtype="int"><!-\-ebb: added as stubs to main site index.-\->
                 <person xml:id="RetiredPublican"/>
                 <person xml:id="RetiredPublicansWife"/>
-                <person xml:id="Blacksmith"/><!--scw:The blacksmith is also the Constable, so should he be listed as such in a note or listRelation?-->
+                <person xml:id="Blacksmith"/><!-\-scw:The blacksmith is also the Constable, so should he be listed as such in a note or listRelation?-\->
                 <person xml:id="BlacksmithsWife"/>
                 <person xml:id="Shoemaker"/>
                 <person xml:id="ShoemakersWife"/>
@@ -527,9 +526,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person xml:id="RoseInnLandlord"/>
                 <person xml:id="RoseInnLandlordsWife"/>
                 <person xml:id="RoseInnLandlordsSon"/>
-                <person xml:id="Phoebe"/><!--She is the RoseInnLandlords daughter, named-->
-                <person xml:id="WhimsicalPerson"/><!--I am not sure this is the best descriptor, I am using MRM’s term-->
-                <person xml:id="RecruitingSerjeant"/><!--We may also find that some of these people are named later or described more fully as with the RetiredPublican who is referred to as MrH in “Parting Glance at OV”-->
+                <person xml:id="Phoebe"/><!-\-She is the RoseInnLandlords daughter, named-\->
+                <person xml:id="WhimsicalPerson"/><!-\-I am not sure this is the best descriptor, I am using MRM’s term-\->
+                <person xml:id="RecruitingSerjeant"/><!-\-We may also find that some of these people are named later or described more fully as with the RetiredPublican who is referred to as MrH in “Parting Glance at OV”-\->
                 <person xml:id="LizzysFather"/>
                 <person xml:id="LizzysMother"/>
                 <person xml:id="Lizzy"/>
@@ -545,12 +544,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person xml:id="JohnEvans"/>
                 <person xml:id="JohnEvansWife"/>
                 <person xml:id="OVNarrator"/>
-                <!--scw: All of these id’s added to OV fictional people file-->
+                <!-\-scw: All of these id’s added to OV fictional people file-\->
                                            
                                 
             </listPerson>
-
-            <listPerson type="fict" subtype="ext"><!--ebb: added as stubs to the site index.-->
+-->
+            <!--<listPerson type="fict" subtype="ext"><!-\-ebb: added as stubs to the site index.-\->
                 <person xml:id="Robinson_Crusoe"/>
                 <person xml:id="Friday"/>
                 <person xml:id="Ferdinand"/>
@@ -558,16 +557,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person xml:id="Ariel"/>
                 <person xml:id="Prospero"/>
                 <person xml:id="Caliban"/>
-                <person xml:id="Serjeant_Kite"/> <!--scw: Aug 16, 2014: Character from George Farquhar’s The Recruiting Officer of 1703.-->
+                <person xml:id="Serjeant_Kite"/> <!-\-scw: Aug 16, 2014: Character from George Farquhar’s The Recruiting Officer of 1703.-\->
                
 
-               <!--MANY OF THESE MAY HAVE XML:ID’S ALREADY. I NEED TO CHECK MORE CAREFULLY AGAINST SI FILE.-->
-            </listPerson>
-            <listPerson type="myth" subtype="ext"><!--ebb: added as stubs to the site index.-->
+               <!-\-MANY OF THESE MAY HAVE XML:ID’S ALREADY. I NEED TO CHECK MORE CAREFULLY AGAINST SI FILE.-\->
+            </listPerson>-->
+            <!--<listPerson type="myth" subtype="ext"><!-\-ebb: added as stubs to the site index.-\->
                 <person xml:id="Penelope"/>
                 <person xml:id="Cupid"/>
-            </listPerson>
-            <listPlace><!--ebb: added as stubs to the site index.-->
+            </listPerson>-->
+            <!--<listPlace><!-\-ebb: added as stubs to the site index.-\->
                 <place xml:id="ThreeMileCross"/>
                 <place xml:id="Vienna"/>
                 <place xml:id="Madrid"/>
@@ -576,21 +575,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place xml:id="China"/>
                 <place xml:id="Selborne"/>
                 <place xml:id="Oxford"/>
-                <place xml:id="B--"/>
-                <place xml:id="S--"/>
-          <!--scw: place tags added to this file July 16, 2014: China and Oxford added.--><!-- scw: xml’s added for B and S. These could be a couple of places.-->
+                <place xml:id="B-\-"/>
+                <place xml:id="S-\-"/>
+          <!-\-scw: place tags added to this file July 16, 2014: China and Oxford added.-\-><!-\- scw: xml’s added for B and S. These could be a couple of places.-\->
               
             </listPlace>
-           
-            <listPlace type="fict" subtype="ext"><!--ebb: added as stubs to the site index.-->
+           -->
+            <!--<listPlace type="fict" subtype="ext"><!-\-ebb: added as stubs to the site index.-\->
                     <place xml:id="RobinsonCrusoesIsland"/>
                     <place xml:id="ProsperosIsland"/>
             </listPlace>
             
-                <listPlace type="land">  <!--scw: I’m not sure if these need xml:id’s and whether they need to be spatialized more within the ID.--><!--scw 6/16/23: All of these tags have been removed as we decided against tagging land formations-->
+                <listPlace type="land">  <!-\-scw: I’m not sure if these need xml:id’s and whether they need to be spatialized more within the ID.-\-><!-\-scw 6/16/23: All of these tags have been removed as we decided against tagging land formations. They are not in the SI-\->
                     <place xml:id="garden"/>
                     <place xml:id="common"/>
-                    <place xml:id="fields"/><!--scw: problem of distinguising between plural and singular, general and specific-->
+                    <place xml:id="fields"/><!-\-scw: problem of distinguising between plural and singular, general and specific-\->
                     <place xml:id="coppices"/>
                     <place xml:id="eminence"/>
                     <place xml:id="hill"/>
@@ -606,31 +605,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <place xml:id="corn_fields"/>
                     <place xml:id="woody_hills"/>
            
-            </listPlace>   
-              <listPlace type="arch"> <!--scw: some of these are specific houses, while others are general. Consider only tagging specifics?--><!--scw 6/16/23: All of these tags have been removed from the text of the sketch as we decided against tagging ordinary buildings-->
+            </listPlace>   -->
+              <!--<listPlace type="arch"> <!-\-scw: some of these are specific houses, while others are general. Consider only tagging specifics?-\-><!-\-scw 6/16/23: All of these tags have been removed from the text of the sketch as we decided against tagging ordinary buildings. They are not in the SI-\->
                   <place xml:id="cottages"/>
                   <place xml:id="mansions"/>
                   <place xml:id="cottage_like_houses"/>
                   <place xml:id="officers_cottage"/>
                   <place xml:id="Hill_house"/>
                   <place xml:id="detached_cottage"/>
-                  <!--scw: note that not all houses are tagged in this text. They can be tagged or untagged later if necessary.-->
+                  <!-\-scw: note that not all houses are tagged in this text. They can be tagged or untagged later if necessary.-\->
                  
-                 <listPlace type="geog">
+                  <listPlace type="geog"><!-\-scw 6/16/23: All of these tags have been removed from the text of the sketch as we decided against tagging roads and stuff. They are not in the SI-\->
                      <place xml:id="lanes"/>
                      <place xml:id="street"/>
                      <place xml:id="cross_lane"/>
                      <place xml:id="rope_walk"/>
-                     <place xml:id="road"/> <!--scw: the road that skirts the bank.-->
+                     <place xml:id="road"/> <!-\-scw: the road that skirts the bank.-\->
                      <place xml:id="village_street"/>
                                         
                     
-                 </listPlace>
+                 </listPlace>-->
                                    
                     
-              </listPlace>
+              
                                     
-                     <listOrg>
+                    <!-- <listOrg>
                          <listOrg type="person">
                              <org xml:id="OVBricklayers"/>
                              <org xml:id="OVCabinet_makers"/>
@@ -646,8 +645,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                              <org xml:id="OVGardeners"/>
                              <org xml:id="OfficersFamily"/>
                              
-                     </listOrg>
-                      <listOrg>
+                     </listOrg>-->
+                         <!--<listOrg><!-\-scw 6/16/23: All of these tags have been removed from the text of the sketch as we decided against tagging ordinary buildings. They are not in the SI-\->
                           <org xml:id="shoemakers_shop"/>
                           <org xml:id="public_house"/>
                           <org xml:id="Rose_inn"/>
@@ -655,7 +654,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <org xml:id="collar_makers_shop"/>
                           <org xml:id="wheelers_shop"/>
                           <org xml:id="church"/>
-                          <org xml:id="St_Lukes_hospital"/><!--scw: for site Index: St.Luke’s Hospital for Lunatics in London.-->
+                          <org xml:id="St_Lukes_hospital"/><!-\-scw: for site Index: St.Luke’s Hospital for Lunatics in London.-\->
                           <org xml:id="workhouse"/>
                           <org xml:id="Shinfield"/>
                           
@@ -663,8 +662,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          
                          </listOrg>
                      </listOrg>
-                                            
-             <list type="plant">
+                                            -->
+             <!--<list type="plant">
                  <item xml:id="stocks"/>
                  <item xml:id="clematis"/>
                  <item xml:id="rose"/>
@@ -693,12 +692,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  
                                     
                  
-             </list>
-                <listBibl>
+             </list>-->
+               <!-- <listBibl>
                     <bibl xml:id="Nat_Hist_Selborne"/>
                     <bibl xml:id="The_Recruiting_Serjeant"/>
                     <bibl xml:id="Odyssey"/>
-                </listBibl>
+                </listBibl>-->
             </div>
             
 
