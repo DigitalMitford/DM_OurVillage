@@ -11,26 +11,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--MAH: June 20th:: This piece as well as FROST appear to be two parts of the same sketch, “Walks in the Country,” I have them as two seperate pieces, unsure how we’ll want to show them later, but they should be relatively easy to combine. There will be a similar note in FROST to show that they are tied together. This piece appears second.-->
             
             <titleStmt>
-                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
-                <author>Mary Russell Mitford</author>
+                <title level="m" ref="#OV">Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author ref="#MRM">Mary Russell Mitford</author>
                 
-                <editor>Alexandra Drayton</editor>
-                <editor>Samantha Webb</editor>
+                <editor ref="#ad">Alexandra Drayton</editor>
+                <editor ref="#scw">Samantha Webb</editor>
                 
                 
                 <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
                     Project</orgName></sponsor>
                 <sponsor>University of Pittsburgh at Greensburg</sponsor>
-                <principal>Elisa Beshero-Bondar</principal>
+                <principal ref="#ebb">Elisa Beshero-Bondar</principal>
                 
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName>Alexandra Drayton</persName>
-                    <persName>Samantha Webb</persName>
+                    <persName ref="#ad">Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Proofing and corrections by</resp>
-                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#ebb">Elisa Beshero-Bondar</persName>
                     <persName ref="#bas">Brooke A. Stewart</persName>
                 </respStmt>
             </titleStmt>
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <sourceDesc>
                 <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
                 <p>Our text is based on  public domain, Google-digitized text<bibl>
-                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                    <title level="m" ref="#OV">Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author ref="#MRM">Mary Russell Mitford</author><pubPlace ref="#London_city">London</pubPlace><publisher ref="#Whittaker_GB_pub">Geo. B. Whittaker</publisher><placeName ref="#AveMariaLane">Ave Maria Lane</placeName><date when="1825">1825</date>.
                 </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
                 </p>
             </sourceDesc>
@@ -92,14 +92,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </docTitle>
                 <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title ref="#Julian_MRMplay">Julian, A Tragedy</title><lb/></byline>
                 <docEdition>Third Edition.</docEdition>
-                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName ref="#AveMariaLane">Ave-Maria-Lane</placeName>.
+                <docImprint><pubPlace ref="#London_city">London</pubPlace><lb/><publisher ref="#Whittaker_GB_pub">Geo. B. Whittaker</publisher>,<lb/><placeName ref="#AveMariaLane">Ave-Maria-Lane</placeName>.
                     <docDate>1825</docDate>.</docImprint>
             </titlePage>
             <pb n="iii"/>
         </front><body>
             <div type="sketch">
-                <head>WALKS IN THE COUNTRY.<lb/> THAW.</head>
-                <p><date when="--01-28">January 28th</date>.—We have had rain, and snow, and frost, and rain again; four days of absolute confinement. Now it is a thaw and a flood; but our light gravelly soil, and country boots, and country hardihood, will carry us through. What a dripping comfortless day it is! just like the last days of <date>November</date>: no sun, no sky, grey or blue; one low overhanging, dark, dismal cloud, like <placeName ref="#London">London</placeName> smoke: <persName type="fict" subtype="int" ref="#May-flower">May-flower</persName> is out coursing too, and <persName type="fict" subtype="int" ref="#Lizzy">Lizzy</persName> gone to <orgName>school</orgName>. Never mind. Up the <placeName type="land">hill</placeName> again! Walk we must. Oh what a watery world to look back upon! <placeName type="geog" ref="#Thames">Thames</placeName>, <placeName type="geog" ref="#Kennet">Kennet</placeName>, <pb n="35"/> <placeName ref="#Loddon">Loddon</placeName>—all overflowed; our famous <rs type="place" ref="#ThreeMileCross">town</rs>, inland once, turned into a sort of <placeName ref="#Venice">Venice</placeName>; <placeName type="geog">C. park</placeName> converted into an island; and the long range of <placeName type="geog">meadows</placeName> from <placeName type="geog">B.</placeName> to <placeName type="geog">W.</placeName><!--scw: Identify B. and W.--> one huge <placeName type="land">unnatural lake</placeName>, with <rs type="plant" nymRef="tree">trees</rs> growing out of it. Oh what a watery world!—I will look at it no longer. I will walk on. The road is alive again. Noise is re-born. Waggons creak, horses plash, carts rattle, and patterns paddle through the dirt with more than their usual clink. The <placeName type="land">common</placeName> has its old fine tints of green and brown, and its old variety of inhabitants, horses, cows, sheep, pigs, and donkeys. The <placeName type="land">ponds</placeName> are unfrozen, except where some melancholy piece of melting ice floats sullenly upon the water; and cackling geese and gabbling ducks have replaced the <persName type="fict" subtype="int" ref="#Lieutenant">lieutenant</persName> and <persName type="fict" subtype="int" ref="#JackRapley">Jack Rapley</persName>. The avenue is chill and dark, the <rs type="plant" nymRef="plant">hedges</rs> are dripping, the <placeName type="geog">lanes</placeName> knee-deep, and all nature is in a state of <quote>“dissolution and thaw.”</quote><!--scw: that is a quote from Shakespeare’s Merry Wives of Windsor, Act III, scene 5. Spoken by Falstaff: “think of that; a man of my kidney, think of that, that am as subject to heat as butter; a man of continual dissolution and thaw: it was a miracle to ‘scape suffocation.”--><pb n="36"/></p>
+                <head><title level="s" ref="#Walks_Country_OV">WALKS IN THE COUNTRY</title>.<lb/> <title level="a" ref="#Walks_Thaw_OV">THAW.</title></head>
+                <p><date when="--01-28">January 28th</date>.—We have had rain, and snow, and frost, and rain again; four days of absolute confinement. Now it is a thaw and a flood; but our light gravelly soil, and country boots, and country hardihood, will carry us through. What a dripping comfortless day it is! just like the last days of <date>November</date>: no sun, no sky, grey or blue; one low overhanging, dark, dismal cloud, like <placeName ref="#London_city">London</placeName> smoke: <persName  ref="#May-flower_OV">May-flower</persName> is out coursing too, and <persName ref="#Lizzy_OV">Lizzy</persName> gone to school. Never mind. Up the hill again! Walk we must. Oh what a watery world to look back upon! <placeName ref="#Thames">Thames</placeName>, <placeName ref="#Kennet_riv">Kennet</placeName>, <pb n="35"/> <placeName ref="#Loddon">Loddon</placeName>—all overflowed; our famous <rs type="place" ref="#ThreeMileCross">town</rs>, inland once, turned into a sort of <placeName ref="#Venice">Venice</placeName>; <placeName ref="#C_park_OV">C. park</placeName> converted into an island; and the long range of meadows from <placeName ref="#B_city_OV">B.</placeName> to <placeName ref="#W_town_OV">W.</placeName><!--scw: Identify B. and W.--> one huge unnatural lake, with trees growing out of it. Oh what a watery world!—I will look at it no longer. I will walk on. The road is alive again. Noise is re-born. Waggons creak, <name type="animal" ref="#horse">horses</name> plash, carts rattle, and patterns paddle through the dirt with more than their usual clink. The common has its old fine tints of green and brown, and its old variety of inhabitants, <name type="animal" ref="#horse">horses</name>, <name type="animal" ref="#cow">cows</name>, <name type="animal" ref="#sheep">sheep</name>, <name type="animal" ref="#pig">pigs</name>, and <name type="animal" ref="#donkey">donkeys</name>. The ponds are unfrozen, except where some melancholy piece of melting ice floats sullenly upon the water; and cackling <name type="animal" ref="#goose">geese</name> and gabbling <name type="animal" ref="#duck_wild">ducks</name> have replaced the <persName ref="#Lieutenant_OV">lieutenant</persName> and <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>. The avenue is chill and dark, the hedges are dripping, the lanes knee-deep, and all nature is in a state of <quote corresp="#Merry_Wives_play">dissolution and thaw.</quote><note resp="#scw">These words are spoken by <persName ref="#Falstaff_WS">Falstaff</persName> in act III, scene 5.</note><pb n="36"/></p>
             </div>
         </body>
      
@@ -107,9 +107,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div>
                 
             </div>
-   <!-- scw: Aug 25, 2014: This file will not let me insert back material. Except this note, apparently.-->
-         
-            
+  
           
         </back>
     </text>

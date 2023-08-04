@@ -148,7 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         the <rs type="animal" ref="#ferret">ferrets</rs>, and <rs type="animal" ref="#terrier">terriers</rs>, and <rs type="animal" ref="#mongrel">mongrels</rs> by whom he was surrounded, 
                     <said who="#TomC_head_keeper_OV" direct="true" aloud="true">“did really
                         look,”</said> as the worthy <persName ref="#TomC_head_keeper_OV">keeper</persName> observed, <said who="#TomC_head_keeper_OV" direct="true" aloud="true">“fitter to find Christian <rs type="animal" ref="#hare">hares</rs> and
-                            <rs type="animal" ref="#pheasant">pheasants</rs>, than <rs type="animal" ref="#rat">rats</rs> and such vermin.”</said> So in 
+                            <rs type="animal" ref="#pheasant">pheasants</rs>, than <rs type="animal" ref="#rat_black">rats</rs> and such vermin.”</said> So in 
                     good truth did <persName ref="#Cordery_Tom_OV">Tom</persName> himself. Never
                     did any human being look more like that sort of sportsman commonly called a
                     poacher. He was a tall, finely-built man, with a prodigious stride, that cleared
@@ -226,8 +226,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     large wild
                         inclosures into which the heath 
                     had been divided were his especial favourites;
-                    <placeName ref="#Hundred_Acres_OV">the Hundred Acres,</placeName> alias the <placeName ref="#Poor_Allotment_OV" corresp="#Hundred_Acres_OV">Poor Allotment</placeName>, 
-                        alias the <placeName ref="#Burnt_Common_OV" corresp="#Hundred_Acres_OV">Burnt Common</placeName>—
+                    <placeName ref="#Hundred_Acres_OV">the Hundred Acres, alias the Poor Allotment, 
+                        alias the Burnt Common—</placeName> 
                     (Do any or
                     all of these titles convey any notion of the real destination of <rs type="place" ref="#Hundred_Acres_OV">that many-named
                         place</rs>? a piece of moor land portioned out to 
@@ -350,7 +350,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     visibly altered. He lost his hilarity and independence. It was a change such as
                     he had himself often inflicted, a complete change of habits, a transition from
                     the wild to the tame. No labour was demanded of him; he went about as before,
-                    finding <rs type="animal" ref="#hare">hares</rs>, killing <rs type="animal" ref="#rat">rats</rs>, selling brooms, but the spirit of the man was
+                    finding <rs type="animal" ref="#hare">hares</rs>, killing <rs type="animal" ref="#rat_black">rats</rs>, selling brooms, but the spirit of the man was
                     departed. He talked of the quiet of his old abode, and the noise of the new;
                     complained of <orgName type="person" ref="#TomC_workhouse_children_OV">children</orgName> and other 
                     <orgName ref="#TomC_workhouse_co_OV">bad company</orgName>; and looked down on his neighbours
