@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml--> </editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <respStmt>
+                  <resp>This SI-ADD file prepared by</resp>
+                <!--  <persName ref="#lmw">Lisa Wilson</persName>-->
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries. List as many as needed.--></persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note><!--This file represents Site Index entries in progress. It was prepared for further editing 
+                  from the <q>back</q> list of the Journal of 1819 - 1823 on <date when="2023-07-25">25 July 2023</date>.--></note>
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+         <revisionDesc>
+            <listChange>
+              <change when="yyyy-mm-dd" who="#[person]"><!--Briefly describe changes to the file. For example: Repaired the AlphaSort XSLT template to undo and prevent deeply nested roleNames on the DM editor list.--></change>
+            </listChange>
+         </revisionDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         
+   <div type="Mitford_Team"><!--Section contains current Mitford editors as well as library/archives identifiers.-->
+      <listPerson sortKey="Mitford_Team">
+         <person/>
+      </listPerson>
+      <listOrg sortKey="archives">
+         <org/>
+      </listOrg>
+   </div>    
+       <div type="Past_Editors"><!--Section contains past Mitford editors and student assistants.-->
+          <listPerson sortKey="Past_Assistants">
+             <person xml:id="whatever"></person>
+          </listPerson>
+          
+          <listPerson sortKey="Past_Editors">
+             <person xml:id="whatever"></person>
+          </listPerson>
+       </div>
+         
+       <div type="historical_people"><!--Section ontains "real" historical people and named pets; and organizations/groups of people.-->
+          <listOrg sortKey="histOrgs">
+             <org xml:id="whatever1"></org>
+          </listOrg>
+          
+          <listPerson sortKey="histPersons"><!--Historical people will often have the most extensive entries. Note: We've decided that named animals count as historical people, so = pets go into this list as well.-->
+             <person xml:id="whatever3" sex="m"><!--use m, f, mf, or u-->
+                <persName></persName><!--List the person's full name as we wish it to appear on the website.-->
+                <persName>
+                   <surname type="married"></surname><!--takes @type attributes: @type="married" @type="paternal"-->
+                   <forename></forename>
+                   <forename></forename><!--middle names are forenames too. Put them in order. First name, then middle name(s)-->
+                   <roleName><!--if any. Mr., Lord, 6th Earl of Northumberland--></roleName>
+                </persName>
+                <persName><addName></addName></persName>
+                <persName/><!--multiple names? collect them, as many persNames, nicknames, etc as we know. List each as a separate persName.-->
+                <persName><addName></addName></persName><!--use this tag for nicknames-->
+                <birth when="yyyy-mm-dd"> <!--for unknown birthdates where baptism dates are known, use notAfter="yyyy-mm-dd"-->
+              <placeName><!--where born? List town, region, country, as much as is known.--></placeName>
+              </birth>
+                <death when="yyyy-mm-dd"><placeName><!--where died? List town, region, country, as much as is known.--></placeName></death>
+                <occupation type="" subtype=""><!--A type is required and a subtype may be used. se multiple lines as needed.--></occupation>
+                <note>
+                   <ref target="http://viaf.org/viaf/12433231"/> <!--include link to VIAF #, if one exists-->
+                </note>
+                <note resp="#MitfordEditor"><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
+             </person>
+          </listPerson>
+          <!--SAMPLES:
+             <person xml:id="Alfieri_Vittorio" sex="m">
+                  <persName>Count Alfieri Vittorio</persName>
+                  <persName>
+                     <surname>Alfieri</surname>
+                     <forename>Vittorio</forename>
+                     <roleName>Count</roleName>
+                  </persName>
+                  <birth when="1749-01-16">
+                     <placeName>Asti, Piedmont region, Italy</placeName>
+                  </birth>
+                  <death when="1803-10-08">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#ebb">Credited with reviving Italian tragedy in the eighteenth century, Alfieri's plays included <title level="m">Filippo</title>, <title level="m">Polinice</title>, <title level="m">Antigone</title>, <title level="m">Virginia</title>,and the highly acclaimed <title level="m">Saul</title>. He also authored an ode on <rs type="event" ref="#American_Revol">American Independence</rs> and a satirical poem, <title level="m">The Antigallican</title>, on <rs type="event" ref="#French_Revol">the French Revolution</rs>.   
+                  </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/39389587"/>
+                  </note>
+               </person>
+               
+               <person xml:id="Anderdon_LOH" sex="f">
+                  <persName>Lucy Olivia Hobart Anderdon</persName>
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Olivia</forename>
+                     <forename>Hobart</forename>
+                     <surname type="paternal">Anderdon</surname>
+                     <surname type="married">Partridge</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>
+                     <date from="1837" to="1854">between 1837 and 1854</date>. Spouse of the Rev. William Edwards Partridge (1837-51); daughter of Oliver and Maria Anderdon.</note>
+               </person>-->
+       </div>
+         <div type="fictional_and_archetypal"><!--Section for mythical, legendary entities, not precisely rooted in a place or time, or in a particular text. -->
+             <listOrg sortKey="fictOrgs"> <!--For fictional organizations or groups from particular texts.-->
+                <org/>
+                <!--SAMPLE:
+                   <org xml:id="Balfours_WS">
+                  <orgName>Balfours of Burley</orgName>
+                  <note resp="#lmw">The Balfours of Burley are a family of characters in <bibl corresp="#Old_Mortality">
+                        <author ref="#Scott_Wal">Walter Scott</author>’s <title level="m">Old
+                           Mortality</title>
+                     </bibl>.</note>
+               </org>
+               -->
+             </listOrg>
+             <listOrg sortKey="archOrgs"><!--For archetypal organizations or groups-->
+                <org/>
+             </listOrg>
+          <listPerson sortKey="archPersons"> <!--For individual archetypal entities. List -->
+             <person/>
+             <!--SAMPLE:
+                <person xml:id="Ahab" sex="m">
+                  <persName>Ahab</persName>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#ebb">Historic and legendary ancient King of Israel, married to
+                        <persName ref="#Jezebel">Jezebel</persName>.</note>
+               </person>
+               -->
+          </listPerson>
+            <listPerson sortKey="fictPersons"><!--For fictional characters from particular texts.-->
+             <person xml:id="" sex="">
+                <persName></persName>
+                <occupation type=""/>
+                <note resp="#NNN"></note>
+             </person>
+               <!--SAMPLES: 
+                  <person xml:id="Ariel" sex="u">
+                  <persName>Ariel</persName>
+                  <occupation type="service"/>
+                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
+               </person>
+               
+                 <person xml:id="Camilla_char" sex="f">
+                  <persName>Camilla</persName>
+                  <note resp="#lmw">Title character in <title ref="#Camilla_FB">Camilla</title>;
+                     Mitford admires Burney’s characterization of her in her a letter to Elford from
+                        <date when="1819-05-30">30 May 1819</date>.</note>
+               </person>
+               
+               <person xml:id="Camillo_R" sex="m">
+                  <persName>Camillo</persName>
+                  <note resp="#lmw">Camillo is a character in <title ref="#Rienzi">Rienzi</title>; <persName ref="#Rienzi_Cola">Rienzi</persName>'s servant. Played by <persName ref="#Jones_C">Mr. C. Jones</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
+               </person>
+               -->
+          </listPerson>
+          
+       </div>
+         <div type="places">
+            <listPlace sortKey="histPlaces"><!--for "real" historical places-->
+               <place/>
+            </listPlace>
+            <!--SAMPLE:               
+               <placeName>Abingdon, Berkshire, England</placeName>
+                  <placeName>
+                     <addName>Abingdon on Thames</addName>
+                  </placeName>
+                  <placeName>
+                     <addName>Abingdon-on-Thames</addName>
+                  </placeName>
+                  <settlement>Abingdon</settlement>
+                  <region>Berkshire</region>
+                  <region>Oxfordshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.67078 -1.2879528999999366</geo>
+                  </location>
+                  <note resp="#lmw">Abingdon (now called "Abingdon on Thames" or
+                     "Abingdon-on-Thames,") is a market town in England. In <persName ref="#MRM">Mitford</persName>’s time, it was the county town of the county of
+                        <placeName ref="#Berkshire">Berkshire</placeName>. It was reassigned to
+                     Oxfordshire in 1974. In the nineteenth century, the Assize Courts alternated
+                     between <placeName ref="#Reading_city">Reading</placeName> and <placeName ref="#Abingdon">Abingdon</placeName>, according to <persName ref="#coles">Coles</persName>.</note>
+               </place>-->
+            <listPlace sortKey="fictPlaces"><!--for any fictional/imaginary/mythical places-->
+               <place/>
+            </listPlace>
+            <!--SAMPLE:
+               <place xml:id="Arden">
+                  <placeName>Forest of Arden</placeName>
+                  <note resp="#rnes">Fictional Forest of Arden, setting for <title ref="#As_You_Like_It_play">As You Like It</title>. Variously identified with historical and fictional representations of the <placeName ref="#Forest_of_Ardennes">Forest of Ardennes</placeName> in continental Europe, as well as with Arden, a heavily wooded area of Warwickshire, England.</note>
+               </place>
+               -->
+         </div>
+         <div type="nature"><!--For plants, wild and cultivated; as well as animals, other than named pets.-->
+            <list sortKey="animals">
+               <item xml:id="animalID">
+                  <name><!--list any common and proper names of the animal, especially those known in Mitford's time.--></name>
+                  <name type="species">Gryllus campestris</name>
+                  <name type="genus"></name>
+                  <name type="family"></name>
+                  <note resp="#MitfordEditor"><!--explain significance to Mitford and her time.--></note>
+               </item>
+               <!--SAMPLE:
+                  <item xml:id="cricket">
+                  <name>cricket</name>
+                  <name type="species">Gryllus campestris</name>
+                  <name type="genus">Gryllus</name>
+                  <name type="family">Gryllidae</name>
+                  <name>
+                     <addName>European field cricket</addName>
+                  </name>
+                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush crickets are also found in the UK. Symbolically associated with good luck. <persName ref="#MRM">Mitford</persName> generally uses the simple term <q>cricket</q>.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Gryllus_campestris"/>
+                  </note>
+               </item>
+              
+              -->
+            </list>
+            <list sortKey="plants">
+               <item xml:id="plantID">
+                  <name><!--list any common and proper names of the plant, especially those known in Mitford's time.--></name>
+                  <name type="species">Gryllus campestris</name><!--if available, give genus + species together here.-->
+                  <name type="genus"></name>
+                  <name type="family"></name>
+             
+                
+                  <note resp="#MitfordEditor">
+                  </note>
+               </item>
+               <!--SAMPLE:
+              <item xml:id="crocus">
+                  <name>crocus</name>
+                  <name type="genus">Crocus</name>
+                  <name type="family">Iridaceae</name>
+                  <note resp="#qar #lmw">Early spring-flowering dwarf bulbous plant with blooms in purple, yellow, or white. Not native to the UK, although may be naturalized in some areas since the 17th century. In Victorian floriography, the crocus represents youth and cheerfulness.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Crocus"/>
+                  </note>
+               </item>
+               -->
+            </list>
+            
+         </div>
+         <div type="events">
+            <listEvent sortKey="histEvents"><!--For real, historical events of public or private importance. In the main, tag major events likely to appear in more than one Digital Mitford text.-->
+               <event>
+                  <label></label>
+                  <note></note>
+               </event>
+            </listEvent>
+            <!--SAMPLE:
+               <event xml:id="EngCivilWar"
+                      type="war"
+                      from="1642-08-22"
+                      to="1651-09-03">
+                  <label>English Civil Wars</label>
+                  <note resp="#lmw">A series of conflicts between British <orgName ref="#Parliamentarians">Parliamentarian</orgName>, supporters of <persName ref="#Cromwell">Oliver Cromwell</persName>, and Royalists, supporters of Stuart King <persName ref="#ChasI">Charles I</persName>, fought between 1642 and 1651. Also called The Great Rebellion or The War of Three Kingdoms, as civil war broke out in all three Stuart kingdoms of England, Scotland, and Ireland. The war was fought principally over the questions of government (the relation between the monarch and Parliament, as defined through England's constitutional framework) and religion (the Church of England's monopoly on Christian worship in England). The first war ended with a Parliamentarian victory at Naseby in 1645 and resulted in the creation of the <orgName ref="#New_Model_Army">New Model Army</orgName> and an alliance between the Parliamentarians and the Scottish Covenanters. The second ended with a Parliamentary victory at Preston and culminated with the execution of <persName ref="#ChasI">Charles I</persName> in 1649. The third war was led by <persName ref="#ChasII">Charles II</persName> with Scottish and Irish allies and ended at Worcester in 1651 with <persName ref="#ChasII">Charles II</persName>'s retreat to France.</note>
+               </event>-->
+         </div>
+         <div type="art"><!--for graphical works of art, or works that aren't published in print form. Differentiate lists as needed.-->
+            <list sortKey="art">
+               <item/><!--leave this stump in place. Needed for this list to be valid.-->
+              <figure xml:id="whatevs9">
+               <bibl></bibl>
+               <graphic url="whatever.html"/><!--If we find a good, stable URL representing this artwork on the web, point to it here.-->
+               <note></note>
+            </figure>
+            </list>
+            <!--SAMPLE:
+               <figure xml:id="Lazarus_Haydon" type="painting" rend="oil">
+                  <bibl>
+                     <title level="m">The Resurrection of Lazarus</title>
+                     <title level="m">The Raising of Lazarus</title>
+                     <author ref="#Haydon"/>
+                     <date from="1821" to="1823">1821-1823</date>
+                  </bibl>
+                  <graphic url="http://www.tate.org.uk/art/research-publications/the-sublime/lydia-hamlett-sublime-religion-benjamin-robert-haydons-the-raising-of-lazarus-r1129549"/>
+                  <desc/>
+                  <note resp="#ebb">Painting of enormous dimensions exhibited in <date when="1823">1823</date> at <placeName ref="#EgyptianHall">Egyptian Hall</placeName> in
+                     Piccadilly, London. While on exhibit in 1823, the picture was seized from the
+                     gallery when Haydon was arrested for debt and imprisoned for two months.</note>
+               </figure>
+               -->
+         </div>
+         <div type="publications">
+          
+            <listBibl sortKey="serial_MRM"><!--For periodicals and serials, published during Mitford's lifetime-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="Ackermans_Juv_ForgetMeNot">
+                  <title level="j">Ackermann's Juvenile Forget Me Not
+                  </title>
+                  <editor>Frederic Shoberl</editor>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Ackermann_pub">R. Ackermann</orgName>
+                  </publisher>
+                  <date from="1830" to="1832"/>
+                  <note resp="#lmw">Children's gift book/annual founded by Rudolf Ackermann and edited by Frederic Shoberl. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1832">1832</date>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="work_MRM"><!--For other printed works than serials, published during Mitford's lifetime-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE: 
+                     <bibl xml:id="Abbot_WS">
+                  <title level="m">The Abbot</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <date when="1820">1820</date>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>Archibald Constable and Company, and John Ballantyne</publisher>
+                  <note resp="#ebb">Historical novel: One of Scott’s series of <title level="s">Tales from Benedictine Sources</title>, <title level="m">The Abbot</title> introduces
+                     the character <persName>Roland Graeme</persName>, and renders <rs type="event">the experiences of <persName ref="#MaryQoS">Mary, Queen of Scots</persName>
+                        during her imprisonment and escape from <placeName>Loch Leven
+                           Castle</placeName> in <date when="1567">1567</date>
+                     </rs>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="schol"><!--Scholarship from our time, after Mitford's-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="AlterationsOfState">
+                  <title level="m">Alterations of State: Sacred Kingship in the English Reformation</title>
+                  <author>
+                     <persName ref="#McCoy_Rich">Richard McCoy</persName>
+                  </author>
+                  <pubPlace>New York, New York, USA</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date when="2002">2002</date>
+               </bibl>
+               -->
+         </div>
+         
+      </body>
+  </text>
